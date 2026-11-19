@@ -1,0 +1,73 @@
+{
+  "title": "AI from research question to publication",
+  "source": "Brady Lund, Manika Lamba & Sang Hoo Oh · arXiv preprint · 2024",
+  "duration": 79.66666666666667,
+  "cues": [
+    {
+      "start": 0.74,
+      "end": 7.04,
+      "text": "An academic paper passes through many hands. Where can artificial intelligence speed that work up?"
+    },
+    {
+      "start": 7.04,
+      "end": 11.2,
+      "text": "The authors trace these possibilities in a twenty twenty-four preprint."
+    },
+    {
+      "start": 11.2,
+      "end": 18.52,
+      "text": "At the research stage, a language model can suggest questions, search terms, or ways to approach unfamiliar literature."
+    },
+    {
+      "start": 18.52,
+      "end": 23.36,
+      "text": "Open the original sources before trusting a summary or citing a claim."
+    },
+    {
+      "start": 23.36,
+      "end": 31.28,
+      "text": "AI can help write code or organize an analysis. Check the code, the data, and every result used in your argument."
+    },
+    {
+      "start": 31.28,
+      "end": 35.36,
+      "text": "The researcher still chooses the method and interprets the findings."
+    },
+    {
+      "start": 35.36,
+      "end": 40.92,
+      "text": "Writing tools can suggest a structure, revise wording, or help a draft read more clearly."
+    },
+    {
+      "start": 40.92,
+      "end": 48,
+      "text": "Verify quotations and citations yourself. Follow the journal's policy for disclosing how you used the tool."
+    },
+    {
+      "start": 48,
+      "end": 53.04,
+      "text": "Editorial systems can assist with technical screening or organizing submissions."
+    },
+    {
+      "start": 53.04,
+      "end": 59.6,
+      "text": "Expert reviewers still judge the research question, the soundness of the method, and what the work contributes."
+    },
+    {
+      "start": 59.6,
+      "end": 63.24,
+      "text": "Keep confidential material within the permitted workflow."
+    },
+    {
+      "start": 63.24,
+      "end": 71.2,
+      "text": "The preprint describes where AI might assist and where journals would need rules. Its policy examples come from twenty twenty-four."
+    },
+    {
+      "start": 71.2,
+      "end": 77.215,
+      "text": "At every stage, people remain responsible for the claims, the evidence, and the decisions."
+    }
+  ],
+  "credit": "Close up of an Industrial Printing Machine Working, Kuba Grzybek / Pexels · excerpt, crop and grade. Edmond Dantès, Pranjall Kumar, Everett Bumstead, MART PRODUCTION, Ron Lach / Pexels · additional edited footage. Narration: Emilia / ElevenLabs"
+}

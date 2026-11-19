@@ -1,0 +1,705 @@
+ADHD-Friendly Study System for
+Applied Linguistics and SLA Reading
+The routine, every AI prompt, and a complete worked example built from your own PDF
+
+About this guide
+One routine covers every reading unit: a journal article, an empirical paper, or a chapter from a standard MA
+Applied Linguistics and SLA text. You read in short sprints, each aimed at a question you wrote down. You write
+or draw constantly, and the AI plays four roles: pre-reading guide, recall checker, sparring opponent, and
+quizmaster. It never reads for you. Notes live in one dedicated notebook, one double-page mind map per unit.
+The worked example uses the article at the start of your file, AI_in_language_teaching_learning.pdf: Weiming
+Liu, “The Integration of ChatGPT in Language Education” (IGI Global, 2024, printed pp. 1–21). Every page number
+in this guide is the printed number at the top of each page in your PDF. It is Unit 1 of a four-unit day: you see
+this one unit worked in full, and Part 3 shows how the other three fit around it.
+
+ Block              What happens                                                                                   Minutes
+
+ Setup              Desk, timer, chats, notebook pages, mission names, roles                                       25
+
+ Unit 1             Article (the Liu worked example): three sprints, AI role: strict examiner                      79
+
+ Break              Walk, eat, drink, no screens                                                                   15
+
+ Unit 2             Article: three sprints, AI role: curious beginner                                              79
+
+ Break              Walk, eat, drink, no screens                                                                   15
+
+ Unit 3             Book chapter: four sprints, AI role: rival researcher                                          94
+
+ Break              Walk, eat, drink, no screens                                                                   15
+
+ Unit 4             Article: three sprints, AI role: journalist                                                    79
+
+ Quiz               12 questions across all four units, scored out of 12                                           20
+
+ Total              About 7 hours plus meals; split into a morning block (setup, units 1–2) and an afternoon       421
+                    block (units 3–4, quiz)
+
+How to read the example. Gold boxes are prompts you copy and paste. Blue boxes (Unit 1) and green boxes (Unit 2) show
+what a real run looks like. The wording of the AI’s replies will differ in your chats; the facts and page numbers come from your
+PDF. Whenever the AI cites a page, check one citation per unit yourself. That habit catches errors before they reach your
+notes.
+
+
+
+
+ADHD-Friendly Study System · Applied Linguistics and SLA Reading                                                               1
+Part 1. The System
+Core principles for a wandering mind
+• Short sprints, never marathons. Read for 12 minutes, then take a 3-minute break. Use a visible timer, not
+   your phone.
+• Every sprint has a mission. Never read “the next section.” Read to answer a hunt question you wrote
+   down, with the page range where it is likely answered.
+• Constant output. Writing, drawing, speaking, and answering questions anchor the mind. Passive reading
+   lets it drift.
+• Novelty and stakes. Change the activity every 10 to 15 minutes. Turn the AI into an opponent with a score,
+   so something is on the line.
+• Lower the cost of starting. Begin every unit with the 2-minute ignition ritual below, so you never have to
+   decide how to start.
+• Catch distractions, do not fight them. Keep a Parking Lot box on every page. When a stray thought,
+   errand, or tangent appears, write three words in it and go back.
+• Page anchors. Write the page number next to every keyword (p.9). You can re-find anything in seconds, and
+   it trains you to cite.
+• Skim on purpose. Literature reviews, statistics tables, long example lists, and reference lists are skipped
+   unless they are a hunt target.
+• Move in breaks. Stand, stretch, walk, drink water. Screens hijack attention and make the return harder.
+• Reward after, not during. Choose tonight’s reward before you begin.
+• Never skip blind recall. If time runs short, shrink the sparring match or the connections check. Stage 4
+   stays.
+
+The notebook system
+• One double page per unit. Centre: the unit’s central question in your own words.
+• Branches: Method (if the unit reports one), the main content branches (research questions, concepts,
+   studies, evidence), Limits & Critique, and Connections (links to other SLA theories).
+• Limits & Critique has two columns: what the authors admit, and what you notice (type of evidence,
+   sample size, claims versus data). This is where exam essays come from.
+• Style: keywords, arrows, small symbols, colour. No full sentences.
+• Corner boxes: Confusions (anything unclear, to resolve with the AI) and Parking Lot (stray thoughts).
+• Colour code: one pen colour per unit for the main map. Corrections from blind recall and sparring always go
+   in red, in every unit, so your weak spots show at a glance.
+• Scoreboard strip along the bottom: sprints finished, blind-recall score, sparring rounds survived, confidence
+   before sparring.
+
+Daily setup (25 minutes, once per day)
+1. Put your phone in another room or a drawer. If you need it as a timer, use airplane mode.
+2. Clear the desk: PDFs, notebook, one pen per unit plus a red pen, water, timer.
+3. Open one fresh AI chat per unit and name each chat with the unit’s mission name.
+4. On each unit’s notebook page, write the mission name and draw the empty scoreboard strip.
+5. Assign the AI a role for each unit (role cards below) and note it on the page.
+6. Choose the order of the day: lightest unit first, the heaviest reading when your energy is highest, usually
+   second or third. Rotate the order across days.
+7. Choose tonight’s reward and write a sticky note with the day’s target: beat yesterday’s total score.
+The 2-minute ignition ritual (before every unit): stand up, drink some water, write the mission name and date,
+set the timer for the 8-minute preview, and press start before you feel ready. Starting is the whole job.
+
+
+
+ADHD-Friendly Study System · Applied Linguistics and SLA Reading                                                 2
+The routine for one unit
+ Stage                          What you do                                                     Article or       Chapter
+                                                                                                paper
+
+ 1 Preview                      Skim title, abstract, headings, conclusion; build an empty      8                8
+                                map; write a prediction
+
+ 2 AI pre-reading guide         Upload the PDF; get key terms, 3 hunt questions, a sprint       4                4
+                                plan
+
+ 3 Reading sprints              12-minute sprints toward hunt questions; keyword cluster        42 (3 sprints)   57 (4
+                                from memory after each                                                           sprints)
+
+ 4 Blind recall                 Close the PDF; explain the unit from memory; the AI checks it   10               10
+                                against the PDF
+
+ 5 Sparring match               The AI, in role, challenges your weakest points, one question   8                8
+                                at a time
+
+ 6 Connections and              Link to one SLA theory; clear the Confusions box                5                5
+ Confusions
+
+ Unit exit                      Photograph the map, write three takeaways and the next          2                2
+                                thing to do
+
+ Total                                                                                          about 79         about 94
+
+If you run over, cut sparring from five rounds to three. Never cut the preview, the hunt questions, or blind recall.
+
+Stage 0: the session opener (once per unit)
+Paste this at the start of the unit’s chat, before anything else. It sets the rules so you never have to repeat them.
+Then upload the PDF.
+
+  COPY AND PASTE
+
+  You are my study partner for an MA in Applied Linguistics and Second Language Acquisition (SLA). I
+  have ADHD, so follow these rules for this whole chat:
+
+  1. Keep every reply short (under 150 words) unless I ask for more.
+  2. Ask only ONE question at a time, then wait for my answer.
+  3. Base everything on the PDF I upload. When you state something from it, name the printed page
+  number. If something is not in the PDF, say so and label any outside knowledge clearly as OUTSIDE
+  THE PDF.
+  4. Use plain language and concrete examples.
+  5. Do not move to the next stage until I write NEXT.
+  6. Never read the document for me or write my notes. Your job is to guide, check, and challenge.
+  7. If the PDF text looks scrambled or missing (for example a scan), tell me before continuing.
+
+  Unit type: [ARTICLE / EMPIRICAL PAPER / BOOK CHAPTER]
+  Mission name: [MISSION NAME]
+  Your role for this unit: [PASTE A ROLE CARD]
+
+  Reply with one sentence confirming the rules and your role, then wait for the PDF.
+
+
+Role cards (paste one into the opener):
+• Strict examiner: You are a strict but fair MA examiner. You are formal, precise, and unimpressed by vague
+   answers.
+• Curious beginner: You are a smart first-year student who has never heard of this topic. Ask me naive
+   questions and make me explain things simply.
+• Rival researcher: You are a researcher from a competing theoretical camp. You respectfully dispute my
+   reading, question the method, and look for weaknesses.
+
+
+
+
+ADHD-Friendly Study System · Applied Linguistics and SLA Reading                                                            3
+• Journalist: You are a science journalist on deadline. You want the headline, the so-what, and the real-world
+   implications for learners and teachers, in plain words.
+Rotate the roles across units and days. Match the role to the text: an empirical review suits the examiner; a claim-heavy
+conceptual chapter suits the rival researcher.
+
+
+
+
+ADHD-Friendly Study System · Applied Linguistics and SLA Reading                                                            4
+Part 2. Worked Example, Unit 1: The Liu Article
+Mission name: “Case File 1: Does ChatGPT Really Help Learners?” · Pen colour: blue · AI role: strict examiner
+· Unit type: article (three sprints).
+The article is a review of 12 empirical studies. Its structure is clean (research questions, method, four themes of
+findings, implications), so it is a good first unit. Before you begin, do the ignition ritual, open a fresh chat named
+with the mission, and paste the Stage 0 opener with the role card for the strict examiner. Then upload the PDF.
+
+Stage 1: Preview (8 minutes, no AI)
+Do this. Read only these parts, in this order:
+• Title and abstract, p.1, and the start of the introduction, p.1–2 (stop at “Literature Review”).
+• The four research questions, p.3–4.
+• The headings only: Methodology (p.4), Results and Discussion (p.6), Implications (p.14), Conclusion (p.16).
+• Table 4 in the appendix, p.20–21. It has one row per study, so it is the article’s whole evidence base on two
+   pages.
+• The Conclusion, p.16, and the Key Terms list, p.19. Ignore the reference list, pp.16–19.
+Then in the notebook:
+1. In the centre of a fresh double page, write the central question in your own words.
+2. Draw seven empty branches: Method, RQ1 Contexts, RQ2 Benefits, RQ3 Challenges, RQ4 Implications, Limits
+   & Critique, Connections. Add the Confusions and Parking Lot boxes.
+3. Write a one-line prediction. Guessing first turns reading into a test of your guess.
+
+  WORKED EXAMPLE · YOUR PAGE AFTER STAGE 1
+
+  Centre: What do 12 empirical studies show about ChatGPT in language education: contexts, benefits, challenges,
+  implications?
+  Prediction: Mostly positive findings, but the evidence will be thin.
+  Seven empty branches drawn from the headings; Parking Lot and Confusions boxes in the corners.
+
+
+
+Stage 2: AI pre-reading guide (4 minutes)
+Do this. Upload the PDF (or confirm it is attached), paste the prompt, and copy the three hunt questions into
+your notebook. Add the key terms to the map as empty bubbles.
+
+  COPY AND PASTE
+
+  Give me a pre-reading guide for this PDF. Do not summarize the whole thing and do not reveal the
+  full findings. Provide:
+
+  1. The central question the unit addresses, in one sentence.
+  2. The unit's structure, in one line (for an empirical paper: the research question, participants,
+  and method in one line).
+  3. 4 to 6 key terms with a plain one-line definition each, with the page where each appears.
+  4. Exactly 3 hunt questions I should find answers to while reading: one conceptual, one about
+  evidence or method, and one about limits or significance. Give the page range where each is most
+  likely answered.
+  5. A sprint plan: split the unit into reading sprints of about 12 minutes each, by page range, and
+  say what to skim (for example literature review, heavy statistics, long examples) unless it is a
+  hunt target.
+
+  Keep it under 220 words. Then wait.
+
+
+  WORKED EXAMPLE · WHAT THE AI RETURNS (WORDING WILL VARY)
+
+  Central question. What do the 12 empirical journal articles on ChatGPT in language education report about where the
+  research was done, what benefits and challenges appear, and what follows for teaching?
+
+
+
+ADHD-Friendly Study System · Applied Linguistics and SLA Reading                                                         5
+  Structure. A review article, not a new experiment: research questions, then search method (p.4–6), then findings by
+  theme (p.6–13), then implications (p.14–16).
+  Key terms. (1) Affordance: what a tool makes possible for a learner (p.2). (2) Forward citation search: finding later papers
+  that cite already-known ones (p.6). (3) Learner attitude: learners’ emotions, thoughts and actions towards learning (p.19).
+  (4) Learner engagement: involvement and enthusiasm in learning (p.19). (5) Directive versus query-based feedback:
+  telling the learner what to change versus prompting the learner to think (p.10). (6) Five-part framework: Tseng and
+  Warschauer’s understand, access, prompt, corroborate, incorporate (p.15).
+  Hunt questions. H1 (concept): How do the four themes map onto RQ1–RQ4, and what are the six benefits and the
+  challenges? (p.4, 9–12). H2 (evidence): What counts as evidence: how were the 12 studies found, who took part, what
+  data were collected? (p.4–8 and Table 4). H3 (limits): How far do these studies justify the article’s conclusions, and what
+  do the authors admit? (p.13–16).
+  Sprint plan. S1 p.1–8 (method and contexts: the densest sprint, so skim hard). S2 p.9–12 (benefits and challenges). S3
+  p.13–16 (bridging, implications, limits). Skip: the literature review p.2–3 except the paragraph on the three core debates
+  (p.3); the search tables p.5–6, keeping only the result “9 + 3 = 12”; the participant paragraphs on p.7, using Table 4
+  instead; the references.
+
+Check one citation: open p.6 and confirm that the forward citation search added three articles. If a citation is wrong, tell the
+AI and carry on.
+
+
+Stage 3: Reading sprints (three sprints of 12 minutes)
+Each sprint: start the timer; read only toward the hunt target; at the buzzer close the PDF for one minute and
+write a keyword cluster on the map from memory, with page anchors; then check the text and fix the cluster in
+the unit colour (corrections in red); then take a 3-minute movement break. Before you stand, jot the next
+sentence you would read. Anything unclear goes in Confusions; stray thoughts go in the Parking Lot.
+
+  Sprint 1 · pages 1–8
+  Hunt target: H2: how were the studies found, and who, where and what data?
+  Read: p.3, the paragraph on Kohnke et al.’s three debates; p.4, the four RQs and inclusion bullets; p.5–6, the three search
+  stages (keep only 9 + 3 = 12) and the coding paragraph; p.7, Research Sites; Table 4 on p.20–21 in place of the
+  participant paragraphs; p.7–8, Research Methods (look only for “qualitative” versus “quantitative”) and Data Collection
+  Tools.
+  Keyword cluster, from memory first: Scopus + Web of Science · 3 keyword searches · 4 criteria · 9 + 3 = 12 · to Sept
+  2023 · 6 countries + ResearchGate + YouTube · teachers 6/5/10/20 · learners 405/64/10/5/8 · 8 qualitative, 4 quantitative
+  (my count) · interviews, surveys, observation.
+  Confusions logged: (1) “6 + 8 + 3 = 17, but only 9 articles remain?” (p.5): use the rescue prompt below. (2) Guo and
+  Wang are called quantitative on p.8 but “exploratory study” in Table 4 (p.20): note it, do not stall.
+
+Rescue prompt (2 minutes, then return to the page):
+
+  COPY AND PASTE
+
+  I'm stuck on this passage: [PASTE OR DESCRIBE THE PASSAGE AND PAGE]. Explain it in 3 to 4 simple
+  sentences, give one concrete example from language learning or teaching, then ask me ONE question
+  to check I got it. Do not explain anything else.
+
+
+  WORKED EXAMPLE · RESCUE REPLY
+
+  The three keyword searches returned overlapping articles, so after cross-checking for duplicates, 17 hits became 9 unique
+  articles (p.5). The same happened in Web of Science: 4 + 5 + 2 = 11 hits became 5. Think of one study on ChatGPT and
+  language learning: it would match both “language learning” and “language education.” Question for you: after the 9
+  were found, why did the author search again by forward citation?
+  Your answer to write in the Confusions box as “✓ solved”: because ChatGPT research is so new, later papers that cite the
+  9 could add studies; that added three (p.6).
+
+
+  Sprint 2 · pages 9–12
+  Hunt target: H1: what are the benefits and challenges?
+  Read: The six benefit headings on p.9–11 (first sentence of each paragraph plus the researcher names); Teachers’ Aid,
+  p.11; Challenges, p.11–12.
+
+
+
+
+ADHD-Friendly Study System · Applied Linguistics and SLA Reading                                                                 6
+  Keyword cluster, from memory first: Benefits: learning, attitude, engagement, feedback, tutor, teacher aid.
+  Challenges: access, accuracy, off-task feedback, level fit, ethics, replacement.
+  Write the hunt answer with a page anchor: “Feedback: ChatGPT faster, more, more directive; teachers query-based
+  (p.10).”
+
+
+  Sprint 3 · pages 13–16
+  Hunt target: H3: how far do the studies justify the conclusions?
+  Read: p.13–14, Bridging Findings and Literature, focusing on the “notable differences” paragraph on p.14; p.14–16, the
+  three implications headings (first and last sentence of each); p.16, the limitations in the Conclusion.
+  Keyword cluster, from memory first: Technological / Pedagogical / Ethical · Tseng & Warschauer: Understand, Access,
+  Prompt, Corroborate, Incorporate · 4 limits · NEW: access gap, attitudes, critical thinking · NOT tested: “safe space.”
+  No break after sprint 3. Stand for one minute, then start Stage 4 straight away.
+
+
+Stage 4: Blind recall with the AI (10 minutes)
+Do this. Close the PDF. Speak or type everything you remember, in your own words, as if teaching a friend. Do
+not look anything up. Then send the prompt. Add the corrections to the map in red and write the score on the
+scoreboard strip.
+
+  WORKED EXAMPLE · WHAT YOU TYPE (IMPERFECT ON PURPOSE)
+
+  “This article is a review of 14 studies on ChatGPT in language teaching, found in Scopus and Web of Science. There are
+  four questions: contexts, benefits, challenges, implications. The studies come from lots of countries, like China, Saudi
+  Arabia and Norway, and most use quantitative surveys. Benefits: helps vocabulary and writing, positive attitudes, more
+  engagement, good feedback, works like a tutor, helps teachers. Challenges: sometimes wrong, ethics and privacy,
+  students worry about replacing teachers, not available everywhere. Implications are for teachers: use it as a helper. The
+  literature said ChatGPT makes learners feel safe, and the findings confirmed it.”
+
+
+  COPY AND PASTE
+
+  Stage 4: blind recall. Above is my explanation of the unit from memory. Compare it with the PDF
+  and report in this format:
+
+  - Got right: the ideas I explained correctly (brief list)
+  - Missed: important ideas I left out (brief list, with the page)
+  - Misunderstood: anything I explained incorrectly, with the correction in one sentence and the
+  page
+  - Score: how many of the 8 most important ideas in the unit I recalled correctly, out of 8
+
+  Be honest and specific. Do not praise. Keep it under 220 words. Then wait.
+
+
+  WORKED EXAMPLE · WHAT THE AI RETURNS
+
+  Got right: purpose and the four RQs; sources (Scopus, Web of Science); wide geographic spread; all six benefit themes;
+  most challenges (access, accuracy, ethics, replacement).
+  Missed: the level-fit challenge (A2 dialogues worked; higher levels were limited, p.12); the three implication layers,
+  technological, pedagogical, ethical (p.14–16), and Tseng and Warschauer’s five-part framework (p.15); the authors’ four
+  stated limitations (p.16).
+  Misunderstood: (1) “14 studies”: it is 12, nine from the search plus three from forward citation (p.6). (2) “most use
+  quantitative surveys”: most are qualitative; four are quantitative (p.7–8). (3) “findings confirmed it feels safe”: the article
+  says this point from the literature is not specifically addressed in its findings (p.14).
+  Score: 5 / 8.
+
+On your map: in red, write “12, not 14” beside Method; “mostly QUALITATIVE” beside RQ1; “safe space NOT tested” beside
+Connections. Add the missed items to RQ3 and RQ4. Scoreboard: Blind recall 5/8.
+
+
+
+
+ADHD-Friendly Study System · Applied Linguistics and SLA Reading                                                                    7
+Stage 5: Sparring match (8 minutes)
+Do this. Write your confidence from 1 (lost) to 5 (solid) on the scoreboard. Then paste the prompt. Answer in two
+or three sentences per round; you are being tested, not asked to write an essay. Keep score.
+
+     COPY AND PASTE
+
+     Stage 5: sparring match. Act in your assigned role. Challenge me on the weakest points from my
+     blind recall: the Missed and Misunderstood items first.
+
+     Rules:
+     - Ask exactly ONE question at a time. Up to 5 rounds.
+     - Mix question types: explain a concept, apply it to a concrete learner or classroom example,
+     defend a claim from the unit, and challenge a finding or method.
+     - If my answer is vague, push back with a sharper follow-up question. Do not give me the answer.
+     - If I fail the same question twice, give a short hint. After a third failure, give the answer in
+     two sentences and move on.
+     - After each of my answers, reply with one line: SURVIVED, PARTIAL, or FALLEN, plus a single
+     sentence of feedback. Then ask the next question.
+     - After round 5, give me my score (rounds survived out of 5) and tell me whether my confidence
+     rating was too high, too low, or about right.
+
+     Start round 1 now.
+
+
+Worked example, with confidence 4 written before the first round. The examiner’s role style is formal and precise.
+
+ Roun         Examiner’s question                        Your answer (sample)                    Verdict
+ d
+
+ 1            You wrote that ChatGPT “improves           Interviews and surveys where            PARTIAL. You named the data
+              language learning.” What kind of           learners said it helped, plus           types but not what they cannot
+              evidence does the article report for       readability tests on 450 dialogues.     show: learning gains.
+              that?
+
+ 2            A teacher wants ChatGPT to give            For: faster and more feedback, frees    SURVIVED. Names Guo and
+              feedback on 90 essays. Using the           teacher time. Cautions: more            Wang’s findings correctly (p.10,
+              article, give two reasons for and two      directive and sometimes off-task,       12).
+              cautions.                                  does not know the students; privacy.
+
+ 3            Name two ways the article’s search         English only; just two databases;       SURVIVED. All four limits match
+              strategy could have biased what it         cut-off Sept 2023; only 12 studies.     p.16.
+              found.
+
+ 4            The article says its findings add to the   I think they confirmed everything the   FALLEN. New: the access gap,
+              literature. What is new, and what did      literature said.                        positive attitudes, critical
+              the literature say that the findings                                               thinking. Not addressed: a safe,
+              could not confirm?                                                                 low-stress setting (p.14). Try
+                                                                                                 again later.
+
+ 5            The abstract calls ChatGPT                 Not really: mostly perceptions, small   SURVIVED. Strong,
+              “indispensable.” Is that supported by      samples, and challenges like            evidence-based answer.
+              what you read?                             accuracy and access.
+
+Final report from the examiner: 3 of 5 survived. Your confidence of 4 was a little high; round 4 is where
+overconfidence hid. Scoreboard: Sparring 3/5, Confidence 4. In red on the map, add the round 4 answer under
+Bridging.
+
+
+
+
+ADHD-Friendly Study System · Applied Linguistics and SLA Reading                                                                    8
+Stage 6: Connections check and Confusions cleanup (5 minutes)
+  COPY AND PASTE
+
+  Stage 6. Do two things, briefly.
+
+  1. Link this unit to ONE other SLA theory or construct (for example the input hypothesis,
+  interaction hypothesis, noticing hypothesis, output hypothesis, sociocultural theory, usage-based
+  approaches, complexity/dynamic systems, or processability theory). In 3 sentences: name the
+  theory, say how it connects (supports, challenges, or extends), and give one contrast. Label this
+  part OUTSIDE THE PDF. Then ask me to restate the link in one sentence of my own, and tell me if it
+  is accurate.
+
+  2. Here are the items in my Confusions box: [LIST THEM]. Explain each in 2 sentences, with the
+  page if the answer is in the PDF.
+
+  Do the first, wait for my answer, then do the second.
+
+
+  WORKED EXAMPLE · WHAT THE AI RETURNS
+
+  Link (OUTSIDE THE PDF): the interaction hypothesis. It holds that learners progress through conversation in which
+  they negotiate meaning and receive feedback. A chatbot is an always-available conversation partner, so the article’s
+  findings on practice and immediate feedback can be read as supporting the idea. Contrast: the article reports ChatGPT’s
+  feedback as directive, while negotiation of meaning is back-and-forth, and none of the 12 studies tests that. Your turn:
+  restate the link in one sentence.
+  Your sentence: “ChatGPT gives learners an on-demand partner and quick feedback, which fits the interaction hypothesis,
+  but directive feedback is not the same as negotiating meaning.” AI: Accurate. Add the output hypothesis as a second link:
+  Xiao and Zhi’s learners revised their own writing and rewrote prompts (p.10).
+  Confusions cleared. (1) TAM: the technology acceptance model, which predicts adoption from perceived usefulness and
+  ease of use. This explanation is outside the PDF; the article only names the model in Table 4 (p.20). (2) Guo and Wang: the
+  text on p.8 calls it quantitative, while Table 4 on p.20 labels it an “exploratory study.” The labels differ; record both and
+  move on.
+
+
+
+Unit exit (2 minutes)
+• Photograph the mind map. You will need it for the quiz and the day 3 recall.
+• Write three takeaways at the bottom of the page: (1) the article reviews 12 studies whose evidence is mostly
+   small, qualitative and perception-based; (2) benefits cluster around feedback, tutoring and engagement, and
+   challenges around accuracy, level fit, access and ethics; (3) implications stress teacher training, human
+   oversight, and teaching learners to check outputs (Tseng and Warschauer, p.15).
+• Write the next thing: “Unit 2: preview the headings first. Case File 2.”
+• Total the scoreboard strip: Sprints 3/3 · Recall 5/8 · Sparring 3/5 · Confidence 4.
+• Take a proper 15-minute break: walk, eat, drink, no screens. Next up: Unit 2, with the curious-beginner role
+   card.
+
+
+
+
+ADHD-Friendly Study System · Applied Linguistics and SLA Reading                                                                  9
+Your finished Unit 1 mind map (blue pen; red marks are corrections from Stages 4 and 5; outside-the-PDF links are flagged
+to check).
+
+
+
+
+ADHD-Friendly Study System · Applied Linguistics and SLA Reading                                                       10
+Part 3. Running the Full Four-Unit Day
+Unit 1 above is one unit of four. The other three use exactly the same stages, prompts, and notebook layout; only
+the PDF, the pen colour, the mission name, and the AI’s role change. Open a fresh chat for each unit and paste
+the Stage 0 opener with that unit’s role card.
+
+ Unit                                      Type               Pen       AI role                   Sprints       Minutes
+
+ 1 The Liu article (worked above)          Article            Blue      Strict examiner           3             79
+
+ 2 Your next article                       Article            Green     Curious beginner          3             79
+
+ 3 Your book chapter                       Chapter            Purple    Rival researcher          4             94
+
+ 4 Your last article                       Article            Orange    Journalist                3             79
+
+• Order. Start with the lightest article. Put the chapter third, so the heaviest reading does not meet your lowest
+     energy. Rotate the order across days.
+• Between units. Take a proper 15-minute break: walk, eat, drink, no screens. Before you leave, write the
+     next thing you will do on the next unit’s page.
+• Red pen. Corrections from blind recall and sparring are always red, in every unit.
+• Chapters. A chapter gets a fourth sprint, because chapters are longer but more structured. Preview its
+     learning objectives and end-of-chapter questions if it has them.
+• Mission names. Four case files make one day’s investigation, for example “Case File 2: Why Do Learners
+     Fossilize?”
+
+Day scoreboard
+ Unit                                Sprints              Blind recall (of 8)        Sparring (of 5)        Confidence (1–5)
+
+ 1 Liu article                       3/3                  5                          3                      4
+
+ 2
+
+ 3
+
+ 4
+
+ Quiz (of 12)
+
+ Day total
+Day total = recall + sparring + quiz. The maximum on a four-unit day is 64 (4 × 8 recall, 4 × 5 sparring, 12 quiz). Beating
+yesterday’s total is the game.
+
+
+
+
+ADHD-Friendly Study System · Applied Linguistics and SLA Reading                                                              11
+Part 4. The End-of-Day Quiz
+On a full day, open a new chat and upload all four PDFs. If you cannot, upload photos of your four mind maps or
+paste your three takeaways per unit. Then paste this prompt. Answer each question in your own words before
+reading the reply. Questions 10 to 12 normally link different units, for example “How would the interaction
+hypothesis explain the finding in paper 2?” or “Which two units disagree about feedback, and why?”
+
+     COPY AND PASTE
+
+     You are my quizmaster for an MA Applied Linguistics and SLA exam. I have ADHD, so ask ONE question
+     at a time and keep replies short. Use the documents I uploaded (one per unit) and name which unit
+     and page each question comes from. If I uploaded mind maps instead of PDFs, base questions on
+     those and say so.
+
+     Run a 12-question quiz in this order:
+     - Questions 1 to 3: definitions and terminology
+     - Questions 4 to 6: who argued what, or which study found what
+     - Questions 7 to 9: application (apply a concept to a concrete learner, classroom, or study
+     example)
+     - Questions 10 to 12: cross-unit (for example: How would the interaction hypothesis explain the
+     finding in unit 2?). If I uploaded only one unit, make these three questions link that unit to SLA
+     theories or to the quality of its evidence instead, and label any outside knowledge OUTSIDE THE
+     PDF.
+
+     Rules:
+     - Give no hints before I answer.
+     - After each answer, mark it CORRECT (1), PARTIAL (0.5), or INCORRECT (0), give a one-sentence
+     correction, then ask the next question.
+     - After question 12, give: my score out of 12, my two weakest topics (named precisely), and a
+     10-minute review plan for tomorrow morning built around those two topics.
+
+     Start question 1.
+
+
+
+Worked example: the quiz for Unit 1 alone
+If only the Liu article is uploaded, the prompt’s last line switches questions 10 to 12 to links with SLA theories and the quality of
+evidence. Here is the key. Use it to see what a strong answer contains; the AI will ask these or similar questions, in this order.
+
+ #      Question                                        Model answer
+
+ 1      What is a forward citation search, and why      Searching for later works that cite articles already found. ChatGPT
+        did Liu use one?                                research is very recent, so it caught three more studies, making 12
+                                                        (p.6).
+
+ 2      Define directive versus query-based             ChatGPT gave more directive feedback (telling the learner what to
+        feedback in Guo and Wang’s comparison.          change); teachers used informative and query-based feedback
+                                                        (prompting thought) (p.10).
+
+ 3      What is Tseng and Warschauer’s                  A pedagogical framework to help second language learners work with
+        framework, and what are its five parts?         AI writing tools: understand, access, prompt, corroborate, incorporate
+                                                        (p.15).
+
+ 4      Who surveyed 405 EFL learners using a           Liu and Ma (2023): learners who saw ChatGPT as useful were more
+        technology-acceptance frame, and what           likely to intend to use it, linked to actual English learning outside class
+        did they find?                                  (p.9; Table 4).
+
+ 5      Which study judged ChatGPT dialogues            Young and Shishido (2023): 450 dialogues analysed with Flesch
+        suitable for CEFR A2, and how?                  Reading Ease, McAlpine EFLAW and Dale-Chall; A2 suited, B1 dialogues
+                                                        gave A2 learners new words (p.8–9, 12).
+
+ 6      Which study analysed YouTube videos, and        Li et al. (2023): 45 videos plus comments. ChatGPT cannot fully replace
+        what did it conclude about replacing            teachers because humour, wit and empathy are not replicable; a mix of
+        teachers?                                       AI and human interaction looks most promising (p.11).
+
+
+
+
+ADHD-Friendly Study System · Applied Linguistics and SLA Reading                                                                      12
+ #       Question                                          Model answer
+
+ 7       A teacher wants ChatGPT to grade 120              Benefit: saves time on mechanical grading (Ahmed, p.11). Cautions:
+         essays. Name one benefit and two cautions         criteria may not match the teacher’s; off-task feedback; no knowledge
+         from the article.                                 of the class (Guo and Wang, p.12); privacy and bias (p.12).
+
+ 8       A B2 learner uses a chatbot whose                 Limited usefulness: A2 content worked, but higher CEFR levels need
+         dialogues were built for A2. What does the        tailored content (Young and Shishido, p.12); Li et al. flag a mismatch
+         article predict?                                  with diverse proficiency levels.
+
+ 9       A university in a low-resource region asks        Inaccessibility is a challenge (Guo and Wang, Mohamed, p.12); the
+         about adopting AI tutors. What does the           author lists the access gap as something new in the findings (p.14) and
+         article say about access?                         equitable access as an ethical implication (p.16).
+
+ 10      Cross-theory (OUTSIDE THE PDF): how               A chatbot is an on-demand conversation partner, which supports the
+         would the interaction hypothesis read the         idea. But the feedback is described as directive rather than negotiated,
+         article’s findings on practice and feedback?      and none of the 12 studies tests negotiation of meaning.
+
+ 11      Cross-theory (OUTSIDE THE PDF): which             Xiao and Zhi’s learners revised their own writing, rewrote prompts and
+         finding relates to the output hypothesis or       accepted outputs selectively (p.10): pushed output and self-revision.
+         noticing?                                         Immediate corrections can also prompt noticing.
+
+ 12      Evidence quality: which benefit claims rest       Most benefits rest on interviews, surveys and observations; only Young
+         on perceptions, and what design would test        and Shishido measured a property of the text (readability), not learning.
+         learning gains?                                   A test would compare writing improvement over time with and without
+                                                           ChatGPT feedback, with a control group (design suggested from outside
+                                                           the PDF).
+
+
+     WORKED EXAMPLE · THE SCORE REPORT
+
+     Score: 9.5 / 12. By question: 1, 1, 0.5, 1, 1, 0.5, 1, 0.5, 1, 0.5, 0.5, 1.
+     Two weakest topics: (1) the implications and Tseng and Warschauer’s framework, plus the Li et al. finding on teachers
+     (questions 3 and 6); (2) linking the findings to SLA theories (questions 10 and 11).
+     Tomorrow’s 10-minute plan: redraw the RQ4 branch from memory, with the five framework steps (3 min); write two
+     sentences each linking the article to the interaction and output hypotheses (4 min); take the morning quiz below (3 min).
+
+Optional follow-up prompt for flashcards:
+
+     COPY AND PASTE
+
+     Make 8 flashcards (question on one side, short answer on the other) on my two weakest topics. Use
+     plain text, one per line, in the format: Question | Answer.
+
+
+
+Part 5. Spaced Review
+Reading once, even well, fades fast. Three short reviews fix that. Use the notebook and mind maps, not the PDFs.
+
+Next morning (10 minutes, before any new material)
+     COPY AND PASTE
+
+     Review session. My two weakest topics from yesterday's quiz were: [TOPIC 1] and [TOPIC 2]. Quiz me
+     on each with 3 questions, one at a time, mixing definition, evidence, and application. Mark each
+     answer and correct it in one sentence. End with a one-line verdict for each topic: solid, shaky,
+     or weak.
+
+
+Filled in for the sample day: “My two weakest topics were: the implications and Tseng and Warschauer’s five-part
+framework, and linking the article’s findings to the interaction and output hypotheses.”
+
+Day 3 and day 7 (5 minutes per unit, no AI)
+Cover the map with a sheet of paper. Redraw its skeleton from memory on a blank page: centre, branches, and
+as many leaf keywords with page anchors as you can. Compare with the original and mark gaps in red.
+
+Once a week (20 minutes): the SLA theory map
+
+
+
+
+ADHD-Friendly Study System · Applied Linguistics and SLA Reading                                                                    13
+On one big page, write each theory you have met (input, interaction, noticing, output, sociocultural, usage-based,
+and so on) and draw arrows labelled “supports,” “challenges,” or “extends,” using your Connections branches.
+From the Liu article you would already have: interaction hypothesis (supports practice and feedback; challenged
+by directive feedback); output hypothesis (self-revision, prompt rewriting); input hypothesis (A2 and B1
+dialogues, level fit); sociocultural theory (the tutor as scaffold).
+
+  COPY AND PASTE
+
+  Here is my weekly SLA theory map, typed from my notebook: [LIST THEORIES AND THE LINKS I DREW].
+  Identify (1) any link that is wrong or oversimplified, (2) one important link I have missed, and
+  (3) one exam-style question that forces me to compare two of these theories. Keep it under 200
+  words, then wait for my answer to the question.
+
+
+
+Part 6. Keeping It Going
+Making it captivating
+• Give every unit a mission name and record the sprint count.
+• Race the timer, and beat yesterday’s total.
+• Study in the same place at the same time so the routine becomes the cue.
+• Use a study partner or a silent video call as a body double if you can. Working beside someone helps many
+   people start and stay on task.
+• Stop mid-thought on purpose at each break and jot the next sentence you would read.
+• Check your energy at every break. If you are fading, eat, drink, or walk outside before the next unit. If you
+   take medication for ADHD, plan the densest reading inside its effective window.
+
+Bad-day plan
+• Light day: two units, then a 6-question quiz (about 3.5 hours).
+• Very low day: one unit only, but all six stages, including blind recall. One complete unit beats four
+   half-finished ones.
+• Never cut: the preview, the hunt questions, blind recall, and the next-morning review.
+• If you derail mid-unit, restart from the next sprint, not from the beginning. Write one line in the Parking Lot
+   and keep going.
+
+
+
+
+ADHD-Friendly Study System · Applied Linguistics and SLA Reading                                                    14
+

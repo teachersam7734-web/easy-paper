@@ -1,0 +1,18 @@
+# Paper genres in Applied Linguistics: identify, extract, judge
+
+The genre sets the yardstick. Most bad explanations and most unfair critiques come from reading a paper as the wrong kind of thing. Decide the genre first, from the section label, the abstract moves and how the paper argues.
+
+| Genre | Telltale signs | Its job | Extract first | Judge by | Typical weak spots |
+|---|---|---|---|---|---|
+| **Empirical: quantitative** (experiment, quasi-experiment, survey, correlational) | RQs/hypotheses, participants, instruments, statistics | Produce evidence | RQs, design, N, measures, key results with effect sizes | Design fits the question; validity; reliability for this sample; effect sizes; claims match the design | Intact classes, no control, causal language from correlations, small N, no reliability, novelty effect |
+| **Empirical: qualitative** (case study, interviews, ethnography, narrative) | Themes, excerpts, coding, researcher positionality | Produce rich understanding | Context, participants, data sources, analysis procedure, themes | Trustworthiness (credibility, transferability, dependability), thick description, reflexivity | Coding not shown, cherry-picked quotes, generalising beyond the case |
+| **Empirical: mixed methods** | Both strands, a design label (convergent, explanatory sequential...) | Integrate evidence | The design, the priority and sequence of strands, the point of integration | A real rationale for mixing; integration (meta-inferences), not two studies side by side | No integration, a qual strand that is decoration |
+| **Systematic review / scoping review** | Databases, search strings, inclusion criteria, PRISMA | Map evidence | Search, criteria, N of studies, themes, gaps | Transparency, coverage, quality appraisal of studies | Narrow databases, English only, no appraisal |
+| **Meta-analysis** | Effect sizes pooled, moderators, forest plots | Quantify evidence | k, N, overall effect, moderators, heterogeneity | Inclusion criteria, coding reliability, publication bias, heterogeneity | Apples and oranges, small k per moderator |
+| **Narrative / literature review** (also book chapters, many AI-and-education papers) | "Through a review of recent literature", no search method | Synthesise and frame | The organising themes, the claims, the recommended actions | Balance, currency, coverage of counter-evidence, how claims are supported | No method, selective citation, recommendations without procedures |
+| **Position / forum / commentary** | "We argue", short, persuasive | Persuade | Thesis, arguments, examples | Logic, fair treatment of rivals, evidence for claims | Advocacy, undisclosed stake, straw men |
+| **Theoretical / conceptual** | Builds or revises a model or definition | Build theory | The construct, its components, its boundary conditions | Coherence, explanatory scope, operationalisability | Unfalsifiable, hard to measure |
+| **Methodological** | "How to", recommendations for researchers | Guide practice | The recommendations, worked examples, checklists | Correctness, workability in real L2 settings | Every "should" without a "how" |
+| **Definitional / consensus-building** (e.g., Johnson et al., 2007) | Collects definitions or expert views and synthesises them | Clarify a concept for the field | Who was asked, how the views were analysed, the resulting definition | Representativeness of the voices, transparency of the analysis, usefulness of the definition | Sample of experts is a network, analysis procedure is thin |
+
+When a paper mixes genres (an empirical study with a long position-style discussion), name the main genre and judge each part by its own yardstick.

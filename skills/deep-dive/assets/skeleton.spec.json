@@ -1,0 +1,404 @@
+{
+ "meta": {
+  "mode": "deep-dive",
+  "byline": "Sajjad Irani",
+  "kicker": "Case File: <mission>",
+  "short_title": "<Short title>",
+  "cover": "full",
+  "cover_chips": [
+   {
+    "icon": "timer",
+    "text": "<N> min read"
+   },
+   {
+    "icon": "search",
+    "text": "<N> hunt questions"
+   }
+  ],
+  "paper": {
+   "title": "<Exact paper title>",
+   "authors": "<Authors in byline order>",
+   "year": "<Year>",
+   "reference": "<APA 7 reference with DOI>",
+   "pages": 20
+  },
+  "skeleton": true
+ },
+ "blocks": [
+  {
+   "type": "mission",
+   "name": "Case File: <name>",
+   "goal": "Present this paper in 5 minutes and survive the Q&A.",
+   "chips": [
+    {
+     "icon": "mic",
+     "text": "Present"
+    }
+   ]
+  },
+  {
+   "type": "preview",
+   "items": [
+    "<Q1?>",
+    "<Q2?>",
+    "<Q3?>",
+    "<Q4?>",
+    "<Q5?>"
+   ]
+  },
+  {
+   "type": "nuggets",
+   "items": [
+    "<nugget [p. 1]>",
+    "<nugget>",
+    "<nugget>",
+    "<nugget [p. 1]>",
+    "<nugget [p. 1]>"
+   ]
+  },
+  {
+   "type": "section",
+   "title": "The paper in one picture",
+   "icon": "map",
+   "lead": "<1-sentence message>",
+   "blocks": [
+    {
+     "type": "pipeline",
+     "steps": [
+      {
+       "label": "<Step>",
+       "text": "<what>"
+      },
+      {
+       "label": "<Step>",
+       "text": "<what>"
+      },
+      {
+       "label": "<Step>",
+       "text": "<what>"
+      },
+      {
+       "label": "<Step>",
+       "text": "<what>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "chunk",
+   "id": "HQ1",
+   "question": "<Hunt question 1>?",
+   "answer": "<Short answer, 45 words max>",
+   "pages": "pp. 1-2",
+   "minutes": 4,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "<Plain explanation, 95 words max per paragraph>"
+    },
+    {
+     "type": "table",
+     "columns": [
+      "<Col>",
+      "<Col>"
+     ],
+     "rows": [
+      [
+       "<a>",
+       "<b>"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "type": "chunk",
+   "id": "HQ2",
+   "question": "<Hunt question 2>?",
+   "answer": "<Short answer, 45 words max>",
+   "pages": "pp. 1-2",
+   "minutes": 4,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "<Plain explanation, 95 words max per paragraph>"
+    },
+    {
+     "type": "table",
+     "columns": [
+      "<Col>",
+      "<Col>"
+     ],
+     "rows": [
+      [
+       "<a>",
+       "<b>"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "type": "chunk",
+   "id": "HQ3",
+   "question": "<Hunt question 3>?",
+   "answer": "<Short answer, 45 words max>",
+   "pages": "pp. 1-2",
+   "minutes": 4,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "<Plain explanation, 95 words max per paragraph>"
+    },
+    {
+     "type": "table",
+     "columns": [
+      "<Col>",
+      "<Col>"
+     ],
+     "rows": [
+      [
+       "<a>",
+       "<b>"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "type": "chunk",
+   "id": "HQ4",
+   "question": "<Hunt question 4>?",
+   "answer": "<Short answer, 45 words max>",
+   "pages": "pp. 1-2",
+   "minutes": 4,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "<Plain explanation, 95 words max per paragraph>"
+    },
+    {
+     "type": "table",
+     "columns": [
+      "<Col>",
+      "<Col>"
+     ],
+     "rows": [
+      [
+       "<a>",
+       "<b>"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "type": "chunk",
+   "id": "HQ5",
+   "question": "<Hunt question 5>?",
+   "answer": "<Short answer, 45 words max>",
+   "pages": "pp. 1-2",
+   "minutes": 4,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "<Plain explanation, 95 words max per paragraph>"
+    },
+    {
+     "type": "table",
+     "columns": [
+      "<Col>",
+      "<Col>"
+     ],
+     "rows": [
+      [
+       "<a>",
+       "<b>"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "type": "section",
+   "role": "researcher",
+   "title": "Beyond the paper: gaps and newer work",
+   "icon": "compass",
+   "lead": "Everything in this section is outside the paper.",
+   "blocks": [
+    {
+     "type": "table",
+     "title": "Gaps",
+     "columns": [
+      "Gap",
+      "Where",
+      "Why it matters"
+     ],
+     "rows": [
+      [
+       "<gap>",
+       "[p. 1]",
+       "<why>"
+      ]
+     ]
+    },
+    {
+     "type": "cards",
+     "cols": 2,
+     "items": [
+      {
+       "title": "<Newer study (Author, Year)>",
+       "text": "<so-what>",
+       "tone": "green",
+       "badge": "extends"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "section",
+   "title": "Presenter kit",
+   "icon": "mic",
+   "blocks": [
+    {
+     "type": "script",
+     "seconds": 60,
+     "lines": [
+      "<line>",
+      "<line>"
+     ]
+    },
+    {
+     "type": "qa",
+     "items": [
+      {
+       "q": "<question>",
+       "a": "<answer first>"
+      },
+      {
+       "q": "<question 2>",
+       "a": "<answer first, then one reason>"
+      },
+      {
+       "q": "<question 3>",
+       "a": "<answer first, then one reason>"
+      },
+      {
+       "q": "<question 4>",
+       "a": "<answer first, then one reason>"
+      },
+      {
+       "q": "<question 5>",
+       "a": "<answer first, then one reason>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "glossary",
+   "items": [
+    {
+     "term": "<term>",
+     "plain": "<plain>"
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "items": [
+    {
+     "q": "<Definition question>",
+     "type": "mcq",
+     "options": [
+      "<A>",
+      "<B>",
+      "<C>",
+      "<D>"
+     ],
+     "answer": "B. <B>",
+     "why": "<one line> [p. 1]"
+    },
+    {
+     "q": "<Finding question>",
+     "type": "mcq",
+     "options": [
+      "<A>",
+      "<B>",
+      "<C>"
+     ],
+     "answer": "A. <A>",
+     "why": "<one line> [p. 1]"
+    },
+    {
+     "q": "<Apply it to a classroom>",
+     "type": "apply",
+     "answer": "<model answer>",
+     "why": "<why> [p. 1]"
+    },
+    {
+     "q": "<Common misconception>",
+     "type": "tf",
+     "answer": "False",
+     "why": "<why> [p. 1]"
+    },
+    {
+     "q": "<Critique or connection question>",
+     "type": "short",
+     "answer": "<model answer>",
+     "why": "<why> [p. 1]"
+    },
+    {
+     "q": "<Question 6>",
+     "type": "mcq",
+     "options": [
+      "<A>",
+      "<B>",
+      "<C>",
+      "<D>"
+     ],
+     "answer": "B. <B>",
+     "why": "<one line> [p. 1]"
+    },
+    {
+     "q": "<Question 7>",
+     "type": "mcq",
+     "options": [
+      "<A>",
+      "<B>",
+      "<C>"
+     ],
+     "answer": "A. <A>",
+     "why": "<one line> [p. 1]"
+    },
+    {
+     "q": "<Question 8>",
+     "type": "apply",
+     "answer": "<model answer>",
+     "why": "<why> [p. 1]"
+    },
+    {
+     "q": "<Question 9>",
+     "type": "tf",
+     "answer": "False",
+     "why": "<why> [p. 1]"
+    },
+    {
+     "q": "<Question 10>",
+     "type": "short",
+     "answer": "<model answer>",
+     "why": "<why> [p. 1]"
+    }
+   ]
+  },
+  {
+   "type": "sources",
+   "items": [
+    "<APA 7 main paper>",
+    "<APA 7 newer work with DOI>"
+   ]
+  }
+ ]
+}

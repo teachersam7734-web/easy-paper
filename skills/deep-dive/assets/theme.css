@@ -1,0 +1,10 @@
+/* Deep Dive theme: calm, academic, cyan lead accent with gold highlights.
+   Fonts: Sora (display), Inter (body), EB Garamond italic (verbatim definitions), JetBrains Mono (labels). */
+:root{--accent:#0A9AB8;--accent-soft:#E3F6FA;--accent-2:#D99A06;--accent-2-soft:#FFF3D1;--fs:9.7pt}
+.cover{padding-top:2mm}
+.cover h1{font-size:24pt}
+.chunk{border-left-color:var(--accent)}
+.chunk:nth-of-type(4n+2){--accent:#6A5AE0;--accent-soft:#EEEBFD}
+.chunk:nth-of-type(4n+3){--accent:#D6336C;--accent-soft:#FDE8EF}
+.chunk:nth-of-type(4n+4){--accent:#12A36B;--accent-soft:#E3F6EE}
+.sec[data-role="researcher"] .sec-h{border-bottom-color:var(--gold)}

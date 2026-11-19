@@ -1,0 +1,40 @@
+WEBVTT
+
+00:00:00.810 --> 00:00:08.760
+Two essays look equally polished. One was written by a learner, the other with substantial help from artificial intelligence.
+
+00:00:08.760 --> 00:00:13.000
+If a detector flags both, what has it actually established?
+
+00:00:13.000 --> 00:00:19.760
+Karim Ibrahim's paper is a critical literature review of AI-assisted plagiarism in second-language writing.
+
+00:00:19.760 --> 00:00:25.920
+It selected thirty-three of fifty-seven records. Its detector results come from previous studies.
+
+00:00:25.920 --> 00:00:31.920
+Watermarking looks for a trace placed by a generator. A trained detector learns from examples.
+
+00:00:31.920 --> 00:00:38.760
+Statistical methods look for patterns in text. Retrieval methods compare a passage with stored outputs.
+
+00:00:38.760 --> 00:00:42.000
+These approaches depend on different kinds of evidence.
+
+00:00:42.000 --> 00:00:48.400
+A false positive wrongly flags human writing. A false negative misses AI-generated writing.
+
+00:00:48.400 --> 00:00:55.640
+An impressive score on one test set can hide errors when a tool faces another model, genre, or group of writers.
+
+00:00:55.640 --> 00:01:01.560
+Ibrahim proposes three questions. Is the detector reliable? Do its results generalize?
+
+00:01:01.560 --> 00:01:06.160
+And is the tool accessible in the setting where teachers would actually use it?
+
+00:01:06.160 --> 00:01:13.040
+Use a flag to decide what to investigate. Review the drafts, and give the learner a chance to explain how they wrote them.
+
+00:01:13.040 --> 00:01:16.757
+Make the integrity decision from the evidence in context.

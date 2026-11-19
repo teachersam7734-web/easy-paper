@@ -1,0 +1,407 @@
+{
+  "title": "The Impact of AI on Academic Research and Publishing",
+  "kicker": "Lund · Lamba · Oh / 2024",
+  "subtitle": "Follow generative AI from the first research idea to the editorial decision.",
+  "citation": "Lund, B., Lamba, M., & Oh, S. H. (2024). The impact of AI on academic research and publishing (arXiv:2406.06009) [Preprint]. arXiv.",
+  "focus": "AI can assist at several stages of publishing, while researchers and reviewers retain judgment, verification and accountability.",
+  "map": [
+    {
+      "label": "Terms and models",
+      "detail": "Four definitions and ten historical models (PDF pp. 2–4)."
+    },
+    {
+      "label": "Research and writing",
+      "detail": "Brainstorm, generate test data, analyze, write and edit (PDF pp. 4–8)."
+    },
+    {
+      "label": "Publisher policy",
+      "detail": "Disclosure, authorship, permissions and a sample policy (PDF pp. 8–9)."
+    },
+    {
+      "label": "Editorial work",
+      "detail": "Preliminary screening, editing and specialist evaluation (PDF pp. 9–11)."
+    },
+    {
+      "label": "Conclusion",
+      "detail": "Limits for publishers and advice for researchers (PDF pp. 11–12)."
+    }
+  ],
+  "modes": {
+    "deep-dive": {
+      "intro": "For each use, identify a task, a failure mode and a human check.",
+      "sections": [
+        {
+          "title": "Which model fits the task?",
+          "summary": "The authors compare models partly by training mix and availability.",
+          "points": [
+            "The chapter classifies generative AI as a way to produce new content and describes LLMs as text-trained transformer models.",
+            "Table 1 is a historical snapshot. A model’s training mix suggests where to evaluate it. You still need a task-specific performance check."
+          ],
+          "anchor": "PDF pp. 2–4, Definitions and Table 1",
+          "memory": "Task → model → verification."
+        },
+        {
+          "title": "What can go wrong before drafting?",
+          "summary": "Brainstorming needs checks for feasibility, originality and invented references.",
+          "points": [
+            "Make prompts specific to a concrete question or population, then check ideas against original literature.",
+            "Sample datasets can probe normal inputs or deliberately trigger errors. Label these synthetic and keep them separate from observed evidence."
+          ],
+          "anchor": "PDF pp. 4–5, Idea Generation and Creation of Sample Datasets",
+          "memory": "Prompt, probe, prove."
+        },
+        {
+          "title": "Where can AI help analyze data?",
+          "summary": "Generated scripts and preliminary qualitative codes give researchers a starting point.",
+          "points": [
+            "Figure 1 demonstrates generated Python for binary logistic regression. Code execution and valid statistical inference require different checks.",
+            "Compare suggested codes and themes with human coding. Record how the final codebook was established."
+          ],
+          "anchor": "PDF pp. 5–7, Data Analysis and Figure 1",
+          "memory": "Run the script, validate the result."
+        },
+        {
+          "title": "What makes editing a promising use?",
+          "summary": "Editing existing text can improve clarity and may reduce language barriers.",
+          "points": [
+            "A model can organize a review using researcher-supplied summaries or suggest prose describing a results table.",
+            "Compare edits against the original for shifted meanings, missing hedges and inaccurate terms or numbers."
+          ],
+          "anchor": "PDF pp. 7–8, Writing and Editing Manuscripts",
+          "memory": "Check meaning before polish."
+        },
+        {
+          "title": "Who can be an author?",
+          "summary": "The chapter applies contribution, understanding and responsibility as authorship criteria.",
+          "points": [
+            "The authors explain why journals might require disclosure while excluding AI tools from the byline.",
+            "The sample p. 9 policy limits authors to refining finished prose and bars reviewers from using AI. It illustrates one publisher’s possible rules."
+          ],
+          "anchor": "PDF pp. 8–9, AI Policies Among Publishers",
+          "memory": "C–U–R: contribute, understand, take responsibility."
+        },
+        {
+          "title": "Where does screening end?",
+          "summary": "Preliminary checks and organizing notes can be distinct from expert evaluation.",
+          "points": [
+            "The chapter discusses checking scope, structure, statistics and reproducibility. It calls for further study of screening accuracy.",
+            "The authors recount five suspected AI-generated reviews in 2023. They close by asking publishers, editors and authors to communicate and set boundaries."
+          ],
+          "anchor": "PDF pp. 9–12, AI in Editorial Processes and Conclusion",
+          "memory": "Screen → suggest → human decision."
+        }
+      ]
+    },
+    "critique": {
+      "intro": "Evaluate the evidence as a narrative review with practical guidance.",
+      "sections": [
+        {
+          "title": "What does it do well?",
+          "summary": "The workflow pairs concrete AI uses with places where humans must exercise judgment.",
+          "points": [
+            "Examples give readers an entry point at each stage.",
+            "The authorship criteria explain the accountability principle and transfer to new tools."
+          ],
+          "anchor": "PDF pp. 4–11, examples, AI Authorship Attribution and AI for Peer Review",
+          "memory": "Road map, rulebook, toolbox, red line."
+        },
+        {
+          "title": "Can readers reconstruct the search?",
+          "summary": "The preprint identifies its sources without describing how the set was assembled.",
+          "points": [
+            "A search period, search strings, inclusion criteria and appraisal procedure are absent.",
+            "A follow-up could state its disciplinary scope, search methods and treatment of conflicting findings."
+          ],
+          "anchor": "PDF p. 1 and pp. 2–12, Abstract and main text",
+          "memory": "Sources should leave a trail."
+        },
+        {
+          "title": "What does the evidence establish?",
+          "summary": "A code demonstration and a peer-review anecdote support narrow conclusions.",
+          "points": [
+            "Figure 1 gives one generated code example. Robustness would require repeated prompts, varied datasets and checked analyses.",
+            "The five suspected reviews come without a denominator or a verification protocol. Prevalence would require systematic sampling."
+          ],
+          "anchor": "PDF pp. 5–6, Figure 1; p. 10, AI for Peer Review",
+          "memory": "Keep demonstrations and prevalence claims separate."
+        },
+        {
+          "title": "What would make the advice operational?",
+          "summary": "The paper’s publisher-level limits and researcher-level caution address different decisions.",
+          "points": [
+            "A policy matrix could name who may use a tool, for what purpose, with which inputs and with what verification.",
+            "Evaluate benefits for multilingual writers alongside potential uneven screening errors. This is a follow-up question, distinct from the paper’s findings."
+          ],
+          "anchor": "PDF pp. 2, 7–12, Introduction, Editing, Policies and Conclusion",
+          "memory": "Actor → permission → boundary → owner."
+        }
+      ]
+    },
+    "review-guide": {
+      "intro": "Answer each question out loud before checking the card. Revisit a page anchor when you miss a step.",
+      "sections": [
+        {
+          "title": "Give the 30-second briefing.",
+          "summary": "Lund, Lamba and Oh track where AI assists scholarly work and where human oversight remains essential.",
+          "points": [
+            "Name the genre, a use, a risk and a check. Try editing, semantic drift and comparing revisions with the source prose.",
+            "Name one evidence limit: the literature-selection procedure is unreported."
+          ],
+          "anchor": "PDF pp. 1, 7–9, 11–12",
+          "memory": "Genre → example → boundary → evidence limit."
+        },
+        {
+          "title": "What should a researcher do with a plausible citation?",
+          "summary": "Verify that the reference exists and supports the specific claim.",
+          "points": [
+            "Read the original source to check metadata and the substance of the citation.",
+            "Reconstruct the four-step checking loop from memory: task, failure mode, responsible person and verification."
+          ],
+          "anchor": "PDF pp. 4–5, Idea Generation",
+          "memory": "Task → failure → owner → verification."
+        },
+        {
+          "title": "Why does the chapter keep AI from the byline?",
+          "summary": "Authorship requires contribution, understanding and responsibility under the chapter’s reasoning.",
+          "points": [
+            "Explain why disclosure can identify assistance without assigning accountability to a model.",
+            "Practice with a rewrite that removes a necessary hedge. Restore the hedge and check the journal’s disclosure rules."
+          ],
+          "anchor": "PDF pp. 7–9, Editing and Authorship Policies",
+          "memory": "C–U–R."
+        },
+        {
+          "title": "What stays with the invited reviewer?",
+          "summary": "The reviewer evaluates the paper’s reasoning, novelty and evidence and owns the recommendation.",
+          "points": [
+            "Explain how a preliminary scope flag differs from a specialist’s assessment.",
+            "Sketch the five stages from the paper map, then try the quiz and revisit a missed item later."
+          ],
+          "anchor": "PDF pp. 9–12, AI in Editorial Processes and Conclusion",
+          "memory": "Route → review → recall."
+        }
+      ]
+    },
+    "vocab-treasure": {
+      "intro": "Eleven C1–C2 expressions from the preprint, with new examples for academic writing.",
+      "sections": [
+        {
+          "title": "How do I frame an unsettled issue?",
+          "summary": "Use a clause after “debate as to whether” and a clause after “the extent to which.”",
+          "points": [
+            "Use “anecdotally” for informal observations. State what systematic evidence could test them."
+          ],
+          "anchor": "PDF pp. 8, 10"
+        },
+        {
+          "title": "How can I signal judgment and limits?",
+          "summary": "Use “at the discretion of” for delegated judgment and “stop-gap measure” for an interim remedy.",
+          "points": [
+            "Use “judiciously” for careful application, “less than satisfactory” for restrained criticism and “hold promise for” for a prospective use."
+          ],
+          "anchor": "PDF pp. 7–8, 10–11"
+        },
+        {
+          "title": "Which prepositions go with the phrases?",
+          "summary": "Use “adept at,” “indistinguishable from” and “in conjunction with.”",
+          "points": [
+            "Pair “adept at” with a noun or -ing form. Use “in conjunction with” to join sources or methods."
+          ],
+          "anchor": "PDF pp. 4, 7"
+        }
+      ]
+    }
+  },
+  "vocabulary": [
+    {
+      "term": "there is debate as to whether",
+      "meaning": "A proposition remains contested.",
+      "alternatives": [
+        "it remains contested whether",
+        "opinion is divided on whether"
+      ],
+      "example": "There is considerable debate as to whether peer feedback transfers to independent revision.",
+      "anchor": "PDF p. 8"
+    },
+    {
+      "term": "at the discretion of",
+      "meaning": "Subject to a person or body’s judgment.",
+      "alternatives": [
+        "left to the judgment of",
+        "decided by"
+      ],
+      "example": "Supplementary materials were released at the discretion of the participating schools.",
+      "anchor": "PDF p. 8"
+    },
+    {
+      "term": "stop-gap measure",
+      "meaning": "A temporary response while a longer-term solution is developed.",
+      "alternatives": [
+        "interim measure",
+        "temporary fix"
+      ],
+      "example": "The bilingual glossary served as a stop-gap measure until the revised curriculum was ready.",
+      "anchor": "PDF p. 8"
+    },
+    {
+      "term": "in conjunction with",
+      "meaning": "Together with another method, source or activity.",
+      "alternatives": [
+        "alongside",
+        "in combination with"
+      ],
+      "example": "The team interpreted learner diaries in conjunction with interview transcripts.",
+      "anchor": "PDF p. 4"
+    },
+    {
+      "term": "adept at",
+      "meaning": "Skilled in a particular task.",
+      "alternatives": [
+        "skilled at",
+        "proficient in"
+      ],
+      "example": "Participants became adept at identifying stance markers in unfamiliar texts.",
+      "anchor": "PDF p. 4"
+    },
+    {
+      "term": "less than satisfactory",
+      "meaning": "Below the expected quality, stated with restraint.",
+      "alternatives": [
+        "unsatisfactory",
+        "short of expectations"
+      ],
+      "example": "Agreement on the provisional codebook was less than satisfactory in the first round.",
+      "anchor": "PDF p. 7"
+    },
+    {
+      "term": "hold promise for",
+      "meaning": "Show potential for a future use or result.",
+      "alternatives": [
+        "show potential for",
+        "look promising for"
+      ],
+      "example": "Mobile audio diaries hold promise for tracking language use across informal settings.",
+      "anchor": "PDF p. 10"
+    },
+    {
+      "term": "virtually indistinguishable from",
+      "meaning": "So similar that a difference is difficult to observe.",
+      "alternatives": [
+        "nearly identical to",
+        "hardly distinguishable from"
+      ],
+      "example": "The two conditions produced distributions virtually indistinguishable from each other.",
+      "anchor": "PDF p. 7"
+    },
+    {
+      "term": "anecdotally",
+      "meaning": "According to informal reports or personal experience.",
+      "alternatives": [
+        "judging from informal accounts",
+        "in our experience"
+      ],
+      "example": "Anecdotally, tutors noticed more revision after conferencing, but comparisons across classes are still needed.",
+      "anchor": "PDF p. 10"
+    },
+    {
+      "term": "judiciously",
+      "meaning": "With careful judgment about when and how to act.",
+      "alternatives": [
+        "prudently",
+        "with discernment"
+      ],
+      "example": "Researchers used automatic transcription judiciously and checked uncertain passages by ear.",
+      "anchor": "PDF p. 11"
+    },
+    {
+      "term": "the extent to which",
+      "meaning": "The degree to which an effect occurs or a condition holds.",
+      "alternatives": [
+        "the degree to which",
+        "how far"
+      ],
+      "example": "The study examined the extent to which proficiency explained variation in turn-taking.",
+      "anchor": "PDF p. 8"
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What should a researcher do with a plausible reference generated during brainstorming?",
+      "options": [
+        "Add a disclaimer",
+        "Verify the original source and whether it supports the claim",
+        "Regenerate the citation"
+      ],
+      "answer": 1,
+      "explanation": "The chapter warns that models can invent references. The primary source is the check.",
+      "anchor": "PDF pp. 4–5"
+    },
+    {
+      "question": "What does Figure 1 establish by itself?",
+      "options": [
+        "An illustration of generated Python for one regression example",
+        "A comparative benchmark of several models",
+        "An accuracy estimate from repeated trials"
+      ],
+      "answer": 0,
+      "explanation": "The example illustrates how AI can draft code. Broader performance requires separate testing.",
+      "anchor": "PDF pp. 5–6"
+    },
+    {
+      "question": "What set of criteria underlies the paper’s AI authorship argument?",
+      "options": [
+        "Prompt, edit, submit",
+        "Cite, consent, publish",
+        "Contribute, understand, take responsibility"
+      ],
+      "answer": 2,
+      "explanation": "Understanding and responsibility are the barriers the authors identify for AI authorship.",
+      "anchor": "PDF p. 8"
+    },
+    {
+      "question": "What kind of evidence is the account of five suspected AI-generated reviews?",
+      "options": [
+        "A prevalence estimate",
+        "An author anecdote",
+        "A representative editor survey"
+      ],
+      "answer": 1,
+      "explanation": "The report lacks a sampling frame or denominator and is presented as anecdotal.",
+      "anchor": "PDF p. 10"
+    },
+    {
+      "question": "Which phrase fills the gap? Interviews were analyzed ___ classroom observations.",
+      "options": [
+        "in conjunction with",
+        "at the discretion of",
+        "the extent to which"
+      ],
+      "answer": 0,
+      "explanation": "“In conjunction with” joins two methods or sources used together.",
+      "anchor": "PDF p. 4"
+    },
+    {
+      "question": "Who retains ownership of expert evaluation in peer review?",
+      "options": [
+        "A scope-screening tool",
+        "Any model that can structure prose",
+        "The invited human specialist"
+      ],
+      "answer": 2,
+      "explanation": "The authors discuss screening and organization as possible support and reserve specialist evaluation for the invited reviewer.",
+      "anchor": "PDF pp. 9–11"
+    }
+  ],
+  "preview": [
+    "Where in publishing does AI have the strongest practical case?",
+    "What separates disclosure from authorship?",
+    "What can the regression example and the anecdote establish?",
+    "Who owns the final judgment at each stage?"
+  ],
+  "notes": "Answer the preview questions quickly. All page anchors count the source PDF’s title page as page 1.",
+  "qc": {
+    "status": "passed",
+    "source": "Source preprint and four approved Outputs/ai-publishing PDFs checked for factual scope, page anchors, retrieval and vocabulary."
+  },
+  "film": "seeker"
+}

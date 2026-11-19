@@ -1,0 +1,187 @@
+{
+ "meta": {
+  "mode": "vocab-treasure",
+  "skeleton": true,
+  "byline": "Sajjad Irani",
+  "cover": "none",
+  "short_title": "<Short title>",
+  "paper": {
+   "title": "<Exact paper title>",
+   "authors": "<Authors>",
+   "year": "<Year>",
+   "reference": "<APA 7>",
+   "pages": 10
+  }
+ },
+ "blocks": [
+  {
+   "type": "sheet",
+   "no": 1,
+   "blocks": [
+    {
+     "type": "vt_strip",
+     "reel": "REEL 01",
+     "source": "<Author (Year) · Short title>",
+     "stats": [
+      {
+       "value": "9",
+       "label": "finds"
+      },
+      {
+       "value": "C1-C2",
+       "label": "level"
+      }
+     ]
+    },
+    {
+     "type": "vocab",
+     "items": [
+      {
+       "n": 1,
+       "feature": true,
+       "term": "<term 1>",
+       "forms": [],
+       "type": "collocation",
+       "level": "C1",
+       "pattern": "",
+       "meaning": "<plain meaning, 22 words max>",
+       "context": "<verbatim clause>",
+       "page": "p. 1",
+       "alternatives": [
+        "<alt>",
+        "<alt>"
+       ],
+       "example": "<original Applied Linguistics sentence using the **term**>"
+      },
+      {
+       "n": 2,
+       "feature": false,
+       "term": "<term 2>",
+       "forms": [],
+       "type": "collocation",
+       "level": "C1",
+       "pattern": "",
+       "meaning": "<plain meaning, 22 words max>",
+       "context": "<verbatim clause>",
+       "page": "p. 1",
+       "alternatives": [
+        "<alt>",
+        "<alt>"
+       ],
+       "example": "<original Applied Linguistics sentence using the **term**>"
+      },
+      {
+       "n": 3,
+       "feature": false,
+       "term": "<term 3>",
+       "forms": [],
+       "type": "collocation",
+       "level": "C1",
+       "pattern": "",
+       "meaning": "<plain meaning, 22 words max>",
+       "context": "<verbatim clause>",
+       "page": "p. 1",
+       "alternatives": [
+        "<alt>",
+        "<alt>"
+       ],
+       "example": "<original Applied Linguistics sentence using the **term**>"
+      },
+      {
+       "n": 4,
+       "feature": false,
+       "term": "<term 4>",
+       "forms": [],
+       "type": "collocation",
+       "level": "C1",
+       "pattern": "",
+       "meaning": "<plain meaning, 22 words max>",
+       "context": "<verbatim clause>",
+       "page": "p. 1",
+       "alternatives": [
+        "<alt>",
+        "<alt>"
+       ],
+       "example": "<original Applied Linguistics sentence using the **term**>"
+      },
+      {
+       "n": 5,
+       "feature": false,
+       "term": "<term 5>",
+       "forms": [],
+       "type": "collocation",
+       "level": "C1",
+       "pattern": "",
+       "meaning": "<plain meaning, 22 words max>",
+       "context": "<verbatim clause>",
+       "page": "p. 1",
+       "alternatives": [
+        "<alt>",
+        "<alt>"
+       ],
+       "example": "<original Applied Linguistics sentence using the **term**>"
+      },
+      {
+       "n": 6,
+       "feature": false,
+       "term": "<term 6>",
+       "forms": [],
+       "type": "collocation",
+       "level": "C1",
+       "pattern": "",
+       "meaning": "<plain meaning, 22 words max>",
+       "context": "<verbatim clause>",
+       "page": "p. 1",
+       "alternatives": [
+        "<alt>",
+        "<alt>"
+       ],
+       "example": "<original Applied Linguistics sentence using the **term**>"
+      },
+      {
+       "n": 7,
+       "feature": false,
+       "term": "<term 7>",
+       "forms": [],
+       "type": "collocation",
+       "level": "C1",
+       "pattern": "",
+       "meaning": "<plain meaning, 22 words max>",
+       "context": "<verbatim clause>",
+       "page": "p. 1",
+       "alternatives": [
+        "<alt>",
+        "<alt>"
+       ],
+       "example": "<original Applied Linguistics sentence using the **term**>"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Wrap-up quiz",
+     "hint": "Fill the gap from memory. Key below.",
+     "items": [
+      {
+       "q": "<sentence with ______>",
+       "type": "short",
+       "answer": "<term>",
+       "why": "<why> [p. 1]"
+      },
+      {
+       "q": "<choose the right collocate>",
+       "type": "mcq",
+       "options": [
+        "<A>",
+        "<B>",
+        "<C>"
+       ],
+       "answer": "A. <A>",
+       "why": "<why> [p. 1]"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

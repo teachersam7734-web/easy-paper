@@ -1,0 +1,615 @@
+{
+  "title": "Toward a Definition of Mixed Methods Research",
+  "kicker": "Research methods · 2007",
+  "subtitle": "What counts as mixed?",
+  "citation": "R. Burke Johnson, Anthony J. Onwuegbuzie & Lisa A. Turner · Journal of Mixed Methods Research 1(2), 112–133",
+  "focus": "Follow 19 expert definitions to one working account of the field, then test where that account helps you design a study and where it leaves judgment to the researcher.",
+  "notes": "Open with a design choice: if interviews and test scores never inform one another, what has actually been mixed? Explain the 36 invitations and 19 definitions, give the general definition, then use the integration tension as your closing question.",
+  "qc": {
+    "status": "passed",
+    "source": "Approved Easy Paper Deep Dive, Critique, Review Guide, and Vocab Treasure PDFs for Johnson et al. (2007). Scholarly claims checked against the supplied article, DOI 10.1177/1558689806298224."
+  },
+  "preview": [
+    "A learner survey and interviews sit in separate chapters. What would show that the strands informed one another?",
+    "How can 19 definitions support a workable definition while leaving the field’s boundaries unsettled?",
+    "A qualitative case study adds a small participation count. Which strand leads?"
+  ],
+  "map": [
+    {
+      "label": "Why define the field?",
+      "detail": "The authors saw many competing labels and sought a definition useful enough for dialogue. Article pp. 112–113."
+    },
+    {
+      "label": "36 invitations, 19 definitions",
+      "detail": "A purposive expert sample supplied the material for constant comparison. The unit was the definition. Article p. 118."
+    },
+    {
+      "label": "Five recurring themes",
+      "detail": "What, when or where, breadth, why, and orientation. Article pp. 118–123, 128–129."
+    },
+    {
+      "label": "One general definition",
+      "detail": "Combine qualitative and quantitative elements for breadth and depth of understanding and corroboration. Article p. 123."
+    },
+    {
+      "label": "Three points on a continuum",
+      "detail": "A mixed study can be qualitative-led, equal-status, or quantitative-led. Article pp. 123–124 and Note 6, p. 130."
+    },
+    {
+      "label": "Integration is an open design task",
+      "detail": "The authors call integration central and offer a tentative paradigm-level definition. Article pp. 125, 129."
+    }
+  ],
+  "modes": {
+    "deep-dive": {
+      "intro": "Trace the paper’s route from historical roots to the expert definitions, then work through the design questions that follow.",
+      "sections": [
+        {
+          "title": "A useful definition for a young field",
+          "summary": "The authors seek working boundaries for a field with many names and competing accounts.",
+          "anchor": "Article pp. 112–113, 118 · Deep Dive hunt 1",
+          "points": [
+            "The paper frames mixed methods alongside quantitative and qualitative research as a third research paradigm.",
+            "Its aim is to clarify how leaders in the field use the term and keep the conversation open. The authors allow for broad and narrow senses of mixed methods.",
+            "Terms such as mixed research can signal a scope that extends to viewpoints and inferences as well as data collection."
+          ]
+        },
+        {
+          "title": "From multiple measures to mixed inquiry",
+          "summary": "The history of mixing includes several traditions, each answering a different problem.",
+          "anchor": "Article pp. 113–117 · Deep Dive hunt 2",
+          "points": [
+            "Campbell and Fiske (1959) used multiple operations and examined convergent and discriminant validity.",
+            "Webb and colleagues (1966) are credited with coining triangulation. Denzin distinguished data, investigator, theory, and methodological triangulation.",
+            "Greene and colleagues identified five purposes: triangulation, complementarity, development, initiation, and expansion."
+          ],
+          "memory": "D-I-T-M cues Denzin’s four types. T-C-D-I-E cues Greene and colleagues’ five purposes."
+        },
+        {
+          "title": "How 19 definitions became five themes",
+          "summary": "The authors compared new statements against earlier ones, grouped similar codes, and counted contributions to selected themes.",
+          "anchor": "Article p. 118 and Table 1, pp. 119–121 · Deep Dive hunt 3",
+          "points": [
+            "They emailed 31 methodologists from the Bridges list plus five contributors to a special issue.",
+            "Two definitions were jointly authored, so the study uses definitions as units of analysis.",
+            "Table 1 lets readers see the original definitions and try coding them independently."
+          ]
+        },
+        {
+          "title": "Where the experts agree and diverge",
+          "summary": "Fifteen definitions name qualitative and quantitative research as the elements mixed.",
+          "anchor": "Article pp. 118–123, 128–129 · Deep Dive hunt 4",
+          "points": [
+            "Some locate mixing in collection, others include analysis, and several allow it at any stage.",
+            "Scope varies from combining types of data to mixing worldviews, language, and inference. Breadth appears in seven definitions and corroboration in five.",
+            "Orientation can be bottom-up, guided by the research question, or top-down, guided by commitments such as social justice. The authors treat these as a continuum."
+          ],
+          "memory": "Who Wants Big Wins Often cues What, When or where, Breadth, Why, Orientation."
+        },
+        {
+          "title": "One sentence and three configurations",
+          "summary": "The general definition describes combining qualitative and quantitative elements for breadth and depth of understanding and corroboration.",
+          "anchor": "Article pp. 123–124 and Note 6, p. 130 · Deep Dive hunt 5",
+          "points": [
+            "The elements can be viewpoints, data collection, analysis, or inference. A mixed study combines within a study. A mixed program can combine across related studies.",
+            "QUAL+quan means the qualitative approach leads. QUAN+qual means the quantitative approach leads. Equal-status designs give neither strand priority.",
+            "In a language assessment example, lead with scores and use interviews to explain surprising results. QUAN+qual captures that priority."
+          ],
+          "memory": "The capital letters tell you which strand leads."
+        },
+        {
+          "title": "A third research culture",
+          "summary": "In the authors’ terminology, a research paradigm is a community’s shared beliefs, values, and assumptions about research.",
+          "anchor": "Article pp. 112, 117, 125, 129–130 · Deep Dive hunt 6",
+          "points": [
+            "The authors connect mixed methods with pluralism and are especially sympathetic to a pragmatism of the middle.",
+            "Because no expert definition spans all four of Greene’s methodological domains, they add a tentative fuller definition.",
+            "Its clauses cover pragmatism, a logic for mixing, combined techniques and viewpoints, and attention to sociopolitical realities."
+          ],
+          "memory": "P-L-T-S means Pragmatism, Logic, Techniques, Society."
+        },
+        {
+          "title": "Eleven issues still to resolve",
+          "summary": "The agenda starts with when to mix and how to integrate, then widens to philosophy, quality, and design.",
+          "anchor": "Article pp. 124–129 · Deep Dive hunt 7",
+          "points": [
+            "Mix (2): stages of mixing and strategies for integration.",
+            "Mind (3): partner philosophies, how much philosophical detail matters, and whether equal status is possible.",
+            "Merit (3): standards and validity, development of the mixed subtypes, and when a mixed approach is preferable.",
+            "Map (3): a logic of mixing, a design typology, and the branches of the research-methodology tree."
+          ],
+          "memory": "Mix, Mind, Merit, Map is a study aid. The issue counts run 2 + 3 + 3 + 3."
+        },
+        {
+          "title": "Design a meaningful join",
+          "summary": "The fundamental principle asks designers to combine approaches whose strengths complement each other and whose weaknesses do not overlap.",
+          "anchor": "Article pp. 125, 127 · Deep Dive application",
+          "points": [
+            "Example for practice. Test gains can show how much scores changed. Follow-up interviews can help explain why some learners changed little.",
+            "Select interviewees using the score patterns and interpret the themes alongside those patterns. Either step makes the connection visible.",
+            "If both strands recruit only highly engaged volunteers, their shared selection bias remains."
+          ]
+        }
+      ]
+    },
+    "critique": {
+      "intro": "Judge this definitional paper by whose voices it includes, how the authors turn those voices into themes, and how well the result works in practice.",
+      "sections": [
+        {
+          "title": "Strength · Table 1 makes recoding possible",
+          "summary": "Readers have access to all 19 definitions and the name of the analysis method.",
+          "anchor": "Article p. 118 and Table 1, pp. 119–121 · Critique strengths",
+          "points": [
+            "An independent reader can recode the definitions and ask whether the five themes would emerge again.",
+            "The authors keep dissent in view. Miller raises philosophical concerns and Sandelowski questions what blending implies."
+          ]
+        },
+        {
+          "title": "Strength · A practical tool and research agenda",
+          "summary": "The general definition and the priority notation give researchers a vocabulary they can apply.",
+          "anchor": "Article pp. 123–128 and Note 6, p. 130 · Critique strengths",
+          "points": [
+            "The continuum lets researchers explain what leads in a specific design.",
+            "Eleven open issues identify work still needed. The authors describe their discussion as preliminary."
+          ],
+          "memory": "Table, Tension, Tool, To-do list."
+        },
+        {
+          "title": "Major · Who defines the field?",
+          "summary": "Purposive sampling makes sense for eliciting expert views. The two recruitment sources limit the range of voices.",
+          "anchor": "Article pp. 112, 118, 131 · Critique weakness 1",
+          "points": [
+            "The frame drew from a curated Bridges list and a special issue edited by Johnson.",
+            "The paper gives 36 invitations and 19 definitions, two of them joint. It leaves the participant-level response rate and nonresponse patterns unclear.",
+            "Report how many individuals replied, who was absent, and how additional communities might change the picture."
+          ]
+        },
+        {
+          "title": "Major · Can the coding be audited?",
+          "summary": "The paper describes coding and theme formation. A definition-by-theme record and any independent agreement check would help readers assess the judgments.",
+          "anchor": "Article pp. 112, 118, 120 · Critique weakness 2",
+          "points": [
+            "The extent and role of the online discussion are unclear. The authors’ own definition appears in Table 1.",
+            "A 19 × 5 matrix with exemplar decisions and a note on researcher involvement would make the process more traceable."
+          ]
+        },
+        {
+          "title": "Moderate · Where is the seam?",
+          "summary": "Integration is presented as central to mixed methods, while the short definition uses the broader language of combining elements.",
+          "anchor": "Article pp. 119–121, 123, 125 · Critique weakness 3",
+          "points": [
+            "A reader could interpret the general definition as allowing parallel strands that never inform each other.",
+            "Sandelowski’s caution about the idea of blending explains why broad wording may preserve room for different forms of connection.",
+            "A stronger application states exactly how one strand changes the design, analysis, or interpretation of the other."
+          ]
+        },
+        {
+          "title": "Moderate · From consensus to prescription",
+          "summary": "The fuller definition makes the authors’ philosophical preference more prominent.",
+          "anchor": "Article pp. 120, 125, 129 · Critique weakness 4",
+          "points": [
+            "Issue 3 asks which philosophy best partners with mixed methods. Clause (a) later specifies a form of pragmatism.",
+            "The claim that mixed methods can produce superior results is contingent. The collected definitions offer a basis for conceptual discussion, with no empirical test of superiority."
+          ]
+        },
+        {
+          "title": "Minor · Wording worth checking",
+          "summary": "Small copyediting slips matter when the paper’s contribution is precise terminology.",
+          "anchor": "Article pp. 122, 125 · Critique weakness 5",
+          "points": [
+            "On p. 122, the phrase “qualitative and qualitative data” appears in a discussion of two types of data.",
+            "On p. 125, “what we call called” is a repeated verb. Consult the article when preparing any direct quotation."
+          ],
+          "memory": "Sample, Secret recipe, Seam, Sales pitch, Slips cues the five critiques."
+        },
+        {
+          "title": "A 90-second evaluation",
+          "summary": "Start with the paper’s aim and evidence, then weigh what that evidence supports.",
+          "anchor": "Article pp. 118–125, 129 · Critique speaking practice",
+          "points": [
+            "Name the main contribution: a workable definition drawn from 19 publicly visible answers.",
+            "Give two strengths: the source definitions and the priority notation. Give two limitations: the network sample and incomplete audit trail.",
+            "Close with a design implication: state where the methods actually connect in your own study."
+          ]
+        }
+      ]
+    },
+    "review-guide": {
+      "intro": "Use the prompts to reconstruct the paper aloud, then check the article locators and test the distinctions in the wrap-up quiz.",
+      "sections": [
+        {
+          "title": "Definition in one breath",
+          "summary": "Combine qualitative and quantitative elements for breadth and depth of understanding and corroboration.",
+          "anchor": "Article p. 123 · Review Guide must-know 1",
+          "points": [
+            "Recall who combines, what is combined, and why. Include at least two examples of elements.",
+            "Explain how one mixed study differs from a program that mixes across related studies."
+          ],
+          "memory": "Wider, deeper, double-checked."
+        },
+        {
+          "title": "Paradigm and method priority",
+          "summary": "Describe research paradigm as research culture, and mark the leading strand with capitals.",
+          "anchor": "Article pp. 117, 123–124, 129–130 · Review Guide must-knows 2–3",
+          "points": [
+            "Interview-led research with survey support is QUAL+quan. Score-led research with interview support is QUAN+qual.",
+            "Equal status refers to the weight given to the two approaches. Match the label to the roles of the strands."
+          ]
+        },
+        {
+          "title": "Reconstruct the five themes",
+          "summary": "What, when or where, breadth, why, and orientation are the five dimensions of variation found across the definitions.",
+          "anchor": "Article pp. 118–123, 128–129 · Review Guide must-know 4",
+          "points": [
+            "Write down 15, 7, and 5. Explain that they count definitions mentioning a given element or purpose, not proportions of the wider field.",
+            "15 name qualitative and quantitative research, 7 name breadth, 5 name corroboration."
+          ],
+          "memory": "Who Wants Big Wins Often."
+        },
+        {
+          "title": "Recover the evidence trail",
+          "summary": "Say where the sample came from, what was analyzed, and how the statements became themes.",
+          "anchor": "Article pp. 118–121 · Review Guide must-know 5",
+          "points": [
+            "36 contacted → 19 definitions → constant comparison → five themes.",
+            "For evaluation, name one strength (Table 1) and one limit (the recruitment frame or the thin coding audit)."
+          ]
+        },
+        {
+          "title": "Why offer a fuller definition?",
+          "summary": "The fuller account covers a broader scope and responds to Greene’s four domains of methodological development.",
+          "anchor": "Article pp. 128–129 · Review Guide must-know 6",
+          "points": [
+            "Name the four domains: philosophical assumptions, inquiry logics, guidelines for practice, and sociopolitical commitments.",
+            "Distinguish the general definition on p. 123 from the authors’ tentative fuller proposal on p. 129."
+          ],
+          "memory": "P-L-T-S cues the fuller proposal."
+        },
+        {
+          "title": "Three historical steps",
+          "summary": "Campbell and Fiske used multiple measures, Webb and colleagues named triangulation, and Denzin set out four types.",
+          "anchor": "Article pp. 114–116 · Review Guide must-know 7",
+          "points": [
+            "Place them in order: 1959, 1966, 1978.",
+            "Challenge yourself to describe investigator triangulation and methodological triangulation using a language-learning example."
+          ]
+        },
+        {
+          "title": "Use the fundamental principle",
+          "summary": "A mixed design should combine strengths while addressing different weaknesses.",
+          "anchor": "Article pp. 125, 127 · Review Guide must-know 8",
+          "points": [
+            "Recall the authors’ pragmatism of the middle and explain how the purposes of the question shape what is useful.",
+            "Apply the principle to your own case. Name one strength of each method and check whether either method can address the other’s main limitation."
+          ]
+        },
+        {
+          "title": "Two-hour retrieval plan",
+          "summary": "Work from understanding to unaided recall and correction.",
+          "anchor": "Review Guide PDF pp. 1–4 · Study schedule",
+          "points": [
+            "10 min preview, 35 min cover-and-recall the core ideas, 25 min review the numbers and secondary concepts.",
+            "15 min redraw the map from memory, 20 min answer aloud and take the quiz, 15 min repair misses. Repeat the missed prompts tomorrow."
+          ]
+        }
+      ]
+    },
+    "vocab-treasure": {
+      "intro": "Practice the 17 words, phrases, and structures collected in the approved vocabulary reel. Try the examples by rebuilding them from memory.",
+      "sections": [
+        {
+          "title": "Use the phrase in your own research context",
+          "summary": "Start with the article location, then switch the topic and preserve the useful sentence pattern.",
+          "anchor": "Vocab Treasure PDF pp. 1–2 · Article pp. 112–130",
+          "points": [
+            "Describe a study design using “by virtue of,” evaluate a claim with “call into question,” and qualify a result with “albeit.”",
+            "Choose alternatives that match the intended grammatical role. With “credited with,” the verb takes the -ing form."
+          ]
+        }
+      ]
+    }
+  },
+  "vocabulary": [
+    {
+      "term": "Be credited with + -ing",
+      "meaning": "Be recognized for introducing a term, idea, or method.",
+      "example": "Selinker is usually credited with being the first to use the term interlanguage for the learner’s developing linguistic system.",
+      "alternatives": [
+        "be acknowledged as the first to",
+        "be regarded as the pioneer of",
+        "be the first to"
+      ],
+      "anchor": "Article p. 114 · Vocab Treasure find 01"
+    },
+    {
+      "term": "Forthcoming",
+      "meaning": "Available or provided when expected.",
+      "example": "Funding for the replication study was promised but was only forthcoming in year two.",
+      "alternatives": [
+        "available",
+        "on offer",
+        "provided"
+      ],
+      "anchor": "Article p. 112 · Vocab Treasure find 02"
+    },
+    {
+      "term": "Foreshadow",
+      "meaning": "Anticipate an idea that is developed or named later.",
+      "example": "Corder’s work on learner errors foreshadowed the later concept of interlanguage.",
+      "alternatives": [
+        "anticipate",
+        "prefigure",
+        "point ahead to"
+      ],
+      "anchor": "Article p. 114 · Vocab Treasure find 03"
+    },
+    {
+      "term": "Be more of an X than a Y",
+      "meaning": "Identify the category that more accurately describes something.",
+      "example": "Task repetition is more of a fluency technique than a teaching method.",
+      "alternatives": [
+        "be closer to an X",
+        "be less a Y than an X"
+      ],
+      "anchor": "Article p. 114 · Vocab Treasure find 04"
+    },
+    {
+      "term": "By virtue of",
+      "meaning": "Because of a property or feature.",
+      "example": "By virtue of its longitudinal design, the study traces writing across a full year.",
+      "alternatives": [
+        "because of",
+        "owing to",
+        "on account of"
+      ],
+      "anchor": "Article p. 115 · Vocab Treasure find 05"
+    },
+    {
+      "term": "Give credence to",
+      "meaning": "Make an interpretation or claim more believable.",
+      "example": "The interview data give credence to the view that anxiety limited participation.",
+      "alternatives": [
+        "lend credence to",
+        "lend support to"
+      ],
+      "anchor": "Article p. 116 · Vocab Treasure find 06"
+    },
+    {
+      "term": "Call into question",
+      "meaning": "Raise doubts about the truth, validity, or need for something.",
+      "example": "These results call into question the claim that explicit instruction suits all learners.",
+      "alternatives": [
+        "question",
+        "cast doubt on",
+        "challenge"
+      ],
+      "anchor": "Article p. 117 · Vocab Treasure find 07"
+    },
+    {
+      "term": "Come to grips with",
+      "meaning": "Begin to understand and handle something difficult.",
+      "example": "Novice raters need practice to come to grips with analytic rubrics.",
+      "alternatives": [
+        "grapple with",
+        "deal with",
+        "make sense of"
+      ],
+      "anchor": "Article p. 117 · Vocab Treasure find 08"
+    },
+    {
+      "term": "Not nearly as X as is often suggested",
+      "meaning": "Qualify a claim by saying that the degree of X is considerably lower than suggested.",
+      "example": "The implicit-explicit boundary is not nearly as sharp as is often suggested in the literature.",
+      "alternatives": [
+        "much less X than assumed",
+        "far less X than claimed"
+      ],
+      "anchor": "Article p. 117 · Vocab Treasure find 09"
+    },
+    {
+      "term": "Bring X to bear on Y",
+      "meaning": "Apply an idea or form of evidence to a question or problem.",
+      "example": "The study brings sociocultural theory to bear on why learners take up some corrections and ignore others.",
+      "alternatives": [
+        "apply X to Y",
+        "draw on X to address Y",
+        "use X in Y"
+      ],
+      "anchor": "Article p. 120 · Vocab Treasure find 10"
+    },
+    {
+      "term": "Something of a misnomer",
+      "meaning": "A name that is somewhat misleading.",
+      "example": "The term “silent period” is something of a misnomer because many learners rehearse privately.",
+      "alternatives": [
+        "a misleading label",
+        "an inaccurate name"
+      ],
+      "anchor": "Article p. 121 · Vocab Treasure find 11"
+    },
+    {
+      "term": "What sets X apart from Y is that …",
+      "meaning": "Introduce the feature distinguishing X from a comparison group.",
+      "example": "What sets this study apart from earlier work is that it tracks three drafts.",
+      "alternatives": [
+        "What distinguishes X is …",
+        "X differs in that …"
+      ],
+      "anchor": "Article p. 121 · Vocab Treasure find 12"
+    },
+    {
+      "term": "Most, if not all",
+      "meaning": "A cautious phrase meaning the majority and possibly every one.",
+      "example": "Most, if not all, participants used machine translation for at least one task.",
+      "alternatives": [
+        "nearly all",
+        "the great majority of"
+      ],
+      "anchor": "Article p. 123 · Vocab Treasure find 13"
+    },
+    {
+      "term": "Albeit",
+      "meaning": "Introduce a qualification or limitation.",
+      "example": "The intervention improved accuracy, albeit only for the structures taught explicitly.",
+      "alternatives": [
+        "although",
+        "though"
+      ],
+      "anchor": "Article p. 127 · Vocab Treasure find 14"
+    },
+    {
+      "term": "By extension",
+      "meaning": "Carry the same reasoning to a broader or related case.",
+      "example": "Teacher beliefs shape practice and, by extension, students’ learning opportunities.",
+      "alternatives": [
+        "by implication",
+        "as a further consequence"
+      ],
+      "anchor": "Article p. 127 · Vocab Treasure find 15"
+    },
+    {
+      "term": "Include, but are not limited to",
+      "meaning": "Indicate that the listed items are examples from a larger set.",
+      "example": "Data sources include, but are not limited to, diaries, stimulated recall, and screen recordings.",
+      "alternatives": [
+        "include, among others",
+        "such as"
+      ],
+      "anchor": "Article p. 130 · Vocab Treasure find 16"
+    },
+    {
+      "term": "Be contingent on",
+      "meaning": "Depend on a circumstance or condition.",
+      "example": "Fluency gains appeared contingent on the amount of out-of-class practice.",
+      "alternatives": [
+        "depend on",
+        "hinge on",
+        "be conditional on"
+      ],
+      "anchor": "Article p. 130 · Vocab Treasure find 17"
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which purpose belongs in the general definition?",
+      "options": [
+        "Ensure that every study uses the same philosophical assumptions",
+        "Broaden and deepen understanding and support corroboration",
+        "Achieve equal weighting in all projects",
+        "Estimate the effect of one method on another"
+      ],
+      "answer": 1,
+      "explanation": "The general definition gives breadth, depth, and corroboration as broad purposes. Equal weighting is one possible configuration.",
+      "anchor": "Article pp. 123–124"
+    },
+    {
+      "question": "An evaluation leads with learner test scores. Follow-up interviews explain the score pattern. How should you label the design?",
+      "options": [
+        "QUAL+quan",
+        "Equal-status mixed methods",
+        "QUAN+qual",
+        "Quantitative-only"
+      ],
+      "answer": 2,
+      "explanation": "The quantitative strand leads because the scores determine what the interviews explain. Capitals identify priority.",
+      "anchor": "Article pp. 123–124 and Note 6, p. 130"
+    },
+    {
+      "question": "Which claim about the evidence can you defend from the paper?",
+      "options": [
+        "19 definitions were available for coding, including two jointly authored definitions",
+        "19 of 36 individuals replied, which gives the confirmed response rate",
+        "15 of 19 definitions required the two strands to receive equal weight",
+        "Two independent coders confirmed all of the themes"
+      ],
+      "answer": 0,
+      "explanation": "The authors counted definitions as their units. Joint submissions make a direct participant-level response rate calculation ambiguous.",
+      "anchor": "Article p. 118"
+    },
+    {
+      "question": "A colleague wants to audit which expert definition contributed to which theme. What should the colleague start with?",
+      "options": [
+        "Figure 1, which lists each definition and code",
+        "The participant response-rate table",
+        "The appendix reporting agreement by coder",
+        "Table 1 and an independent definition-by-theme matrix"
+      ],
+      "answer": 3,
+      "explanation": "Table 1 reproduces the 19 definitions. The colleague can build a matrix and compare the result with the authors’ five themes.",
+      "anchor": "Article pp. 118–121"
+    },
+    {
+      "question": "Which revision best addresses the integration critique in a report that puts scores and interviews in separate chapters?",
+      "options": [
+        "Make both chapters the same length",
+        "Use score patterns to select interview cases and compare themes with those patterns in the interpretation",
+        "Translate every interview into binary codes",
+        "Add the words “mixed methods” to both chapter titles"
+      ],
+      "answer": 1,
+      "explanation": "Connecting the strands during sampling and interpretation shows how one strand informs the other.",
+      "anchor": "Article pp. 123, 125, 127"
+    },
+    {
+      "question": "Which list contains the five themes that emerged from the 19 definitions?",
+      "options": [
+        "Data, investigator, theory, method, inference",
+        "Pragmatism, logic, practice, politics, contingency",
+        "What, when or where, breadth, why, orientation",
+        "Triangulation, complementarity, development, initiation, expansion"
+      ],
+      "answer": 2,
+      "explanation": "The other lists draw on different frameworks. The five themes show where the expert definitions varied.",
+      "anchor": "Article pp. 118–123, 128–129"
+    },
+    {
+      "question": "A team claims that the 2007 paper requires pragmatism for every mixed study. Which response is most accurate?",
+      "options": [
+        "The general definition contains a pragmatism requirement",
+        "Clause (a) of the tentative fuller definition favors pragmatism, while Issue 3 leaves the best partner philosophy open",
+        "The paper rejects pragmatism in Issue 3",
+        "The 19 definitions establish experimental evidence for pragmatism"
+      ],
+      "answer": 1,
+      "explanation": "These passages serve different purposes. The general definition synthesizes the expert material, while the fuller proposal includes the authors’ preference.",
+      "anchor": "Article pp. 123, 125, 129"
+    },
+    {
+      "question": "What is the strongest concern if both an interview and a survey recruit only the most engaged learners?",
+      "options": [
+        "Their selection biases overlap, so one may do little to offset the other",
+        "An interview and a survey always have identical flaws",
+        "The qualitative approach automatically leads",
+        "Equal status makes a sample representative"
+      ],
+      "answer": 0,
+      "explanation": "The fundamental principle asks that strengths complement one another and weaknesses avoid overlap. Shared recruitment bias undermines that rationale.",
+      "anchor": "Article p. 127"
+    },
+    {
+      "question": "Which expression fits this sentence? Recent corpus findings ______ the assumption that learners avoid phrasal verbs.",
+      "options": [
+        "are credited with",
+        "are contingent on",
+        "call into question",
+        "by virtue of"
+      ],
+      "answer": 2,
+      "explanation": "“Call into question” signals that evidence raises doubt about the assumption.",
+      "anchor": "Article p. 117 · Vocab Treasure find 07"
+    },
+    {
+      "question": "Which expression signals that the gain depended on practice time?",
+      "options": [
+        "was something of a misnomer",
+        "was brought to bear on practice time",
+        "was forthcoming",
+        "was contingent on practice time"
+      ],
+      "answer": 3,
+      "explanation": "“Be contingent on” names the condition on which an outcome depends.",
+      "anchor": "Article p. 130 · Vocab Treasure find 17"
+    }
+  ],
+  "film": "confessor"
+}

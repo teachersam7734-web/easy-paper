@@ -1,0 +1,317 @@
+{
+ "meta": {
+  "mode": "review-guide",
+  "byline": "Sajjad Irani",
+  "kicker": "Review Guide · 2-hour cram",
+  "short_title": "<Short title>",
+  "cover": "compact",
+  "cover_chips": [
+   {
+    "icon": "timer",
+    "text": "2-hour plan"
+   },
+   {
+    "icon": "zap",
+    "text": "80/20"
+   }
+  ],
+  "paper": {
+   "title": "<Exact paper title>",
+   "authors": "<Authors in byline order>",
+   "year": "<Year>",
+   "reference": "<APA 7 reference with DOI>",
+   "pages": 20
+  },
+  "skeleton": true
+ },
+ "blocks": [
+  {
+   "type": "sheet",
+   "no": 1,
+   "title": "The big picture",
+   "sub": "Read this first · 10 min",
+   "blocks": [
+    {
+     "type": "preview",
+     "items": [
+      "<Q1?>",
+      "<Q2?>",
+      "<Q3?>",
+      "<Q4?>"
+     ]
+    },
+    {
+     "type": "mindmap",
+     "center": "<core idea>",
+     "sub": "<6-10 word message>",
+     "height_mm": 118,
+     "branches": [
+      {
+       "label": "<Branch 1>",
+       "icon": "layers",
+       "leaves": [
+        "<leaf>",
+        "<leaf>"
+       ]
+      },
+      {
+       "label": "<Branch 2>",
+       "icon": "layers",
+       "leaves": [
+        "<leaf>",
+        "<leaf>"
+       ]
+      },
+      {
+       "label": "<Branch 3>",
+       "icon": "layers",
+       "leaves": [
+        "<leaf>",
+        "<leaf>"
+       ]
+      },
+      {
+       "label": "<Branch 4>",
+       "icon": "layers",
+       "leaves": [
+        "<leaf>",
+        "<leaf>"
+       ]
+      },
+      {
+       "label": "<Branch 5>",
+       "icon": "layers",
+       "leaves": [
+        "<leaf>",
+        "<leaf>"
+       ]
+      },
+      {
+       "label": "<Branch 6>",
+       "icon": "layers",
+       "leaves": [
+        "<leaf>",
+        "<leaf>"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "tone": "key",
+     "title": "If you remember one thing",
+     "text": "<the one thing>"
+    },
+    {
+     "type": "nuggets",
+     "items": [
+      "<n>",
+      "<n>",
+      "<n>"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "sheet",
+   "no": 2,
+   "title": "Must-knows (1/2)",
+   "sub": "The 3-star items · 35 min",
+   "blocks": [
+    {
+     "type": "chunk",
+     "id": "★★★ 1",
+     "question": "<Hunt question 1>?",
+     "answer": "<Short answer, 45 words max>",
+     "pages": "pp. 1-2",
+     "minutes": 4,
+     "blocks": [
+      {
+       "type": "p",
+       "text": "<Plain explanation, 95 words max per paragraph>"
+      },
+      {
+       "type": "table",
+       "columns": [
+        "<Col>",
+        "<Col>"
+       ],
+       "rows": [
+        [
+         "<a>",
+         "<b>"
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "sheet",
+   "no": 3,
+   "title": "Must-knows (2/2)",
+   "sub": "2-star items, numbers, hooks · 30 min",
+   "blocks": [
+    {
+     "type": "stats",
+     "items": [
+      {
+       "value": "<n>",
+       "label": "<meaning>"
+      }
+     ]
+    },
+    {
+     "type": "cards",
+     "cols": 3,
+     "items": [
+      {
+       "title": "<hook>",
+       "text": "<hook>",
+       "tone": "gold"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "sheet",
+   "no": 4,
+   "title": "Exam ready",
+   "sub": "Test yourself · 45 min",
+   "blocks": [
+    {
+     "type": "qa",
+     "title": "Likely exam questions",
+     "items": [
+      {
+       "q": "<q>",
+       "a": "<a>"
+      },
+      {
+       "q": "<question 2>",
+       "a": "<answer first, then one reason>"
+      },
+      {
+       "q": "<question 3>",
+       "a": "<answer first, then one reason>"
+      },
+      {
+       "q": "<question 4>",
+       "a": "<answer first, then one reason>"
+      }
+     ]
+    },
+    {
+     "type": "studyplan",
+     "title": "Your 2-hour game plan",
+     "items": [
+      {
+       "min": "10",
+       "task": "Page 1"
+      },
+      {
+       "min": "35",
+       "task": "Page 2"
+      },
+      {
+       "min": "25",
+       "task": "Page 3"
+      },
+      {
+       "min": "15",
+       "task": "Blind recall"
+      },
+      {
+       "min": "20",
+       "task": "Page 4"
+      },
+      {
+       "min": "15",
+       "task": "Fix"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "items": [
+      {
+       "q": "<Definition question>",
+       "type": "mcq",
+       "options": [
+        "<A>",
+        "<B>",
+        "<C>",
+        "<D>"
+       ],
+       "answer": "B. <B>",
+       "why": "<one line> [p. 1]"
+      },
+      {
+       "q": "<Finding question>",
+       "type": "mcq",
+       "options": [
+        "<A>",
+        "<B>",
+        "<C>"
+       ],
+       "answer": "A. <A>",
+       "why": "<one line> [p. 1]"
+      },
+      {
+       "q": "<Apply it to a classroom>",
+       "type": "apply",
+       "answer": "<model answer>",
+       "why": "<why> [p. 1]"
+      },
+      {
+       "q": "<Common misconception>",
+       "type": "tf",
+       "answer": "False",
+       "why": "<why> [p. 1]"
+      },
+      {
+       "q": "<Critique or connection question>",
+       "type": "short",
+       "answer": "<model answer>",
+       "why": "<why> [p. 1]"
+      },
+      {
+       "q": "<Question 6>",
+       "type": "mcq",
+       "options": [
+        "<A>",
+        "<B>",
+        "<C>",
+        "<D>"
+       ],
+       "answer": "B. <B>",
+       "why": "<one line> [p. 1]"
+      },
+      {
+       "q": "<Question 7>",
+       "type": "mcq",
+       "options": [
+        "<A>",
+        "<B>",
+        "<C>"
+       ],
+       "answer": "A. <A>",
+       "why": "<one line> [p. 1]"
+      },
+      {
+       "q": "<Question 8>",
+       "type": "apply",
+       "answer": "<model answer>",
+       "why": "<why> [p. 1]"
+      }
+     ]
+    },
+    {
+     "type": "answer_key"
+    }
+   ]
+  }
+ ]
+}

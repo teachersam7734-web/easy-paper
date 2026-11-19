@@ -1,0 +1,77 @@
+/* Mord'Sith components. Each marked group can be copied independently. */
+:root {
+  /* Open Props by Adam Argyle. MIT notice is in assets/Open-Props-LICENSE.txt. */
+  --ease-out-3: cubic-bezier(0, 0, .3, 1);
+  --ease-in-out-2: cubic-bezier(.3, 0, .7, 1);
+}
+
+/* Fluid study map. */
+.map-grid {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr));
+}
+
+/* Native quiz choices and correct-answer feedback. */
+.quiz-options label {
+  border: 1px solid transparent;
+  border-radius: calc(var(--radius) / 2);
+  padding: .43rem .5rem;
+}
+.quiz-options label:has(input:checked) {
+  background: color-mix(in srgb, var(--accent) 9%, var(--surface));
+  border-color: var(--accent);
+}
+.quiz-feedback[data-result="correct"] {
+  border-inline-start: .2rem solid var(--accent);
+  padding-inline-start: .55rem;
+}
+
+/* Open disclosure and visible keyboard focus. */
+:is(.memory, .quiz-explanation)[open] > summary {
+  text-underline-offset: .18em;
+  text-decoration: underline;
+}
+.mode-link:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+@media (forced-colors: active) {
+  .quiz-options label:has(input:checked) { border-color: Highlight; }
+  .mode-link:focus-visible { outline-color: Highlight; }
+  .mode-link[aria-current] { border: 2px solid Highlight; }
+}
+
+/* Agiel evidence locator with CSS-only brackets. */
+[data-theme="agiel"] .study-card .anchor {
+  display: inline-block;
+  padding: .18rem .52rem;
+  background:
+    linear-gradient(var(--accent), var(--accent)) left top / .45rem 1px no-repeat,
+    linear-gradient(var(--accent), var(--accent)) left top / 1px .45rem no-repeat,
+    linear-gradient(var(--accent), var(--accent)) right bottom / .45rem 1px no-repeat,
+    linear-gradient(var(--accent), var(--accent)) right bottom / 1px .45rem no-repeat;
+}
+
+/* Confessor margin note. */
+[data-theme="confessor"] .memory[open] > p {
+  border-inline-start: .18rem solid var(--accent);
+  padding-inline-start: .75rem;
+  max-inline-size: 58ch;
+}
+
+/* Keep selection visible when colors are muted or overridden. */
+:is(.folio-lenses, .agiel-scan-controls) button[aria-pressed="true"],
+[data-theme="confessor"] .mode-link[aria-current],
+[data-theme="seeker"] .mode-link[aria-current] {
+  text-decoration: underline .13em;
+  text-underline-offset: .32em;
+}
+
+/* Hover response with motion and input preferences respected. */
+@media (prefers-reduced-motion: no-preference) and (hover: hover) {
+  .hero-actions > *, .mode-link, .quiz-options label {
+    transition: background-color 160ms var(--ease-out-3), border-color 160ms var(--ease-out-3);
+  }
+  [data-theme="seeker"] .quiz-options label {
+    transition-timing-function: var(--ease-in-out-2);
+  }
+}

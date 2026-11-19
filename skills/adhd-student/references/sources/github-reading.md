@@ -1,0 +1,69 @@
+---
+name: github-reading
+description: GitHub and web research for ADHD-friendly study and AI-assisted reading (part 1, reading and studying texts); which repos were checked, what each contains, what we borrowed, licences, and the patterns found. Read before extending the Prompt Vault or citing a repo.
+---
+
+# GitHub research, part 1: reading and studying texts
+
+Date checked: 2026-11-07. Method: GitHub repository search (stars-sorted) for each topic, then the README (and, where a file path was known, a raw file) of each shortlisted repo was read. Repos listed in "Read and used" were opened. Repos in "Seen but not used" were only seen in search results (name, description, licence field); their content is not claimed.
+
+Limits of this check
+- The GitHub contents and tree API was blocked in this session, so I read READMEs and a few raw files only, not whole repositories. Where a repo's prompt files could not be opened, that is stated.
+- Star counts change daily; they are given only as a rough popularity signal and were read from search results on the date above.
+- We copied no text from any repo. We borrowed ideas and structures and wrote our own prompts. Several repos have no stated licence; for those, ideas only, no copying.
+- Evidence labels in the repos (for example "strong") are the repos' own claims unless marked otherwise. Our science files do the independent verification.
+
+## Read and used
+
+| Repo (URL) | What is in it (verified from README) | What we borrowed | Licence |
+|---|---|---|---|
+| https://github.com/itsAalaa7/adhd-study-coach | ADHD study coach as an agent for Claude Code and a copy-paste "compact" prompt for any chatbot. Modes: onboarding, warm-up quiz, teach in tiny chunks, reflect (teach-back interview), check-in. Keeps state in a pasteable "Progress Card". RESEARCH.md rates each feature (strong, moderate, weak) and cites sources. | Honest evidence labelling per feature; grade answers solid / shaky / blank (never "wrong"); one question per message; chunks of 4 to 5 lines; teach-back at the end; "65% is done enough" timebox rule; a portable progress card (adapted for our next-day handoff in 04). | MIT |
+| https://github.com/lazyfoxjumps/Loft-Hours | A "body doubling" focus-session skill for Claude Code: four-question intake (what, how long, what does done look like, energy), a visible goal, no interruptions during the block, one honest check-in at the end, markdown session logs. | Externalised goal on screen; define "done" before starting; no mid-block interruption; plain non-shaming redirection; session receipts. Body doubling is treated as an optional low-evidence aid. | MIT |
+| https://github.com/ravila4/claude-adhd-skills | Skills and hooks to stay organised with AI agents: time-awareness hook, Obsidian vault conventions, a "nudge" system for timed reminders, ADHD-oriented CLAUDE.md patterns (break suggestions, pacing, asking over assuming). | Time awareness as a first-class feature (the AI states time checkpoints rather than relying on the learner's sense of time); asking before assuming. | MIT |
+| https://github.com/mordor-forge/study-skill | Agent Skills-compatible study tutor: FSRS-based spaced-repetition scheduler, optional research integrations, PDF source support, restart-safe session state, "ADHD-aware sessions". README notes a v2 ("Lamplight") on a separate branch. | Restart-safe state idea (resume where you stopped); source material read from PDFs; scheduler idea (we use fixed review days instead). Not used: the NotebookLM route, which the README itself says is no longer supported. | Not stated in the README or search metadata (unverified) |
+| https://github.com/paczkow/SQ3R | AI tool that applies SQ3R: extracts key concepts per chapter, generates study questions, "reading focus directives" (attention-priming statements), relationship mapping (enables, requires, contrasts), two phases (Discovery for a first read, Deep Dive for detail), output as Obsidian callouts. | Reading-focus directive ("notice how the author separates X from Y"); target-driven questions (the reader states a purpose first); first-read versus deep-read phases; concept relationships typed as enables, requires, contrasts. | None stated |
+| https://github.com/codenibler/headjack | Python script that adds SQ3R aids to EPUB chapters: a short chapter preview, space for your own questions, reflection questions at the end. Its prompts live in a prompts.toml (read). README states it deliberately avoids RSVP and special fonts because it judged them not beneficial for comprehension (the README's claim, not independently checked here). | Reflection questions must link chapter details to prior knowledge, analogous cases, causes, consequences or trade-offs, and must avoid generic ones like "What did you learn?" (used in 03 and 04). Preview of 4 to 6 bullets (used in 04). | None stated |
+| https://github.com/computer-agent/literature-deep-reading | An agent skill for intensive paper reading as a three-stage state machine: macro skeleton, mechanism and evidence audit (figures, ablations), then internalisation (Feynman self-test, hostile reviewer, transfer). Bilingual terminology anchoring. Separates authors' explicit claims from inference and speculation. | Three-way labelling of claims (author states / reasonable inference / speculation) used in 02 and 03; "hostile reviewer" stage maps to our rival-researcher role; tailored Feynman self-test. | MIT |
+| https://github.com/aarora79/my-ai-assets | Prompt templates and skills. Includes an XML-structured Feynman-technique academic paper analysis prompt (read): identify the core concept, teach it to a novice, find gaps, simplify, critique, technical deep-dive. | Explicit "identify gaps in understanding" step (assumptions not explained, logical jumps, unanswered questions) used in 02 and 03. Not borrowed: the "saves you N minutes" framing, which encourages reading less rather than reading actively. | MIT-0 |
+| https://github.com/ericl574/ai-student-toolkit | Free prompt library for students (lecture to notes, readings to summary with a spot-check list, notes to flashcards, essay research, syllabus to study plan), a study-planner script, and an ETHICAL_USE guide ("verify before you trust"). The prompts folder itself could not be opened here; the claims are from the README only. | Spot-check list idea (the AI lists claims for the student to verify against the source); explicit verify-before-trust rule (built into every prompt through page citations and the OUTSIDE THE PDF label). | MIT |
+| https://github.com/vaibhav4046/cogniloop | Web app: a "tutor that refuses to give you the answer". Socratic loop with five question types (explain, apply, contrast, predict, trace), a 0 to 3 scoring rubric, concept states weak / shaky / solid / mastered, difficulty 1 to 5, three modes (chill, exam, expert). | Five question types and the 0 to 3 rubric (used in the sparring prompt); concept states (used in the weak-topic tracker); mode switch (chill / exam / expert) mapped onto our role cards. | None stated |
+| https://github.com/raine/anki-llm | CLI/TUI for bulk-processing and generating Anki cards with LLMs; reviewable CSV or YAML files, duplicate detection, prompts stored as plain files, text-to-speech. | Generate several candidate cards, review them, import only the ones you choose (we make the student the filter); keep prompts as reviewable plain text. | MIT |
+| https://github.com/frederik-hoeft/anki-llm-prompt-engineering | ChatGPT workflow for source-grounded exam-focused Anki cards from lecture PDFs: extraction stage (check every page, coverage gate, checkpoints) then optimisation stage; output is a draft for human review. | Source-grounded cards that name their page; coverage check ("which sections produced no cards?"); the principle that AI output is a draft the student merges with their own understanding. | None stated in README (unverified) |
+| https://github.com/PromtEngineer/Anki_FlashCard_Generator | Python script that chunks PDFs and asks an LLM for cards, writes flashcards.txt for Anki import. README warns the LLM does not always follow the requested format. | The warning itself: ask for a strict one-line format and tell the student to check format before import. | Apache-2.0 (from search metadata; the README does not state it) |
+| https://github.com/TfTHacker/cornell-notes-learning-vault | Obsidian vault for the Cornell notes system, open-sourced from tfthacker.com. | Confirms Cornell layout as cues column, notes, summary; adapted as the cue-question step in 04. The README is short and describes how to open the vault, not the method, so the layout is general knowledge, not read from this repo. | MIT |
+| https://github.com/KenWuqianghao/Obsidian-Cornell-Notes-Generator | Uses an LLM to generate timeline-style Cornell notes from transcripts, textbooks, slides. | Only the idea of an LLM producing cue questions plus summary; our version has the student write the notes first. | Apache-2.0 |
+| https://github.com/f/prompts.chat (formerly Awesome ChatGPT Prompts) | The best-known open prompt library; community persona prompts ("act as a ..."). README states code under MIT and prompt content under CC0 1.0. I did not audit its individual learning prompts. | The persona-prompt convention, which we turned into the role cards (examiner, beginner, rival, journalist, plus new ones). | MIT code, CC0 prompt content (per README) |
+
+## Seen in search results only (not opened, no content claimed)
+
+| Repo | Why noted |
+|---|---|
+| https://github.com/bevibing/tutor-skills (README points to RoundTable02/tutor-skills) | Claude Code skills that turn documents into an Obsidian study vault and quiz you; looked relevant for part 2 (tools and skills). |
+| https://github.com/Polaris-Aeterna/loom-notes | LaTeX class plus Claude skill for fill-in-the-blank study notes (active recall on paper). Maths-oriented; idea of "fill-in notes" noted. |
+| https://github.com/mrseth01/awesome-adhd (CC0-1.0) and https://github.com/XargsUK/awesome-adhd | Awesome-lists of ADHD apps, books, podcasts. Opened only to check scope: general ADHD living resources, apps, timers; nothing about academic reading methods. Not used. |
+| https://github.com/JetBrains-Research/adhd-study | Appears to be a research code repository (no description); not a study-help tool. Not used. |
+| https://github.com/EntangledQuantum/Life_OS, https://github.com/pholbo/getting-things-adhdone, https://github.com/jdpolasky/ai-chief-of-staff | ADHD task and life-management systems (SQLite, Obsidian + Claude Code). Task management, not reading. Not used. |
+| https://github.com/Nyctukazu/SQ3R_ReadingAssistant | Prototype with a one-paragraph README; no usable content. |
+| Other SQ3R, Cornell and Anki repos in the search results | Tiny or student-project repos with no description; skipped. |
+
+Searches that returned nothing useful: an "awesome list" for learning how to study (results were unrelated programming lists), and a Notion ADHD template (only one tiny repo of free templates, not about studying). This is a real gap: there is no established awesome-list for evidence-based studying on GitHub that I could find.
+
+## Patterns found across the repos
+
+1. Retrieval first, re-reading never. The better repos (adhd-study-coach, cogniloop, tutor-style skills) all build around quizzing and teach-back and explicitly discourage highlighting and re-reading. This matches the original system's blind recall and sparring.
+2. One question at a time, short replies. Nearly every ADHD-oriented prompt enforces it. The original system already does; keep it as a hard rule.
+3. State outside the chat. Chats forget, so the good designs use a pasteable card or a markdown log (Progress Card, session logs, StudyVault). We adopt a "handoff note" for multi-day chapters.
+4. Define "done" before starting, keep the goal visible. Loft-Hours and our hunt questions do the same job.
+5. Never shame; grade with gentle labels (solid / shaky / blank; SURVIVED / PARTIAL / FALLEN).
+6. Honest evidence tiers. Only adhd-study-coach separates strong, moderate and weak evidence; body doubling and gamification are flagged as low-evidence. We do the same.
+7. Generate-then-filter for flashcards. Good Anki tools generate candidates and make the human choose and edit; source-grounded cards carry a page reference. Format drift is a known failure, so ask for one strict line format and check it.
+8. Source grounding. Reading tools that avoid hallucination force page references, an "outside the source" label, and a spot-check list. Our opener already does this.
+9. Typed relationships between concepts (enables, requires, contrasts) and typed claims (stated, inferred, speculative) make concept maps and critique sharper.
+10. Gaps in the field: no repo found that targets Applied Linguistics or SLA reading, no repo combining ADHD pacing with academic-paper reading, and almost no textbook-chapter workflows (headjack is the closest). That is the niche Easy Paper fills.
+
+## How this feeds the Prompt Vault
+
+- 01-before-reading: reading-focus directives and purpose-first questions (paczkow/SQ3R), define done and energy check (Loft-Hours), prerequisite flags (literature-deep-reading), time stated for the learner (claude-adhd-skills).
+- 02-during-reading: solid / shaky / blank grading and tiny chunks (adhd-study-coach), claim typing (literature-deep-reading), gaps step (aarora79), figure and evidence audit (literature-deep-reading).
+- 03-after-reading: five question types and 0 to 3 rubric (cogniloop), teach-back (adhd-study-coach, aarora79), hostile reviewer (literature-deep-reading), generate-then-filter flashcards with page references (anki-llm, frederik-hoeft).
+- 04-textbook-chapters: chapter preview and non-generic reflection questions (headjack), Cornell cue questions, carry-over note (adhd-study-coach Progress Card).

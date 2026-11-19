@@ -1,0 +1,7 @@
+/* Critique Notes theme: formal and judicial. Indigo lead accent; green strengths, pink weaknesses.
+   Fonts: Space Grotesk (display), Inter (body), EB Garamond italic (say-it lines), JetBrains Mono (labels). */
+:root{--accent:#4F46C8;--accent-soft:#ECEBFB;--accent-2:#D99A06;--accent-2-soft:#FFF3D1;--fs:9.5pt}
+.cover h1{font-size:19pt}
+.chunk{border-left-color:var(--accent)}
+.hq-q{font-size:11.6pt}
+.sec-h h2{font-size:14pt}

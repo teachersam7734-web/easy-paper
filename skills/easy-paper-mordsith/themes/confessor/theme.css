@@ -1,0 +1,393 @@
+:root {
+  --bg: #f7f7fa;
+  --surface: #fcfcff;
+  --ink: #1b2040;
+  --muted: #515974;
+  --line: #acb3cb;
+  --accent: #324ac1;
+  --on-accent: #fff;
+  --display: "Palatino Linotype", Palatino, Georgia, serif;
+  --body: "Segoe UI", system-ui, sans-serif;
+  --frame: min(100% - 6rem, 86rem);
+  --radius: .65rem;
+  --rule: #d4d8e6;
+}
+body {
+  background: var(--bg);
+}
+.folio-masthead {
+  width: var(--frame);
+  margin-inline: auto;
+  min-height: 4.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  border-bottom: 1px solid var(--line);
+}
+.folio-brand, .folio-edition, .eyebrow, .folio-plate-head, .anchor {
+  font-size: .76rem;
+  font-weight: 650;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
+.folio-brand {
+  color: var(--ink);
+  text-decoration: none;
+  display: flex;
+  gap: .65rem;
+  align-items: center;
+}
+.folio-seal {
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--line);
+  width: 1.95rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  color: var(--accent);
+  font-size: 1rem;
+}
+.folio-edition { color: var(--muted); text-align: right; }
+.folio-edition span { padding-inline: .4em; color: var(--accent); }
+.folio-spread {
+  width: var(--frame);
+  margin-inline: auto;
+  display: grid;
+  align-items: center;
+  grid-template-columns: minmax(0, 1fr) minmax(0, .96fr);
+  gap: clamp(1.5rem, 5vw, 6rem);
+  padding-block: clamp(2rem, 5.4vw, 5rem);
+}
+.folio-spread .hero { width: 100%; padding: 0; }
+.hero .eyebrow { color: var(--accent); margin-bottom: 1.15rem; }
+.hero h1 {
+  font-size: clamp(2.9rem, 5.25vw, 5.5rem);
+  font-weight: 400;
+  line-height: .97;
+  letter-spacing: -.062em;
+  max-width: 15ch;
+}
+.deck-subtitle {
+  font-size: clamp(1.25rem, 2.15vw, 1.85rem);
+  font-family: var(--display);
+  font-style: italic;
+  margin-top: 1.25rem;
+  color: var(--accent);
+}
+.citation { font-size: .84rem; }
+.lead { max-width: 47ch; font-size: clamp(1rem, 1.3vw, 1.15rem); }
+.hero-actions { margin-top: 1.45rem; }
+.hero-actions > *, .source-download button, .quiz-actions button {
+  min-height: 2.8rem;
+  border-radius: var(--radius);
+  font-size: .9rem;
+  font-weight: 650;
+}
+.hero-actions .primary-action { padding-inline: 1.12rem; }
+.hero-actions :is(a, button):hover, .source-download button:hover, .quiz-actions button:hover { border-color: var(--accent); }
+.presenter-note { color: var(--muted); font-size: .87rem; }
+.folio-plate {
+  min-width: 0;
+  margin: 0;
+  position: relative;
+  border-block: 1px solid var(--line);
+}
+.folio-plate-head {
+  min-height: 2.65rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--rule);
+  color: var(--accent);
+}
+.folio-art {
+  position: relative;
+  aspect-ratio: 1.39;
+  background: radial-gradient(ellipse at 51% 58%, #ccd5f4, #eceff9 62%, #f5f6fa);
+}
+.folio-art canvas { position: absolute; inset: 0; display: block; width: 100%; height: 100%; }
+.folio-plate figcaption {
+  position: relative;
+  padding: .5rem 0 .85rem;
+  border-top: 1px solid var(--rule);
+}
+.folio-lenses { display: flex; flex-wrap: wrap; gap: .25rem; margin-bottom: .55rem; }
+.folio-lenses button {
+  min-height: 2.75rem;
+  border: 1px solid transparent;
+  border-radius: .2rem;
+  background: transparent;
+  color: var(--muted);
+  padding: .35rem .65rem;
+  font-size: .84rem;
+  font-weight: 650;
+}
+.folio-lenses button:hover { color: var(--accent); border-color: var(--line); }
+.folio-lenses button[aria-pressed="true"] { color: var(--accent); }
+.folio-caption { display: flex; flex-wrap: wrap; gap: .3rem 1rem; justify-content: space-between; font-size: .85rem; }
+.folio-caption a { font-weight: 650; text-underline-offset: .2em; }
+html:not(.js) .folio-lenses { display: none; }
+.folio-index {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: var(--bg);
+  border-block: 1px solid var(--rule);
+}
+html { scroll-padding-top: 4.65rem; }
+.mode-nav { padding-block: .5rem; gap: .4rem; }
+.mode-link { min-height: 2.75rem; font-size: .88rem; font-weight: 650; padding-inline: .85rem; border-color: transparent; border-radius: .2rem; }
+.mode-link:not([aria-current]):hover { border-color: var(--line); color: var(--accent); }
+.mode-link[aria-current] { background: transparent; color: var(--accent); border-color: transparent; }
+.study-panel { padding-block: clamp(1.75rem, 4.3vw, 4rem); }
+.panel-head { margin-bottom: 1.65rem; }
+.panel-head h2 {
+  color: var(--ink);
+  font-size: clamp(2.6rem, 4.6vw, 4.4rem);
+  font-weight: 400;
+  letter-spacing: -.045em;
+}
+.section-grid, .quiz-grid { gap: 1rem; }
+.map-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.study-card, .map-card, .preview {
+  background: var(--surface);
+  border-color: var(--rule);
+  padding: clamp(1rem, 2.55vw, 2rem);
+}
+.map-card, .study-card:not(.quiz-card) {
+  border: 0;
+  border-block-start: 1px solid var(--rule);
+  border-radius: 0;
+  background: transparent;
+  padding-inline: 0;
+}
+.section-grid { column-gap: clamp(1.4rem, 4vw, 3.5rem); }
+.study-card h3, .map-card h3, .preview h3 {
+  font-family: var(--display);
+  font-size: clamp(1.3rem, 2.1vw, 1.85rem);
+  font-weight: 400;
+  letter-spacing: -.025em;
+  color: #283d97;
+}
+.nugget { font-weight: 630; }
+.study-card li::marker, .preview li::marker { color: var(--accent); }
+.study-card .anchor {
+  border-top: 1px solid var(--rule);
+  margin-top: 1.1rem;
+  padding-top: .65rem;
+  font-size: .72rem;
+  line-height: 1.45;
+  letter-spacing: .035em;
+  text-transform: none;
+}
+#vocab-treasure .section-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+#vocab-treasure .study-card:not(.vocab-card) { grid-column: 1 / -1; }
+.quiz-card { margin: 0; }
+.quiz-card .quiz-stem { max-width: 100%; line-height: 1.32; }
+.quiz-options label { align-items: start; min-height: 2.75rem; padding: .4rem; border-radius: .45rem; }
+.quiz-options label:hover, .quiz-options label:has(input:checked) { background: #e9edff; }
+.quiz-options input { margin-top: .33em; }
+.quiz-feedback[data-result="correct"] { color: #225c44; }
+.quiz-feedback[data-result="retry"] { color: #8b3d1b; }
+.source-download { margin-top: 1.25rem; }
+.site-footer { border-top: 1px solid var(--line); }
+.paper-film h3 { font-family: var(--display); font-weight: 400; }
+.presenting :is(.folio-spread, .folio-masthead, .folio-index) { display: none; }
+@media (max-width: 65rem) {
+  :root { --frame: calc(100% - 3rem); }
+  .folio-spread { gap: 1.65rem; }
+  #vocab-treasure .section-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+}
+@media (max-width: 52rem) {
+  :root { --frame: calc(100% - 2rem); }
+  .folio-spread { grid-template-columns: 1fr; align-items: start; }
+  .hero h1 { max-width: 21ch; font-size: clamp(2.65rem, 9.2vw, 4.6rem); }
+  .folio-plate { max-width: 40rem; }
+  .folio-art { aspect-ratio: 1.6; }
+  html { scroll-padding-top: 7rem; }
+  .mode-nav { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .3rem; padding-inline: .3rem; }
+  .mode-link { justify-content: center; min-width: 0; padding-inline: .25rem; text-align: center; white-space: normal; }
+  .map-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
+}
+@media (max-width: 38rem) {
+  .map-grid, #vocab-treasure .section-grid { grid-template-columns: 1fr; }
+}
+@media print {
+  .folio-spread { display: block !important; padding-block: 1rem; }
+  .folio-masthead, .folio-plate, .folio-index { display: none; }
+}
+
+.folio-vocab-filter {
+  display: grid;
+  gap: .45rem;
+  margin-bottom: 1.1rem;
+  max-width: 32rem;
+}
+.folio-vocab-filter label { color: var(--ink); font-weight: 650; }
+.folio-vocab-filter input {
+  min-width: 0;
+  min-height: 2.85rem;
+  padding: .5rem .8rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--ink);
+}
+.folio-vocab-filter p { color: var(--muted); font-size: .83rem; }
+@media print {
+  .folio-vocab-filter { display: none; }
+  .vocab-card[hidden] { display: block !important; }
+}
+
+/* Porcelain paper, engraved rules, and a dark optical plate. */
+:root { --bg:#eff4ee; --surface:#f9fbf5; --ink:#132d31; --muted:#425c5a; --accent:#17564d; --rule:#adbfaf; --line:#8da599; --radius:.18rem; --display:"Confessor Garamond",Georgia,serif; --body:"Confessor Inter",Arial,sans-serif }
+body { isolation:isolate; background:var(--bg); overflow-wrap:anywhere }
+.folio-atmosphere { position:fixed; inset:0; pointer-events:none; z-index:-1; overflow:hidden; background:linear-gradient(115deg,#f8f9ef 2%,#eff3e9 54%,#d5e4dd) }
+.folio-atmosphere::after { content:""; position:absolute; inset:-18%; background:repeating-radial-gradient(ellipse at 85% 54%,transparent 0 2.5rem,rgba(25,84,80,.055) 2.56rem,transparent 2.65rem 3.12rem); transform:rotate(-13deg); animation:folio-tide 24s ease-in-out infinite alternate }
+@keyframes folio-tide { to { transform:translate(2%,3%) rotate(-7deg) } }
+.folio-masthead { border-block-end:2px solid var(--ink) }
+.folio-seal { background:var(--ink); color:#f1f8da; border:none }
+.hero h1 { font-family:var(--display); font-size:clamp(3.1rem,6vw,6.8rem); letter-spacing:-.052em; line-height:.92; text-wrap:balance }
+.deck-subtitle { color:#345d50; line-height:1.15 }
+.folio-plate { background:#122e31; color:#f4f6df; border:1px solid #50685e; box-shadow:0 .7rem 2.8rem -.95rem #102e344a; padding:.7rem; width:100% }
+.folio-plate-head { justify-content:space-between; border-color:#577470; color:#cee8d4; padding-inline:.3rem }
+.folio-sound { min-height:2.75rem; background:transparent; border:0; color:#dcf4d7; font:inherit; cursor:pointer }
+.folio-art { background:radial-gradient(ellipse at center,#22474b 0%,#112e34 56%,#091e26 100%); overflow:hidden }
+.folio-art::before { content:""; position:absolute; inset:5%; border:1px solid #98caba35; border-radius:50%; transform:scale(.92,.88) }
+.lens-cross { position:absolute; inset:0; background:linear-gradient(90deg,transparent calc(50% - .5px),#b8e3d329 50%,transparent calc(50% + .5px)),linear-gradient(0deg,transparent calc(50% - .5px),#b8e3d329 50%,transparent calc(50% + .5px)) }
+.folio-plate figcaption { padding:.65rem .3rem .25rem; border-color:#53736f }
+.folio-lenses { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:2px }
+.folio-lenses button { padding:.3rem .1rem; color:#d5e4db; border-radius:0; border-bottom:1px solid #577470 }
+.folio-lenses button[aria-pressed="true"] { color:#132d31; background:#dbf1c9 }
+.folio-lenses button:hover:not([aria-pressed="true"]) { color:white; border-color:#a3d2b9 }
+.folio-caption,.folio-caption a { color:#dfefdc }
+.mode-link[aria-current] { background:var(--ink); color:#edf6de }
+.study-panel .panel-head { border-bottom:2px solid var(--ink); padding-bottom:1.2rem }
+.study-panel .panel-head h2 { font-family:var(--display); line-height:1.25 }
+.study-card h3,.map-card h3,.preview h3 { color:var(--accent); line-height:1.12 }
+.study-card,.map-card,.quiz-grid,.quiz-card, .quiz-options label > *, .section-grid > *, .hero-actions > * { min-inline-size:0; max-inline-size:100% }
+#critique .study-card { padding-inline-start:1rem; border-inline-start:3px double #648778 }
+#review-guide .quiz-card { background:#f6f8ed; border:1px solid #809a8a; border-block-end:3px double #809a8a }
+.quiz-options label:hover,.quiz-options label:has(input:checked) { background:#dcebd8 }
+#vocab-treasure .vocab-card { background:#f8faee; padding-inline:1rem; border-top:2px solid #66877b }
+.folio-vocab-filter input { border-bottom:2px solid var(--accent) }
+.paper-film { background:var(--surface) }
+@media(max-width:52rem) { .hero h1 { font-size:clamp(2.9rem,10vw,5.3rem) } .folio-plate { max-width:none } }
+@media(max-width:38rem) { .folio-edition { max-width:48% } .folio-caption { display:grid } .folio-lenses button { font-size:.76rem } }
+@media(prefers-reduced-motion:reduce) { .folio-atmosphere::after { animation:none } }
+@media print { .folio-atmosphere { display:none } }
+@font-face {font-family:"Confessor Garamond";src:url("{{ASSET:eb-garamond-400-latin.woff2}}");font-weight:400;font-display:swap}
+@font-face {font-family:"Confessor Inter";src:url("{{ASSET:inter-400-latin.woff2}}");font-weight:400;font-display:swap}
+.folio-reading { font:400 .75rem/1.4 var(--body); letter-spacing:.04em; padding:.35rem .5rem; background:#0e262b; color:#d6efdb; border-inline-start:2px solid #acdcbb }
+
+@font-face {
+  font-family: "Confessor Garamond";
+  src: url("{{ASSET:eb-garamond-italic-400-latin.woff2}}") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Folio Plex";
+  src: url("{{ASSET:ibm-plex-mono-500-latin.woff2}}") format("woff2");
+  font-weight: 500;
+  font-display: swap;
+}
+@media screen {
+  :root {
+    --bg: #eef0f8;
+    --surface: #fafaff;
+    --ink: #17243e;
+    --muted: #4b5873;
+    --accent: #394f82;
+    --rule: #afb9d2;
+    --line: #929fbd;
+  }
+  .folio-sky {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    --bg: #0c1220;
+    --surface: #172339;
+    --ink: #faf4ea;
+    --muted: #c3cfe6;
+    --accent: #dfcba7;
+    --on-accent: #191d28;
+    --line: #5d6e8a;
+    --rule: #435574;
+    color: var(--ink);
+    background: #0b1325;
+  }
+  .folio-atmosphere {
+    position: absolute;
+    background:
+      radial-gradient(ellipse at 80% 30%, #273b63 0%, transparent 43%),
+      radial-gradient(ellipse at 12% 90%, #162744 0%, transparent 45%),
+      linear-gradient(133deg, #081020, #10182c 60%, #1b1931);
+  }
+  .folio-atmosphere::after {
+    inset: 0;
+    opacity: .5;
+    background:
+      radial-gradient(circle at 35% 45%, #e0e9fc 0 .55px, transparent 1px),
+      radial-gradient(circle at 61% 32%, #c4d6ff 0 .7px, transparent 1px),
+      radial-gradient(circle at 76% 73%, #ebcda7 0 .55px, transparent 1px);
+    background-size: 127px 149px, 171px 166px, 218px 203px;
+    transform: none;
+    animation: observatory-drift 24s linear infinite alternate;
+  }
+  html:is([data-folio-motion="off"], [data-folio-running="false"]) .folio-atmosphere::after { animation-play-state: paused; }
+  @keyframes observatory-drift { to { background-position: 18px -12px, 22px 10px, -22px 11px; } }
+  .folio-masthead { border-block-end: 1px solid #7484a06e; }
+  .folio-seal { background: #223658; color: #f2dcba; }
+  .folio-brand, .folio-edition, .folio-sky .eyebrow {
+    font-family: "Folio Plex", monospace;
+    font-weight: 500;
+  }
+  .folio-spread .hero h1 { color: var(--ink); }
+  .folio-spread .deck-subtitle { color: var(--accent); }
+  .folio-spread :is(.primary-action, .hero-actions button) { border: 1px solid #8293b3; }
+  .folio-spread .hero-actions button { color: #eef2ff; background: #17233a; }
+  .folio-spread .hero-actions button:hover { background: #23314e; }
+  .folio-plate {
+    background: #121d32;
+    color: #f4ecdd;
+    border: 1px solid #536785;
+    box-shadow: 0 1.2rem 4rem #03091299;
+    padding: .65rem;
+  }
+  .folio-plate-head { font-family: "Folio Plex", monospace; color: #e2d5bc; border-color: #526789; }
+  .folio-plate-head > span { min-width: 0; }
+  .folio-switches { display: flex; flex-wrap: wrap; justify-content: end; gap: .4rem; }
+  .folio-switches button { min-height: 2.6rem; border: 0; background: transparent; color: #dbe5fb; padding: .3rem; font: inherit; }
+  .folio-switches button:hover { color: #f3d7ad; }
+  .folio-switches button[aria-pressed="true"] { color: #f3d7ad; }
+  .folio-art { background: radial-gradient(ellipse, #253858, #101b33 58%, #080f20); }
+  .folio-art::before { display: none; }
+  .folio-plate figcaption { border-color: #536789; }
+  .folio-lenses button { color: #dce6f9; border-bottom-color: #4d6184; overflow-wrap: anywhere; }
+  .folio-lenses button[aria-pressed="true"] { color: #152036; background: #e6d5b5; }
+  .folio-lenses button:hover:not([aria-pressed="true"]) { color: #fff6e9; border-color: #acbad2; }
+  .folio-caption, .folio-caption a { color: #dce6f9; }
+  .folio-image-credit { display: block; margin-block-start: .45rem; color: #b5c2d9; font-size: .69rem; }
+  .folio-reading {
+    background: #0c172a;
+    border-inline-start-color: #d0ac73;
+    color: #e4d6bb;
+    font-family: "Folio Plex", monospace;
+    font-size: .69rem;
+    font-weight: 500;
+  }
+  .folio-index { background: var(--bg); }
+  .mode-link[aria-current] { color: #f5eddb; }
+  .quiz-options label:hover, .quiz-options label:has(input:checked) { background: #e2e8fb; }
+  #vocab-treasure .vocab-card { background: #f8f8fd; border-top-color: #8294be; }
+  #critique .study-card { border-inline-start-color: #6e83ad; }
+  .presenting .folio-sky { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .folio-atmosphere::after { animation: none !important; }
+}
+@media print {
+  .folio-sky { background: none; }
+}

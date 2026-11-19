@@ -1,0 +1,87 @@
+body { isolation: isolate; }
+.paper-atmosphere {
+  position: fixed; inset: 0; inline-size: 100%; block-size: 100%; z-index: -1;
+  pointer-events: none;
+}
+[aria-hidden="true"].paper-atmosphere { user-select: none; }
+.presenting .paper-atmosphere { opacity: .25; }
+body:has(.paper-atmosphere) :is(.study-card, .map-card, .preview, .quiz-card) {
+  background: radial-gradient(ellipse 17rem 12rem at var(--light-x, 80%) var(--light-y, 0%),
+    rgb(var(--field-rgb) / var(--field-light, .04)), transparent 95%), var(--field-surface);
+  box-shadow: var(--field-shadow);
+  border-color: var(--field-border);
+  transition: border-color 200ms ease, box-shadow 200ms ease;
+}
+body:has(.paper-atmosphere) :is(.study-card, .map-card, .preview, .quiz-card):is(:hover, :focus-within) {
+  --field-light: .16;
+  border-color: color-mix(in srgb, var(--field-border), var(--accent) 42%);
+}
+body:has(.paper-atmosphere) .quiz-card:has(.quiz-flashcard[data-flipped]) {
+  --field-light: .19;
+  border-color: color-mix(in srgb, var(--field-border), var(--accent) 67%);
+}
+body:has(.paper-atmosphere) :is(.quiz-options label, .mode-link) {
+  transition: background-color 180ms ease, border-color 180ms ease;
+}
+body:has(.paper-atmosphere) :is(.quiz-options label, .mode-link:not([aria-current])):is(:hover, :focus-within) {
+  background-color: rgb(var(--field-rgb) / .13);
+}
+body:has(.paper-atmosphere) .quiz-options label {
+  margin-inline: -.3rem; padding: .16rem .3rem; border-radius: .28rem;
+}
+body:has(.paper-atmosphere) .quiz-options label:has(input:checked) {
+  background-color: rgb(var(--field-rgb) / .18);
+}
+body[data-atmosphere="agiel"] {
+  --field-rgb: 255 100 119;
+  --field-border: #75434c;
+  --field-surface: linear-gradient(145deg, #291820f7, #170e15f6 80%);
+  --field-shadow: inset 2px 2px 3px #f7a7af23, inset -4px -5px 10px #080108a0,
+    4px 6px 12px #090408d0, -3px -3px 9px #8a455326;
+}
+body[data-atmosphere="confessor"] {
+  --field-rgb: 83 114 173;
+  --field-border: #8597b6;
+  --field-surface: linear-gradient(150deg, #fcfdfff2, #e4edfff1 75%, #f7f6fce8);
+  --field-shadow: inset 0 2px 0 #ffffffd4, inset 0 -1px 0 #7797cf80, 0 9px 24px #283f6320;
+}
+body[data-atmosphere="seeker"] {
+  --field-rgb: 247 182 107;
+  --field-border: #806345;
+  --field-surface: repeating-linear-gradient(125deg, #e3b56c06 0 1px, transparent 1px 6px),
+    linear-gradient(160deg, #29221af8, #151210f8 70%, #241b13f8);
+  --field-shadow: inset 0 0 0 3px #0e0d0bb5, inset 0 0 0 4px #d0a56d35, 0 9px 24px #050404af;
+}
+body:has(.paper-atmosphere) .mode-link[aria-current] {
+  box-shadow: 0 0 20px rgb(var(--field-rgb) / .23);
+}
+@media screen {
+  body[data-atmosphere="agiel"] {
+    background: radial-gradient(ellipse at 79% 11%, #3b1725, transparent 41rem),
+      linear-gradient(116deg, #140c15, #1b1020 53%, #130c15);
+  }
+  body[data-atmosphere="agiel"] .agiel { background: transparent; }
+  body[data-atmosphere="confessor"] .folio-index {
+    background: color-mix(in srgb, var(--bg), transparent 28%);
+  }
+  body[data-atmosphere="confessor"] #vocab-treasure .vocab-card {
+    background: radial-gradient(ellipse 17rem 12rem at var(--light-x, 80%) var(--light-y, 0%),
+      rgb(var(--field-rgb) / var(--field-light, .04)), transparent 95%), var(--field-surface);
+  }
+  body[data-atmosphere="seeker"] .seeker-shell .map-card {
+    padding-inline: clamp(.85rem, 2.5vw, 1.25rem);
+    border-inline: 1px solid var(--field-border);
+    border-block-end: 1px solid var(--field-border);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  body:has(.paper-atmosphere) :is(.study-card, .map-card, .preview, .quiz-card, .quiz-options label, .mode-link) {
+    transition: none;
+  }
+}
+@media print {
+  .paper-atmosphere { display: none; }
+  body:has(.paper-atmosphere) :is(.study-card, .map-card, .preview, .quiz-card) {
+    color: #111; background: white; border-color: #aaa; box-shadow: none;
+  }
+}

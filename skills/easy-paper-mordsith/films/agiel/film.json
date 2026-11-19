@@ -1,0 +1,73 @@
+{
+  "title": "What an AI detector can tell you",
+  "source": "Karim Ibrahim · Language Testing in Asia · 2026",
+  "duration": 79.20833333333333,
+  "cues": [
+    {
+      "start": 0.81,
+      "end": 8.76,
+      "text": "Two essays look equally polished. One was written by a learner, the other with substantial help from artificial intelligence."
+    },
+    {
+      "start": 8.76,
+      "end": 13,
+      "text": "If a detector flags both, what has it actually established?"
+    },
+    {
+      "start": 13,
+      "end": 19.76,
+      "text": "Karim Ibrahim's paper is a critical literature review of AI-assisted plagiarism in second-language writing."
+    },
+    {
+      "start": 19.76,
+      "end": 25.92,
+      "text": "It selected thirty-three of fifty-seven records. Its detector results come from previous studies."
+    },
+    {
+      "start": 25.92,
+      "end": 31.92,
+      "text": "Watermarking looks for a trace placed by a generator. A trained detector learns from examples."
+    },
+    {
+      "start": 31.92,
+      "end": 38.76,
+      "text": "Statistical methods look for patterns in text. Retrieval methods compare a passage with stored outputs."
+    },
+    {
+      "start": 38.76,
+      "end": 42,
+      "text": "These approaches depend on different kinds of evidence."
+    },
+    {
+      "start": 42,
+      "end": 48.4,
+      "text": "A false positive wrongly flags human writing. A false negative misses AI-generated writing."
+    },
+    {
+      "start": 48.4,
+      "end": 55.64,
+      "text": "An impressive score on one test set can hide errors when a tool faces another model, genre, or group of writers."
+    },
+    {
+      "start": 55.64,
+      "end": 61.56,
+      "text": "Ibrahim proposes three questions. Is the detector reliable? Do its results generalize?"
+    },
+    {
+      "start": 61.56,
+      "end": 66.16,
+      "text": "And is the tool accessible in the setting where teachers would actually use it?"
+    },
+    {
+      "start": 66.16,
+      "end": 73.04,
+      "text": "Use a flag to decide what to investigate. Review the drafts, and give the learner a chance to explain how they wrote them."
+    },
+    {
+      "start": 73.04,
+      "end": 76.757,
+      "text": "Make the integrity decision from the evidence in context."
+    }
+  ],
+  "credit": "A Person Using a Copier, Phillips Vinegar / Pexels · excerpt, crop and grade. Coverr, cottonbro studio, Kindel Media, Ron Lach, Video Kickstarter, SHVETS production, Kaboompics.com / Pexels · additional edited footage. Narration: Emilia / ElevenLabs"
+}

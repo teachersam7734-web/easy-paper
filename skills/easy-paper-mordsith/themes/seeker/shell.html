@@ -1,0 +1,57 @@
+{{INTRO}}
+<div class="seeker-shell">
+  <div class="seeker-bar">
+    <a class="seeker-brand" href="#study-map" aria-label="Seeker overview"><span class="seeker-mark" aria-hidden="true"></span>SEEKER</a>
+    {{NAV}}
+  </div>
+  <div class="seeker-opening">
+    {{HERO}}
+    <section class="seeker-instrument" aria-labelledby="seeker-instrument-heading">
+      <header class="seeker-instrument-title">
+        <h2 id="seeker-instrument-heading">Publication route</h2>
+        <button class="seeker-motion" type="button" aria-pressed="false">Pause motion</button>
+      </header>
+      <div class="seeker-artifact-stage">
+        <canvas aria-hidden="true"></canvas>
+      </div>
+      <div class="seeker-route" role="group" aria-label="Publishing stages">
+        <button type="button" data-seeker-stage="0" aria-pressed="true">Idea</button>
+        <button type="button" data-seeker-stage="1" aria-pressed="false">Methods</button>
+        <button type="button" data-seeker-stage="2" aria-pressed="false">Draft</button>
+        <button type="button" data-seeker-stage="3" aria-pressed="false">Review</button>
+        <button type="button" data-seeker-stage="4" aria-pressed="false">Publication</button>
+      </div>
+      <p class="seeker-stage-note" aria-live="polite">Use AI to generate directions worth exploring. Check sources and define the research question yourself.</p>
+    </section>
+  </div>
+  <aside class="focus-deck" aria-labelledby="focus-title">
+      <header class="focus-header"><h2 id="focus-title">Focus tape</h2><button class="seeker-sfx" type="button" aria-pressed="false">Control sound off</button></header>
+      <div class="cassette" aria-hidden="true">
+        <div class="cassette-label"><span>AFTER DARK</span><span>Side A</span></div>
+        <div class="cassette-window"><i></i><span></span><i></i></div>
+        <div class="cassette-base"></div>
+      </div>
+      <div class="tape-controls">
+        <button type="button" class="tape-play" aria-pressed="false"><span aria-hidden="true">▶</span><span>Play</span></button>
+        <div class="tape-position">
+          <label for="tape-seek">After Dark</label>
+          <input id="tape-seek" type="range" min="0" max="1000" value="0" aria-label="Track position" disabled>
+        </div>
+        <span class="tape-time" aria-hidden="true">0:00</span>
+      </div>
+      <p class="tape-status" role="status" hidden></p>
+      <audio id="focus-audio" src="{{ASSET:music.mp3}}" preload="none" loop></audio>
+  </aside>
+  {{PANELS}}
+  <section class="seeker-receipt" aria-labelledby="receipt-title" hidden>
+    <div class="receipt-machine">
+      <h2 id="receipt-title">Recall receipt</h2>
+      <button class="receipt-print" type="button" aria-controls="recall-paper" aria-expanded="false">Print recap</button>
+    </div>
+    <div class="receipt-paper" id="recall-paper" hidden>
+      <p class="receipt-result" role="status"></p>
+      <button class="receipt-download" type="button">Download recap</button>
+    </div>
+  </section>
+  {{FOOTER}}
+</div>

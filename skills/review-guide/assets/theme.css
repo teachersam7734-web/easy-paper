@@ -1,0 +1,14 @@
+/* Review Guide theme: bold, high-contrast, exam-cram energy. Gold-orange lead accent with cyan support.
+   Fonts: Outfit (display), Inter (body), JetBrains Mono (labels, timers). */
+:root{--accent:#D97706;--accent-soft:#FFF1DC;--accent-2:#0AA5C2;--accent-2-soft:#E2F7FB;--fs:8.9pt;--lh:1.42}
+.cover.compact{margin-bottom:3mm;padding-bottom:3mm}
+.cover.compact h1{font-size:15pt;margin-bottom:1mm}
+.cover.compact .cv-ref{display:none}
+.cover.compact .chips{margin-top:1.2mm}
+.mm-center{box-shadow:0 0 0 2.2mm var(--accent-2-soft),0 0 0 2.8mm var(--accent-2),0 0 18px rgba(10,165,194,.45)}
+.mm-center .kicker{color:var(--accent-2)}
+.chunk{margin-bottom:3.2mm}
+.hq-q{font-size:11pt}
+.hq-answer{font-size:9.2pt}
+.sheet .preview{margin-bottom:2.5mm}
+.weight{font-family:'EP Mono',monospace}

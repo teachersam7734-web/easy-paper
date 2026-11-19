@@ -1,0 +1,489 @@
+{
+  "title": "Can AI catch AI?",
+  "kicker": "L2 writing and assessment",
+  "subtitle": "Using AI to control AI-assisted plagiarism in L2 writing",
+  "citation": "Karim Ibrahim · Language Testing in Asia 16, Article 21 (2026) · doi:10.1186/s40468-026-00433-9",
+  "focus": "Learn what four detector engines look for, why their performance drops, and how L2 writing teachers can use a flag as one part of an integrity decision.",
+  "notes": "Five-minute talk: introduce the authorship problem, outline the four engines, show one example of a performance drop, then end with the AICEF and the principle of corroborating evidence.",
+  "qc": {
+    "status": "passed",
+    "source": "Approved Easy Paper study PDFs, checked against Ibrahim (2026), pp. 1–19."
+  },
+  "preview": [
+    "Why would a source-matching tool struggle with newly generated text?",
+    "What signals could software use to distinguish AI-generated and human writing?",
+    "What happens to detection performance when text is paraphrased?",
+    "What should an instructor do after a detector flags an L2 assignment?",
+    "What evidence would you need to compare two classifiers fairly?"
+  ],
+  "map": [
+    {
+      "label": "The authorship problem",
+      "detail": "Ibrahim reviews what AI-assisted plagiarism means for L2 writing assessment."
+    },
+    {
+      "label": "Four classifier families",
+      "detail": "Watermarking, training-based, statistical and retrieval-based systems inspect different signals."
+    },
+    {
+      "label": "Three evaluation criteria",
+      "detail": "Reliability, generalizability and accessibility form Ibrahim’s AICEF."
+    },
+    {
+      "label": "One decision rule",
+      "detail": "Use flags alongside other evidence and instructor judgment."
+    }
+  ],
+  "modes": {
+    "deep-dive": {
+      "intro": "Follow the review from the classroom problem to its recommendations, with page references for each claim.",
+      "sections": [
+        {
+          "title": "What counts as AI-assisted plagiarism?",
+          "summary": "Ibrahim focuses on improper use of generative AI to complete academic assignments. Whether use is permitted matters.",
+          "points": [
+            "Source matching can overlook original AI-generated wording.",
+            "One independent Turnitin study reviewed by Ibrahim caught 54.8% of the AI essays it tested."
+          ],
+          "anchor": "Ibrahim, pp. 1–3"
+        },
+        {
+          "title": "How was the literature assembled?",
+          "summary": "The critical review reports screening 57 studies and retaining 33. The author classified the studies by detection approach.",
+          "points": [
+            "Searches took place in December 2024 and May 2025 across four databases and the wider web.",
+            "The review used relevance, evidence, language, dates and replicability as selection criteria. It included preprints as well as peer-reviewed work."
+          ],
+          "anchor": "Ibrahim, pp. 3–4"
+        },
+        {
+          "title": "Four ways to detect AI text",
+          "summary": "A detector is the service an instructor uses. A classifier is the mechanism behind its output.",
+          "points": [
+            "Watermarking looks for a signal inserted by the generator.",
+            "Training-based classifiers learn distinctions from labeled text.",
+            "Statistical classifiers look for patterns such as predictability.",
+            "Retrieval-based classifiers look for similarity with stored output."
+          ],
+          "anchor": "Ibrahim, pp. 3–5, 12",
+          "memory": "Picture one exam office with a stamp, a sniffer dog, a meter and an archive."
+        },
+        {
+          "title": "Why performance changes",
+          "summary": "Ibrahim reports that paraphrasing reduces detection across all four approaches under studied conditions.",
+          "points": [
+            "A reported watermark detection rate fell from 97% to 15% after five paraphrases.",
+            "DetectGPT fell from 70.3% to 4.6% in a different test.",
+            "These studies used different experimental setups. Compare each result with its own baseline."
+          ],
+          "anchor": "Ibrahim, pp. 6, 9, 11–12, 15"
+        },
+        {
+          "title": "The AICEF yardstick",
+          "summary": "Ibrahim evaluates classifiers for reliability, generalizability and accessibility.",
+          "points": [
+            "Reliability concerns accurate, robust detection.",
+            "Generalizability concerns performance across models, genres and domains.",
+            "Accessibility concerns availability and practical deployment."
+          ],
+          "anchor": "Ibrahim, pp. 12–15",
+          "memory": "Trust it? Take it anywhere? Afford and run it?"
+        },
+        {
+          "title": "The accuracy–explanation trade-off",
+          "summary": "The review favors fine-tuned classifiers for accuracy but notes that their reasoning can be opaque.",
+          "points": [
+            "Statistical classifiers can offer more interpretable clues and show weaker performance in reviewed studies.",
+            "Ibrahim proposes an architecture that layers statistical, semantic and fine-tuned approaches."
+          ],
+          "anchor": "Ibrahim, pp. 14–16"
+        },
+        {
+          "title": "Using detection in class",
+          "summary": "A score can inform an integrity decision alongside other evidence and teacher judgment.",
+          "points": [
+            "Ibrahim recommends looking at more than one detection mechanism and checking larger samples, where available.",
+            "Portfolios, discussions, interviews and process evidence can help establish what students understand and how they wrote.",
+            "The review did not independently validate named commercial products."
+          ],
+          "anchor": "Ibrahim, pp. 16–19"
+        }
+      ]
+    },
+    "critique": {
+      "intro": "Trace the strengths and limitations of the synthesis, then decide how much weight to give the recommendations.",
+      "sections": [
+        {
+          "title": "Strengths of the synthesis",
+          "summary": "The classifier taxonomy and concrete before-and-after examples make a technical literature usable for teachers.",
+          "points": [
+            "The AICEF names and defines its evaluation criteria.",
+            "The conclusion offers a proportionate classroom rule and alternatives such as portfolios."
+          ],
+          "anchor": "Critique, pp. 2–3 · Ibrahim, pp. 3–5, 11–13, 16–17"
+        },
+        {
+          "title": "Fairness needs its own evidence",
+          "summary": "The source mentions possible bias against ESL writers, but the framework does not separately assess fairness or rate false positives for these writers.",
+          "points": [
+            "A stronger evaluation would report false-positive rates on genuinely human writing across L2 groups, alongside detection rates on generated text."
+          ],
+          "anchor": "Critique, p. 3 · Ibrahim, pp. 2, 12–18"
+        },
+        {
+          "title": "The screening trail is hard to audit",
+          "summary": "The review gives inclusion rules and final counts. An included-study table would clarify which earlier citations supplied background and which supplied eligible findings.",
+          "points": [
+            "The paper states a 2022–2025 inclusion window but discusses earlier studies. The role of those studies is difficult to verify from the reporting."
+          ],
+          "anchor": "Critique, pp. 3–4 · Ibrahim, pp. 3–4, 7–11"
+        },
+        {
+          "title": "Performance measures and labels vary",
+          "summary": "The review’s comparisons span different setups and do not always use consistent descriptors.",
+          "points": [
+            "Table 1 calls watermarking highly accurate, while the conclusion describes its accuracy as moderate.",
+            "A comparison table tied to metrics, datasets and conditions would make the ratings easier to interpret."
+          ],
+          "anchor": "Critique, p. 4 · Ibrahim, pp. 5–15"
+        },
+        {
+          "title": "Product examples exceed the evidence base",
+          "summary": "The review focuses on approaches. Named examples in the implications do not establish how well those services work in L2 classrooms.",
+          "points": [
+            "Separate an architectural demonstration from independent validation of a commercial implementation.",
+            "Preprints improve coverage in a fast-moving field while introducing uncertainty about how much evidence has undergone peer review."
+          ],
+          "anchor": "Critique, pp. 3–5 · Ibrahim, pp. 4, 17–19"
+        }
+      ]
+    },
+    "review-guide": {
+      "intro": "Use the cards for closed-book retrieval. Explain the answer out loud, then check the anchor and the Memory Link.",
+      "sections": [
+        {
+          "title": "Recall the four engines",
+          "summary": "Name each family, state what it observes, and give one limitation.",
+          "points": [
+            "Watermark requires a signal from generation. Training-based models can overfit.",
+            "Statistical detectors may be less accurate. Retrieval requires an appropriate reference database."
+          ],
+          "anchor": "Review Guide, p. 2 · Ibrahim, pp. 4–5, 12",
+          "memory": "Stamp, sniffer dog, meter, archive."
+        },
+        {
+          "title": "Explain three evaluation criteria",
+          "summary": "What would make an AI classifier trustworthy, portable and practical to deploy?",
+          "points": [
+            "Reliability, generalizability and accessibility."
+          ],
+          "anchor": "Review Guide, p. 2 · Ibrahim, p. 13",
+          "memory": "Trust it? Take it anywhere? Afford it?"
+        },
+        {
+          "title": "Interpret the numbers",
+          "summary": "Explain 54.8%, 97% → 15%, and 70.3% → 4.6% with their contexts.",
+          "points": [
+            "Turnitin caught 54.8% of generated essays in one study.",
+            "A watermark measure fell from 97% to 15% after repeated paraphrasing. A DetectGPT measure fell from 70.3% to 4.6% after one paraphrase.",
+            "The changes show fragility in their separate settings."
+          ],
+          "anchor": "Review Guide, pp. 2–3 · Ibrahim, pp. 2, 6, 11"
+        },
+        {
+          "title": "Apply the one rule",
+          "summary": "A detector flags a student’s essay. Explain what evidence could help you evaluate the flag.",
+          "points": [
+            "Consult class policy and assessment conditions. Ask how the work was developed, examine process evidence, and consider what each detector actually measures."
+          ],
+          "anchor": "Review Guide, pp. 2–4 · Ibrahim, pp. 15–18",
+          "memory": "Four engines, three criteria, one decision rule."
+        },
+        {
+          "title": "Give a 30-second evaluation",
+          "summary": "The review helps teachers understand classifiers and use outputs cautiously. Its evidence would be stronger with transparent screening, comparable metrics and explicit L2 fairness measures.",
+          "points": [],
+          "anchor": "Review Guide, pp. 3–4 · Ibrahim, pp. 12–19"
+        }
+      ]
+    },
+    "vocab-treasure": {
+      "intro": "Study 18 C1–C2 expressions from the approved Vocab Treasure. Each has a meaning, alternatives, a practice sentence, and a paper reference.",
+      "sections": []
+    }
+  },
+  "vocabulary": [
+    {
+      "term": "comes at the cost of",
+      "meaning": "A gain involves a loss or trade-off.",
+      "alternatives": [
+        "comes at the expense of",
+        "is achieved at the price of",
+        "involves a trade-off with"
+      ],
+      "example": "Using a short cloze test saves time, but this efficiency comes at the cost of construct coverage.",
+      "anchor": "Ibrahim (2026), p. 7 · reduced detection performance"
+    },
+    {
+      "term": "in the face of",
+      "meaning": "When confronted with difficulty or opposition.",
+      "alternatives": [
+        "faced with",
+        "confronted with",
+        "despite"
+      ],
+      "example": "In the face of mixed findings, many teachers still trust their own classroom experience.",
+      "anchor": "Ibrahim (2026), p. 1 · the challenge of AI-assisted plagiarism"
+    },
+    {
+      "term": "uncharted territory",
+      "meaning": "An area of research or experience that has barely been explored.",
+      "alternatives": [
+        "unexplored ground",
+        "a new field"
+      ],
+      "example": "AI feedback in EFL classes is still uncharted territory.",
+      "anchor": "Ibrahim (2026), p. 1 · AI-assisted plagiarism in L2 writing"
+    },
+    {
+      "term": "is heightened by the fact that",
+      "meaning": "An additional fact makes a problem more serious.",
+      "alternatives": [
+        "is compounded by",
+        "is made worse by"
+      ],
+      "example": "The attrition problem is heightened by the fact that most longitudinal SLA studies follow few learners.",
+      "anchor": "Ibrahim (2026), p. 2 · the difficulty of identifying AI-generated content"
+    },
+    {
+      "term": "draw on",
+      "meaning": "Use knowledge or material as a basis for your own work.",
+      "alternatives": [
+        "build on",
+        "make use of",
+        "be informed by"
+      ],
+      "example": "This study draws on sociocultural theory to explain why peer feedback worked in mixed-proficiency pairs.",
+      "anchor": "Ibrahim (2026), p. 3 · NLP research"
+    },
+    {
+      "term": "be hailed as",
+      "meaning": "Be publicly praised as marking a significant contribution or advance.",
+      "alternatives": [
+        "be acclaimed as",
+        "be welcomed as"
+      ],
+      "example": "Krashen’s input hypothesis was once hailed as a unifying theory, yet it later drew sustained criticism.",
+      "anchor": "Ibrahim (2026), p. 5 · the first steps in watermark detection"
+    },
+    {
+      "term": "come under sharp criticism",
+      "meaning": "Begin to face strong public criticism.",
+      "alternatives": [
+        "be heavily criticised",
+        "draw criticism"
+      ],
+      "example": "Early error analysis came under sharp criticism for ignoring what learners avoided.",
+      "anchor": "Ibrahim (2026), p. 5 · watermarking’s technical limitations"
+    },
+    {
+      "term": "purportedly",
+      "meaning": "According to a claim that may be uncertain or disputed.",
+      "alternatives": [
+        "allegedly",
+        "supposedly",
+        "reportedly"
+      ],
+      "example": "The app’s purportedly adaptive tasks followed the same fixed sequence for every learner.",
+      "anchor": "Ibrahim (2026), p. 6 · a claim of undetectability"
+    },
+    {
+      "term": "in a similar vein",
+      "meaning": "Introduces a closely related point or study.",
+      "alternatives": [
+        "along the same lines",
+        "similarly",
+        "likewise"
+      ],
+      "example": "In a similar vein, a second classroom study found that explicit recasts helped learners more than implicit ones.",
+      "anchor": "Ibrahim (2026), p. 8 · a feature-based classifier"
+    },
+    {
+      "term": "has / have yet to be validated",
+      "meaning": "Validation is still needed or expected. Also works with tested, established or examined.",
+      "alternatives": [
+        "has not yet been validated",
+        "remains to be validated",
+        "is still to be confirmed"
+      ],
+      "example": "The long-term effects of data-driven learning on writing accuracy have yet to be tested in secondary schools.",
+      "anchor": "Ibrahim (2026), p. 18 · commercial detector performance"
+    },
+    {
+      "term": "stems from the fact that",
+      "meaning": "Has its origin in a particular fact or circumstance.",
+      "alternatives": [
+        "arises from",
+        "results from",
+        "is due to"
+      ],
+      "example": "Disagreement over task complexity stems from the fact that studies operationalise it in different ways.",
+      "anchor": "Ibrahim (2026), p. 11 · why a detector can resist paraphrasing"
+    },
+    {
+      "term": "raise questions about",
+      "meaning": "Invite doubt or closer examination.",
+      "alternatives": [
+        "cast doubt on",
+        "call into question"
+      ],
+      "example": "The small, self-selected sample raises questions about how far the findings generalise.",
+      "anchor": "Ibrahim (2026), p. 12 · the practicality of retrieval-based classification"
+    },
+    {
+      "term": "posit",
+      "meaning": "Put forward an idea as the basis of an argument.",
+      "alternatives": [
+        "propose",
+        "hypothesise",
+        "assume"
+      ],
+      "example": "The output hypothesis posits that producing language helps learners notice gaps.",
+      "anchor": "Ibrahim (2026), p. 13 · Zhao et al.’s proposed property of a detector"
+    },
+    {
+      "term": "a promising avenue for",
+      "meaning": "A direction for research that appears likely to yield results.",
+      "alternatives": [
+        "a fruitful direction",
+        "a line of inquiry"
+      ],
+      "example": "Eye-tracking offers a promising avenue for examining what learners notice in written feedback.",
+      "anchor": "Ibrahim (2026), p. 14 · improving generalizability"
+    },
+    {
+      "term": "inform decisions",
+      "meaning": "Provide knowledge that helps shape a decision.",
+      "alternatives": [
+        "guide",
+        "shape",
+        "underpin"
+      ],
+      "example": "Diagnostic test results should inform placement decisions alongside teacher judgment.",
+      "anchor": "Ibrahim (2026), p. 16 · the use of detectors as one resource"
+    },
+    {
+      "term": "capitalize on",
+      "meaning": "Use an opportunity or strength to gain an advantage.",
+      "alternatives": [
+        "exploit",
+        "make the most of",
+        "build on"
+      ],
+      "example": "A mixed-methods design can capitalize on both the breadth of surveys and the depth of interviews.",
+      "anchor": "Ibrahim (2026), p. 16 · combining model strengths"
+    },
+    {
+      "term": "is / are not without limitations",
+      "meaning": "Concede that an approach has some limitations.",
+      "alternatives": [
+        "has some drawbacks",
+        "is not flawless"
+      ],
+      "example": "Self-report questionnaires are practical measures of anxiety, but they are not without limitations.",
+      "anchor": "Ibrahim (2026), p. 16 · fine-tuned classifiers"
+    },
+    {
+      "term": "predominate",
+      "meaning": "Be the most common or prominent element in a group.",
+      "alternatives": [
+        "dominate",
+        "prevail",
+        "be most common"
+      ],
+      "example": "Quantitative designs predominate in task-based research, while classroom ethnographies remain rare.",
+      "anchor": "Ibrahim (2026), p. 19 · preprints in AI text classification"
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which classifier needs an archive of past AI outputs?",
+      "options": [
+        "Watermarking",
+        "Statistical",
+        "Retrieval-based",
+        "Training-based"
+      ],
+      "answer": 2,
+      "explanation": "It uses similarity to content already stored in a reference collection.",
+      "anchor": "Ibrahim, pp. 4–5, 11–12"
+    },
+    {
+      "question": "Which set names Ibrahim’s three AICEF criteria?",
+      "options": [
+        "Reliability, fairness, transparency",
+        "Reliability, generalizability, accessibility",
+        "Precision, recall, processing time"
+      ],
+      "answer": 1,
+      "explanation": "The framework asks how reliably a classifier works, how broadly it transfers and how practical it is to access and run.",
+      "anchor": "Ibrahim, p. 13"
+    },
+    {
+      "question": "What does the reported watermark drop from 97% to 15% illustrate?",
+      "options": [
+        "Robustness can fall sharply after repeated paraphrasing.",
+        "Commercial detectors always miss 85% of AI-generated essays.",
+        "Watermarking has the same accuracy across every dataset."
+      ],
+      "answer": 0,
+      "explanation": "The figures are from a particular study and comparison.",
+      "anchor": "Ibrahim, p. 6"
+    },
+    {
+      "question": "What would make the review’s search easier to audit?",
+      "options": [
+        "Remove the selection dates.",
+        "Present the biggest accuracy value from each study.",
+        "List the included studies and show how the stated eligibility rules were applied."
+      ],
+      "answer": 2,
+      "explanation": "A clear study list would link the reported screening method to the evidence actually synthesized.",
+      "anchor": "Critique, pp. 3–4 · Ibrahim, pp. 3–4"
+    },
+    {
+      "question": "An L2 essay is flagged. What is the best next step?",
+      "options": [
+        "Treat the score as a signal and examine writing-process evidence and context.",
+        "Make the integrity decision from the percentage alone.",
+        "Average two tools and treat the figure as proof."
+      ],
+      "answer": 0,
+      "explanation": "Ibrahim recommends using detection as one resource alongside other evidence and judgment.",
+      "anchor": "Ibrahim, pp. 16–17"
+    },
+    {
+      "question": "Complete the sentence: The gain in accuracy ___ slower training.",
+      "options": [
+        "predominates",
+        "comes at the cost of",
+        "in a similar vein"
+      ],
+      "answer": 1,
+      "explanation": "The expression introduces what was sacrificed to obtain the gain.",
+      "anchor": "Vocab Treasure, p. 1 · Ibrahim, p. 7"
+    },
+    {
+      "question": "Complete the sentence: The scheme later ___ for its limitations.",
+      "options": [
+        "came under sharp criticism",
+        "capitalized on",
+        "provided a promising avenue"
+      ],
+      "answer": 0,
+      "explanation": "This collocation describes becoming the target of strong negative evaluation.",
+      "anchor": "Vocab Treasure, pp. 1–2 · Ibrahim, p. 5"
+    }
+  ],
+  "film": "agiel"
+}

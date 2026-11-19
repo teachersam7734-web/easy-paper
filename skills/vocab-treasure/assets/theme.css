@@ -1,0 +1,121 @@
+/* Vocab Treasure theme: "Midnight Reel". A cinematic, gold-foil-on-black vault of words.
+   Fonts: EB Garamond (headwords), EB Garamond Italic (in-context lines), Syncopate Bold (wide trailer labels),
+   Michroma (numbers), Exo 2 (body), Allura (script flourishes). Palette: ink-black, gold foil, ember, cyan neon. */
+:root{
+  --paper:#07090F; --paper-2:#0E1220; --ink:#F3EBDD; --ink-2:#C9C2B3; --muted:#8E8778; --line:rgba(201,162,74,.28);
+  --gold:#E3B755; --gold-2:#F7DC8F; --gold-deep:#9C7426; --ember:#E0662F; --cyan:#43D6F0;
+  --accent:var(--gold); --accent-soft:rgba(227,183,85,.12); --accent-2:var(--cyan); --accent-2-soft:rgba(67,214,240,.12);
+  --gold-soft:rgba(227,183,85,.18); --fs:8.6pt; --lh:1.42;
+}
+html,body{background:#07090F}
+body{color:var(--ink);font-family:'EP Body',sans-serif}
+.doc{padding:0 13mm 0 15mm;position:relative}
+/* film grain + vignette + light leaks, repeated on every printed page (position:fixed repeats per page) */
+body::before{content:"";position:fixed;inset:-13mm 0;z-index:0;pointer-events:none;
+  background:
+    radial-gradient(120mm 90mm at 8% 2%, rgba(227,183,85,.20), transparent 60%),
+    radial-gradient(110mm 80mm at 100% 100%, rgba(67,214,240,.13), transparent 62%),
+    radial-gradient(80mm 60mm at 96% 8%, rgba(224,102,47,.12), transparent 60%),
+    radial-gradient(150% 120% at 50% 50%, transparent 55%, rgba(0,0,0,.55) 100%);}
+body::after{content:"";position:fixed;inset:-13mm 0;z-index:0;pointer-events:none;opacity:.22;mix-blend-mode:screen;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .9  0 0 0 0 .8  0 0 0 0 .6  0 0 0 .55 0'/></filter><rect width='160' height='160' filter='url(%23n)'/></svg>");}
+/* sprocket rail on the left edge of every page */
+.doc::before{content:"";position:fixed;left:3.2mm;top:-13mm;bottom:-13mm;width:5.2mm;z-index:1;
+  background:repeating-linear-gradient(180deg, transparent 0 2.6mm, rgba(227,183,85,.32) 2.6mm 5.2mm, transparent 5.2mm 8mm);
+  -webkit-mask:linear-gradient(90deg,transparent 0 1mm,#000 1mm 4.2mm,transparent 4.2mm);border-left:1px solid rgba(227,183,85,.18);border-right:1px solid rgba(227,183,85,.18)}
+main.doc > *{position:relative;z-index:2}
+
+/* reel strip (replaces a title block) */
+.vt-strip{display:flex;align-items:center;gap:3mm;padding:1.6mm 0 2.2mm;margin:0 0 3mm;border-bottom:1px solid var(--line);position:relative}
+.vt-strip::after{content:"";position:absolute;left:0;bottom:-1px;width:42mm;height:1.5px;background:linear-gradient(90deg,var(--gold-2),var(--ember),transparent);box-shadow:0 0 8px var(--gold)}
+.vt-reel{font-family:'EP Display';font-size:6.6pt;letter-spacing:.42em;color:#0A0C12;background:linear-gradient(135deg,var(--gold-2),var(--gold) 45%,var(--gold-deep));padding:1mm 2.4mm .9mm 2.8mm;border-radius:1mm;box-shadow:0 0 10px rgba(227,183,85,.45)}
+.vt-src{font-family:'EP Serif';font-style:italic;font-size:9.6pt;color:var(--ink-2);flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.vt-stats{display:flex;gap:3mm}
+.vt-stat{font-family:'EP Display';font-size:5.6pt;letter-spacing:.24em;color:var(--muted);text-transform:uppercase;display:flex;align-items:baseline;gap:1.2mm}
+.vt-stat b{font-family:'EP Mono';font-size:9pt;letter-spacing:0;color:var(--gold-2);font-weight:400}
+
+/* the vault grid */
+.vt-grid{display:grid;grid-template-columns:1fr 1fr;gap:3.2mm 3.6mm}
+.vt-card{position:relative;break-inside:avoid;padding:2.8mm 3.2mm 2.6mm;border-radius:2.2mm;
+  background:linear-gradient(160deg,rgba(255,255,255,.055),rgba(255,255,255,.015) 40%,rgba(227,183,85,.04));
+  border:1px solid rgba(227,183,85,.26);box-shadow:inset 0 1px 0 rgba(247,220,143,.10),0 6px 18px rgba(0,0,0,.35)}
+.vt-card::before{content:"";position:absolute;left:3.2mm;right:3.2mm;top:-1px;height:1.2px;background:linear-gradient(90deg,transparent,var(--gold-2),transparent);opacity:.8}
+.vt-card.feature{grid-column:1 / -1;border-color:rgba(247,220,143,.55);
+  background:linear-gradient(135deg,rgba(227,183,85,.16),rgba(224,102,47,.06) 45%,rgba(67,214,240,.06));
+  box-shadow:0 0 0 1px rgba(227,183,85,.18),0 0 26px rgba(227,183,85,.18),inset 0 1px 0 rgba(247,220,143,.25)}
+.vt-card.feature .vt-term{font-size:22pt}
+.vt-card.feature .vt-ctx q{font-size:10.4pt}
+.vt-top{display:flex;align-items:center;gap:1.8mm;margin-bottom:.6mm}
+.vt-n{font-family:'EP Mono';font-size:8.4pt;color:var(--gold-2);text-shadow:0 0 6px rgba(227,183,85,.6)}
+.vt-type{font-family:'EP Display';font-size:4.9pt;letter-spacing:.3em;text-transform:uppercase;color:var(--cyan);border:1px solid rgba(67,214,240,.45);border-radius:.8mm;padding:.35mm 1.2mm .25mm 1.5mm}
+.vt-lvl{margin-left:auto;font-family:'EP Mono';font-size:6pt;color:#0A0C12;background:var(--ember);border-radius:.8mm;padding:.2mm 1.2mm;box-shadow:0 0 6px rgba(224,102,47,.6)}
+.vt-term{font-family:'EP Headword',serif;font-weight:400;font-size:16.5pt;line-height:1.02;margin:.6mm 0 .3mm;letter-spacing:.005em;display:block;
+  background:linear-gradient(180deg,#FFF1C4 0%,var(--gold-2) 30%,var(--gold) 62%,var(--gold-deep) 100%);-webkit-background-clip:text;background-clip:text;color:transparent;
+  filter:drop-shadow(0 0 5px rgba(227,183,85,.35))}
+.vt-pattern{font-family:'EP Mono';font-size:6.2pt;color:var(--muted);letter-spacing:.02em;margin-bottom:.8mm}
+.vt-pattern:empty{display:none}
+.vt-mean{font-size:8.6pt;color:var(--ink);line-height:1.36;margin-bottom:1.4mm}
+.vt-lab{display:block;font-family:'EP Script';font-size:12.5pt;line-height:.9;color:var(--gold);margin:0 0 .4mm}
+.vt-lab2{font-family:'EP Display';font-size:4.9pt;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);margin-right:1.6mm}
+.vt-ctx{position:relative;padding:1mm 0 1.2mm 2.6mm;border-left:1.5px solid var(--gold-deep);margin-bottom:1.4mm}
+.vt-ctx q{font-family:'EP Serif',serif;font-style:italic;font-size:9.4pt;line-height:1.32;color:var(--ink-2);quotes:"\201C" "\201D"}
+.vt-hit{background:none;color:var(--gold-2);font-weight:600;text-shadow:0 0 6px rgba(227,183,85,.45);padding:0}
+.vt-page{font-family:'EP Mono';font-size:5.8pt;color:var(--cyan);margin-left:1.4mm;white-space:nowrap}
+.vt-alts{display:flex;flex-wrap:wrap;align-items:center;gap:1mm;margin-bottom:1.2mm}
+.vt-alt{font-size:7.4pt;color:var(--ink);border:1px solid rgba(201,162,74,.38);background:rgba(227,183,85,.07);border-radius:5mm;padding:.15mm 2mm}
+.vt-use{font-size:8.2pt;line-height:1.36;color:var(--ink-2)}
+.vt-use strong{color:var(--gold-2);font-weight:600}
+.vt-note{font-size:7.2pt;color:var(--muted);margin-top:.8mm;font-style:italic}
+
+/* wrap-up quiz on the dark reel */
+.quiz{background:rgba(255,255,255,.03);border:1px solid var(--line);box-shadow:none;margin-top:3.4mm;padding:2.4mm 3.4mm}
+.qz-h{font-family:'EP Display';font-size:7pt;letter-spacing:.34em;text-transform:uppercase;color:var(--gold)}
+.qz-h .ic{color:var(--gold)}
+.qz-hint{font-family:'EP Body';letter-spacing:0;text-transform:none;color:var(--muted)}
+.qz-i{border-top:1px solid rgba(201,162,74,.18);padding:1.1mm 0}
+.qz-q{font-size:8.4pt;color:var(--ink);font-weight:500}
+.qz-k{color:var(--muted)}
+.qz-n,.pq-n{background:var(--gold);color:#0A0C12}
+.opts{font-size:8pt;color:var(--ink-2)}
+.opts li::marker{color:var(--gold)}
+.key-sec{border-top:1px dashed var(--line);padding-top:1.4mm;margin:2mm 0 0}
+.answer-key{font-size:7.2pt;color:var(--muted)}
+.answer-key .mini-h{font-family:'EP Display';font-size:5.6pt;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);margin:0 0 1mm}
+.answer-key .mini-h .ic{color:var(--gold)}
+.ak-i{display:inline-flex;margin-right:4mm}
+.answer-key b{color:var(--gold-2)}
+.anchor{background:rgba(67,214,240,.12);color:var(--cyan)}
+mark{background:none;color:var(--gold-2)}
+strong{color:var(--gold-2)}
+
+/* full-bleed fixed sheets (render.py prints vocab-treasure with zero page margins) */
+.doc{padding:0}
+.sheet{height:296mm;padding:12mm 13mm 17mm 16mm;position:relative;overflow:hidden;break-after:page;break-inside:avoid;contain:size layout paint}
+.sheet:last-child{break-after:auto}
+.sheet-body{flex:1;min-height:0;overflow:hidden}
+.sheet-foot{position:absolute;left:0;right:0;bottom:7mm;text-align:center;font-family:'EP Display';font-size:6.6pt;letter-spacing:.42em;text-transform:uppercase;color:var(--gold)}
+.sheet-foot::before,.sheet-foot::after{content:"";display:inline-block;width:22mm;height:1px;vertical-align:middle;margin:0 4mm;background:linear-gradient(90deg,transparent,var(--gold))}
+.sheet-foot::after{background:linear-gradient(90deg,var(--gold),transparent)}
+body::before,body::after{inset:0}
+.doc::before{top:0;bottom:0}
+.vt-pattern{font-size:6.6pt}
+.vt-page{font-size:6.6pt}
+@page{size:A4;margin:0}
+
+/* compact card rhythm: about 9-10 cards per sheet */
+.vt-grid{gap:2.6mm 3.2mm}
+.vt-card{padding:2.2mm 2.8mm 2.1mm}
+.vt-top{margin-bottom:.2mm}
+.vt-term{font-size:15pt;margin:.3mm 0 .2mm}
+.vt-card.feature .vt-term{font-size:19pt}
+.vt-pattern{margin-bottom:.4mm}
+.vt-mean{font-size:8.3pt;line-height:1.3;margin-bottom:.9mm}
+.vt-ctx{padding:.5mm 0 .6mm 2.4mm;margin-bottom:.9mm}
+.vt-lab{display:inline;font-size:11pt;line-height:1;margin:0 1.2mm 0 0;vertical-align:-1px}
+.vt-ctx q{font-size:9pt;line-height:1.27}
+.vt-alts{margin-bottom:.8mm;gap:.8mm}
+.vt-alt{font-size:7.2pt;padding:0 1.8mm}
+.vt-use{font-size:8pt;line-height:1.3}
+.quiz{margin-top:2.6mm;padding:1.8mm 3mm}
+.qz-h{margin-bottom:1mm}
+.qz-i{padding:.8mm 0}

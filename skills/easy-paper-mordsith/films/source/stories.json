@@ -1,0 +1,166 @@
+{
+  "agiel": {
+    "title": "What an AI detector can tell you",
+    "source": "Karim Ibrahim · Language Testing in Asia · 2026",
+    "scenes": [
+      {
+        "seconds": 12, "label": "01 / THE FLAG", "heading": ["A flag", "is a clue."],
+        "locator": "Ibrahim · pp. 1–3",
+        "speech": [
+          "Two essays look equally polished. One was written by a learner, the other with substantial help from artificial intelligence.",
+          "If a detector flags both, what has it actually established?"
+        ]
+      },
+      {
+        "seconds": 12, "label": "02 / THE EVIDENCE", "heading": ["A review", "of the evidence."],
+        "locator": "Ibrahim · pp. 3–4",
+        "speech": [
+          "Karim Ibrahim's paper is a critical literature review of AI-assisted plagiarism in second-language writing.",
+          "It selected thirty-three of fifty-seven records. Its detector results come from previous studies."
+        ]
+      },
+      {
+        "seconds": 17, "label": "03 / DETECTOR FAMILIES", "heading": ["Four ways to look."],
+        "locator": "Ibrahim · pp. 5–12",
+        "speech": [
+          "Watermarking looks for a trace placed by a generator. A trained detector learns from examples.",
+          "Statistical methods look for patterns in text. Retrieval methods compare a passage with stored outputs.",
+          "These approaches depend on different kinds of evidence."
+        ]
+      },
+      {
+        "seconds": 13, "label": "04 / TWO ERRORS", "heading": ["Where the flag fails."],
+        "locator": "Ibrahim · pp. 10–14",
+        "speech": [
+          "A false positive wrongly flags human writing. A false negative misses AI-generated writing.",
+          "An impressive score on one test set can hide errors when a tool faces another model, genre, or group of writers."
+        ]
+      },
+      {
+        "seconds": 13, "label": "05 / EVALUATION", "heading": ["Judge the tool."],
+        "locator": "Ibrahim · pp. 12–15",
+        "speech": [
+          "Ibrahim proposes three questions. Is the detector reliable? Do its results generalize?",
+          "And is the tool accessible in the setting where teachers would actually use it?"
+        ]
+      },
+      {
+        "seconds": 13, "label": "06 / THE DECISION", "heading": ["A fair next step."],
+        "locator": "Ibrahim · pp. 16–19 · application",
+        "speech": [
+          "Use a flag to decide what to investigate. Review the drafts, and give the learner a chance to explain how they wrote them.",
+          "Make the integrity decision from the evidence in context."
+        ]
+      }
+    ]
+  },
+  "confessor": {
+    "title": "When two methods become one study",
+    "source": "Johnson, Onwuegbuzie & Turner · Journal of Mixed Methods Research · 2007",
+    "scenes": [
+      {
+        "seconds": 12, "label": "THE QUESTION", "heading": ["When are two methods", "one study?"],
+        "locator": "Johnson et al. · pp. 112–113",
+        "speech": [
+          "A survey tells you how common an experience is. Interviews can help explain how people live it.",
+          "When should bringing those approaches together count as mixed methods research?"
+        ]
+      },
+      {
+        "seconds": 13, "label": "HOW THE DEFINITION WAS BUILT", "heading": ["A definition", "built from definitions."],
+        "locator": "Johnson et al. · p. 118",
+        "speech": [
+          "The three authors invited thirty-six methodologists. They analyzed nineteen definitions, some written jointly.",
+          "They compared them systematically to identify recurring ideas."
+        ]
+      },
+      {
+        "seconds": 15, "label": "WHERE THE DEFINITIONS DIFFERED", "heading": ["Five choices researchers make."],
+        "locator": "Johnson et al. · pp. 128–129",
+        "speech": [
+          "The definitions differed on what gets mixed, when or where it happens, and how broad the mixing is.",
+          "They also differed on why researchers mix, and on the philosophical or practical orientation that guides their work."
+        ]
+      },
+      {
+        "seconds": 13, "label": "PRIORITY OF THE STRANDS", "heading": ["A continuum, not a ratio."],
+        "locator": "Johnson et al. · p. 124",
+        "speech": [
+          "A mixed study can be mainly qualitative, give the two strands equal status, or be mainly quantitative.",
+          "The lead strand reflects the purpose and design of the study."
+        ]
+      },
+      {
+        "seconds": 13, "label": "THE WORKING DEFINITION", "heading": ["Breadth. Depth.", "Corroboration."],
+        "locator": "Johnson et al. · p. 123",
+        "speech": [
+          "The authors' general definition combines elements of qualitative and quantitative approaches.",
+          "That combination can broaden what we see, deepen what we understand, and help us check whether findings support each other."
+        ]
+      },
+      {
+        "seconds": 14, "label": "WHAT REMAINS OPEN", "heading": ["A starting point", "for the field."],
+        "locator": "Johnson et al. · pp. 129–130",
+        "speech": [
+          "The authors argue for mixed methods as a third paradigm. Their tentative fuller definition adds pragmatism and social awareness.",
+          "The invited group offers a starting point. Researchers still have to explain why their particular combination makes sense."
+        ]
+      }
+    ]
+  },
+  "seeker": {
+    "title": "AI from research question to publication",
+    "source": "Brady Lund, Manika Lamba & Sang Hoo Oh · arXiv preprint · 2024",
+    "scenes": [
+      {
+        "seconds": 11, "label": "00 / THE ROUTE", "heading": ["From idea", "to publication."],
+        "locator": "Lund et al. · PDF pp. 1–3",
+        "speech": [
+          "An academic paper passes through many hands. Where can artificial intelligence speed that work up?",
+          "The authors trace these possibilities in a twenty twenty-four preprint."
+        ]
+      },
+      {
+        "seconds": 13, "label": "01 / IDEA & LITERATURE", "heading": ["Expand the search."],
+        "locator": "Lund et al. · PDF pp. 4–5",
+        "speech": [
+          "At the research stage, a language model can suggest questions, search terms, or ways to approach unfamiliar literature.",
+          "Open the original sources before trusting a summary or citing a claim."
+        ]
+      },
+      {
+        "seconds": 13, "label": "02 / METHODS & DATA", "heading": ["Check the method."],
+        "locator": "Lund et al. · PDF pp. 5–7",
+        "speech": [
+          "AI can help write code or organize an analysis. Check the code, the data, and every result used in your argument.",
+          "The researcher still chooses the method and interprets the findings."
+        ]
+      },
+      {
+        "seconds": 13, "label": "03 / DRAFT & EDIT", "heading": ["Verify the draft."],
+        "locator": "Lund et al. · PDF pp. 7–9",
+        "speech": [
+          "Writing tools can suggest a structure, revise wording, or help a draft read more clearly.",
+          "Verify quotations and citations yourself. Follow the journal's policy for disclosing how you used the tool."
+        ]
+      },
+      {
+        "seconds": 14, "label": "04 / PEER REVIEW", "heading": ["Screening and judgment."],
+        "locator": "Lund et al. · PDF pp. 9–12",
+        "speech": [
+          "Editorial systems can assist with technical screening or organizing submissions.",
+          "Expert reviewers still judge the research question, the soundness of the method, and what the work contributes.",
+          "Keep confidential material within the permitted workflow."
+        ]
+      },
+      {
+        "seconds": 14, "label": "05 / PUBLICATION", "heading": ["Who answers", "for the work?"],
+        "locator": "Lund et al. · PDF pp. 8–12",
+        "speech": [
+          "The preprint describes where AI might assist and where journals would need rules. Its policy examples come from twenty twenty-four.",
+          "At every stage, people remain responsible for the claims, the evidence, and the decisions."
+        ]
+      }
+    ]
+  }
+}

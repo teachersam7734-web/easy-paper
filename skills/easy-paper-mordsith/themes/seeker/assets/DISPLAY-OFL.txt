@@ -1,0 +1,5 @@
+Chakra Petch Bold and Syncopate Bold, supplied with this workspace.
+The font files in this directory are from Google Fonts and are licensed
+under the SIL Open Font License 1.1 unless their individual license says
+otherwise. See https://fonts.google.com for per-family details.
+They may be embedded in documents and redistributed with this project.

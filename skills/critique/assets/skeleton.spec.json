@@ -1,0 +1,361 @@
+{
+ "meta": {
+  "mode": "critique",
+  "byline": "Sajjad Irani",
+  "kicker": "Critique Notes · <genre>",
+  "short_title": "<Short title>",
+  "cover": "compact",
+  "cover_chips": [
+   {
+    "icon": "scale",
+    "text": "<genre>"
+   },
+   {
+    "icon": "mic",
+    "text": "90-sec script"
+   }
+  ],
+  "paper": {
+   "title": "<Exact paper title>",
+   "authors": "<Authors in byline order>",
+   "year": "<Year>",
+   "reference": "<APA 7 reference with DOI>",
+   "pages": 20
+  },
+  "skeleton": true
+ },
+ "blocks": [
+  {
+   "type": "verdict",
+   "line": "<one-breath verdict>",
+   "scores": [
+    {
+     "label": "<Criterion>",
+     "value": 3
+    },
+    {
+     "label": "<Criterion>",
+     "value": 4
+    },
+    {
+     "label": "<Criterion>",
+     "value": 2
+    },
+    {
+     "label": "<Criterion>",
+     "value": 3
+    },
+    {
+     "label": "<Criterion>",
+     "value": 4
+    }
+   ]
+  },
+  {
+   "type": "preview",
+   "items": [
+    "<Q1?>",
+    "<Q2?>",
+    "<Q3?>",
+    "<Q4?>"
+   ]
+  },
+  {
+   "type": "nuggets",
+   "title": "What the paper says, in 4 lines",
+   "items": [
+    "<n>",
+    "<n>",
+    "<n>",
+    "<n>"
+   ]
+  },
+  {
+   "type": "section",
+   "title": "The paper in brief",
+   "icon": "file-text",
+   "lead": "It's a <genre>, so judge it as <job>.",
+   "blocks": [
+    {
+     "type": "chunk",
+     "id": "HQ1",
+     "question": "<Hunt question 1>?",
+     "answer": "<Short answer, 45 words max>",
+     "pages": "pp. 1-2",
+     "minutes": 4,
+     "blocks": [
+      {
+       "type": "p",
+       "text": "<Plain explanation, 95 words max per paragraph>"
+      },
+      {
+       "type": "table",
+       "columns": [
+        "<Col>",
+        "<Col>"
+       ],
+       "rows": [
+        [
+         "<a>",
+         "<b>"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "type": "chunk",
+     "id": "HQ2",
+     "question": "<Hunt question 2>?",
+     "answer": "<Short answer, 45 words max>",
+     "pages": "pp. 1-2",
+     "minutes": 4,
+     "blocks": [
+      {
+       "type": "p",
+       "text": "<Plain explanation, 95 words max per paragraph>"
+      },
+      {
+       "type": "table",
+       "columns": [
+        "<Col>",
+        "<Col>"
+       ],
+       "rows": [
+        [
+         "<a>",
+         "<b>"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "type": "chunk",
+     "id": "HQ3",
+     "question": "<Hunt question 3>?",
+     "answer": "<Short answer, 45 words max>",
+     "pages": "pp. 1-2",
+     "minutes": 4,
+     "blocks": [
+      {
+       "type": "p",
+       "text": "<Plain explanation, 95 words max per paragraph>"
+      },
+      {
+       "type": "table",
+       "columns": [
+        "<Col>",
+        "<Col>"
+       ],
+       "rows": [
+        [
+         "<a>",
+         "<b>"
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "section",
+   "title": "Strengths",
+   "icon": "thumbs-up",
+   "blocks": [
+    {
+     "type": "critique_card",
+     "kind": "strength",
+     "n": 1,
+     "title": "<short title>",
+     "claim": "<feature>",
+     "anchor": "<proof> [p. 1]",
+     "why": "<effect>",
+     "say": "<say-it line>"
+    },
+    {
+     "type": "critique_card",
+     "kind": "strength",
+     "n": 2,
+     "title": "<short title>",
+     "claim": "<feature>",
+     "anchor": "<proof> [p. 1]",
+     "why": "<effect>",
+     "say": "<say-it line>"
+    },
+    {
+     "type": "critique_card",
+     "kind": "strength",
+     "n": 3,
+     "title": "<short title>",
+     "claim": "<feature>",
+     "anchor": "<proof> [p. 1]",
+     "why": "<effect>",
+     "say": "<say-it line>"
+    }
+   ]
+  },
+  {
+   "type": "section",
+   "title": "Weaknesses and limitations",
+   "icon": "triangle-alert",
+   "blocks": [
+    {
+     "type": "critique_card",
+     "kind": "weakness",
+     "n": 1,
+     "severity": "major",
+     "title": "<short title>",
+     "claim": "<claim>",
+     "anchor": "Although <credit> [p. 1], <evidence>",
+     "why": "<consequence for their aim>",
+     "fix": "<small remedy>",
+     "say": "<say-it line>"
+    },
+    {
+     "type": "critique_card",
+     "kind": "weakness",
+     "n": 2,
+     "severity": "major",
+     "title": "<short title>",
+     "claim": "<claim>",
+     "anchor": "Although <credit> [p. 1], <evidence>",
+     "why": "<consequence for their aim>",
+     "fix": "<small remedy>",
+     "say": "<say-it line>"
+    },
+    {
+     "type": "critique_card",
+     "kind": "weakness",
+     "n": 3,
+     "severity": "major",
+     "title": "<short title>",
+     "claim": "<claim>",
+     "anchor": "Although <credit> [p. 1], <evidence>",
+     "why": "<consequence for their aim>",
+     "fix": "<small remedy>",
+     "say": "<say-it line>"
+    }
+   ]
+  },
+  {
+   "type": "section",
+   "title": "Say it in 90 seconds",
+   "icon": "mic",
+   "blocks": [
+    {
+     "type": "script",
+     "seconds": 90,
+     "lines": [
+      "<line>",
+      "<line>"
+     ]
+    },
+    {
+     "type": "callout",
+     "tone": "key",
+     "title": "Memory hook",
+     "text": "<hook>"
+    }
+   ]
+  },
+  {
+   "type": "qa",
+   "title": "If the examiner asks...",
+   "items": [
+    {
+     "q": "<q>",
+     "a": "<a>"
+    },
+    {
+     "q": "<question 2>",
+     "a": "<answer first, then one reason>"
+    },
+    {
+     "q": "<question 3>",
+     "a": "<answer first, then one reason>"
+    },
+    {
+     "q": "<question 4>",
+     "a": "<answer first, then one reason>"
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "items": [
+    {
+     "q": "<Definition question>",
+     "type": "mcq",
+     "options": [
+      "<A>",
+      "<B>",
+      "<C>",
+      "<D>"
+     ],
+     "answer": "B. <B>",
+     "why": "<one line> [p. 1]"
+    },
+    {
+     "q": "<Finding question>",
+     "type": "mcq",
+     "options": [
+      "<A>",
+      "<B>",
+      "<C>"
+     ],
+     "answer": "A. <A>",
+     "why": "<one line> [p. 1]"
+    },
+    {
+     "q": "<Apply it to a classroom>",
+     "type": "apply",
+     "answer": "<model answer>",
+     "why": "<why> [p. 1]"
+    },
+    {
+     "q": "<Common misconception>",
+     "type": "tf",
+     "answer": "False",
+     "why": "<why> [p. 1]"
+    },
+    {
+     "q": "<Critique or connection question>",
+     "type": "short",
+     "answer": "<model answer>",
+     "why": "<why> [p. 1]"
+    },
+    {
+     "q": "<Question 6>",
+     "type": "mcq",
+     "options": [
+      "<A>",
+      "<B>",
+      "<C>",
+      "<D>"
+     ],
+     "answer": "B. <B>",
+     "why": "<one line> [p. 1]"
+    },
+    {
+     "q": "<Question 7>",
+     "type": "mcq",
+     "options": [
+      "<A>",
+      "<B>",
+      "<C>"
+     ],
+     "answer": "A. <A>",
+     "why": "<one line> [p. 1]"
+    },
+    {
+     "q": "<Question 8>",
+     "type": "apply",
+     "answer": "<model answer>",
+     "why": "<why> [p. 1]"
+    }
+   ]
+  }
+ ]
+}
