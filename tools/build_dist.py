@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SKILLS = ROOT / "skills"
 MODES = ("deep-dive", "critique", "review-guide", "vocab-treasure", "adhd-student")
 MORDSITH = "easy-paper-mordsith"
-EXCLUDED = {"dist", "__pycache__", "examples-draft", ".git", ".DS_Store"}
+EXCLUDED = {"dist", "__pycache__", "examples-draft", ".git", ".venv", ".DS_Store"}
 
 
 def files(root):

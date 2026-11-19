@@ -1,6 +1,6 @@
 {
   "name": "easy-paper",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "ADHD-friendly study guides and offline presentations for applied linguistics papers.",
   "author": { "name": "Sajjad Irani (Teacher SAM)" },
   "skills": "./skills/",

@@ -4,11 +4,11 @@
 
 Turn any Applied Linguistics, SLA, TEFL or L2 acquisition paper (MA/PhD level) into study PDFs built for a reader with ADHD, or for anyone who wants notes that are friendlier, more structured and faster to use: gold nuggets first, Hunt-Question chunks, a visual in every chunk, Preview Questions at the start, and a Wrap-Up Quiz at the end.
 
-By Sajjad Irani (Teacher SAM). Version 1.6.0.
+By Sajjad Irani (Teacher SAM). Version 1.6.1.
 
 ## Install the Easy Paper marketplace
 
-**ChatGPT workspaces.** A workspace admin can open **Admin Console → Plugins → Add → Import marketplace** and enter `https://github.com/teachersam7734-web/easy-paper` as the source. Leave **Path** empty. Choose `main` for updates or `v1.6.0` to pin this release. After import, set Easy Paper to **Available** or **Installed** for the intended members. [ChatGPT marketplace import guide](https://help.openai.com/en/articles/20001504-importing-and-syncing-plugin-marketplaces-from-github)
+**ChatGPT workspaces.** A workspace admin can open **Admin Console → Plugins → Add → Import marketplace** and enter `https://github.com/teachersam7734-web/easy-paper` as the source. Leave **Path** empty. Choose `main` for updates or `v1.6.1` to pin this release. After import, set Easy Paper to **Available** or **Installed** for the intended members. [ChatGPT marketplace import guide](https://help.openai.com/en/articles/20001504-importing-and-syncing-plugin-marketplaces-from-github)
 
 **ChatGPT desktop and Codex.** Register the catalog, then select **Easy Paper** as the source in the desktop Plugins Directory and install the plugin.
 
@@ -23,7 +23,9 @@ claude plugin marketplace add teachersam7734-web/easy-paper
 claude plugin install easy-paper@easy-paper-marketplace
 ```
 
-**Claude chat and Cowork.** Download the [Easy Paper plugin ZIP](https://github.com/teachersam7734-web/easy-paper/releases/latest/download/easy-paper.zip) and upload it under **Customize → Plugins**. Team or Enterprise owners can upload the same ZIP to a marketplace in **Organization settings → Plugins & skills**. Claude’s organization GitHub sync requires a private or internal marketplace repository. [Claude plugin guide](https://support.claude.com/en/articles/13837440-use-plugins-in-claude) · [Claude organization marketplace guide](https://support.claude.com/en/articles/13837433-manage-plugins-for-your-organization)
+**Claude chat and Cowork.** Open **Customize → Plugins → Add → Add marketplace → Add from a repository**. Enter `teachersam7734-web/easy-paper`, then install the Easy Paper entry. You can also upload the [Easy Paper plugin ZIP](https://github.com/teachersam7734-web/easy-paper/releases/latest/download/easy-paper.zip). [Claude plugin guide](https://support.claude.com/en/articles/13837440-use-plugins-in-claude)
+
+**Claude organization marketplaces.** Team and Enterprise owners can upload the ZIP to a marketplace in **Organization settings → Plugins & skills**. Organization-wide GitHub sync requires a private or internal marketplace repository. [Claude organization marketplace guide](https://support.claude.com/en/articles/13837433-manage-plugins-for-your-organization)
 
 ## Download and try
 
@@ -36,18 +38,22 @@ Download the full plugin, an individual skill, or one of the three offline HTML 
 
 Each example includes six study views, a captioned film, and a Wrap-Up Quiz with two-sided flashcards. Toggle motion from the hero or use your system's reduced-motion setting. See the [artwork prompts](docs/artwork/imagegen-prompts.md) and the [film credits](skills/easy-paper-mordsith/references/paper-films.md).
 
+Download the [12 original study handouts](examples/handouts/README.md), with a Deep Dive, Critique, Review Guide, and Vocab Treasure for each paper.
+
 ## Modes and companions
 
-| Skill | Command | When | Output |
+In ChatGPT and Codex, choose an Easy Paper skill in the picker or name the workflow in your prompt. The commands below are for the installed Claude Code plugin.
+
+| Skill | Claude Code command | When | Output |
 |---|---|---|---|
-| **Deep Dive** | `/deep-dive <paper>` | You must present the paper; high stakes; there is time | 5 to 10 pages (at most half the paper): plain-language explanation, roadmap, gaps and newer research, presenter kit, glossary, quiz |
-| **Critique** | `/critique <paper>` | Oral exam, seminar, viva | 3 to 5 pages: verdict and ratings, summary beats, strength and weakness cards with proof, fixes and say-it lines, a 90-second script, examiner Q&A, quiz |
-| **Review Guide** | `/review-guide <paper>` | Exam in about 2 hours, paper not read | Exactly 4 pages: mind map, 80/20 ranked must-knows, memory hooks, likely exam questions, 2-hour game plan, quiz |
-| **Vocab Treasure** | `/vocab-treasure <paper>` | Build your bank of academic language | 1 to 2 cinematic pages (about 1 per 10 pages of article): C1-C2 items with verbatim context, alternatives, examples; feeds the cumulative Treasure Chest; footer only, so the pages can be bound into a booklet |
-| **ADHD Student** | `/study`, `/memory-link`, `/adhd-qc` | Study with an AI buddy; remember lists and heavy definitions; check any output for ADHD-friendliness | Guided sessions (Prompt Vault, about 100 prompts), Memory Links, ADHD QC reports and fixes |
+| **Deep Dive** | `/easy-paper:deep-dive <paper>` | You must present the paper; high stakes; there is time | 5 to 10 pages (at most half the paper): plain-language explanation, roadmap, gaps and newer research, presenter kit, glossary, quiz |
+| **Critique** | `/easy-paper:critique <paper>` | Oral exam, seminar, viva | 3 to 5 pages: verdict and ratings, summary beats, strength and weakness cards with proof, fixes and say-it lines, a 90-second script, examiner Q&A, quiz |
+| **Review Guide** | `/easy-paper:review-guide <paper>` | Exam in about 2 hours, paper not read | Exactly 4 pages: mind map, 80/20 ranked must-knows, memory hooks, likely exam questions, 2-hour game plan, quiz |
+| **Vocab Treasure** | `/easy-paper:vocab-treasure <paper>` | Build your bank of academic language | 1 to 2 cinematic pages (about 1 per 10 pages of article): C1-C2 items with verbatim context, alternatives, examples; feeds the cumulative Treasure Chest; footer only, so the pages can be bound into a booklet |
+| **ADHD Student** | `/easy-paper:study`, `/easy-paper:memory-link`, `/easy-paper:adhd-qc` | Study with an AI buddy; remember lists and heavy definitions; check any output for ADHD-friendliness | Guided sessions (Prompt Vault, about 100 prompts), Memory Links, ADHD QC reports and fixes |
 | **Mord’Sith** | `/easy-paper:mordsith` | Present or study an ADHD-QC-passed set of four outputs | One cinematic offline presentation with interactive study modes, an optional captioned paper film, and original handouts |
-| *(router)* | `/easy-paper <paper> [mode or all]` | Not sure which, or all four | Asks once, or follows the master prompt |
-| *(QC and upkeep)* | `/ep-qc`, `/ep-improve` | Inspect an output or the plugin; improve the plugin | Scored fix list; The Improver (Opus, high effort) upgrades and logs to IMPROVEMENTS.md |
+| *(router)* | `/easy-paper:easy-paper <paper> [mode or all]` | Not sure which, or all four | Asks once, or follows the master prompt |
+| *(QC and upkeep)* | `/easy-paper:ep-qc`, `/easy-paper:ep-improve` | Inspect an output or the plugin; improve the plugin | Scored fix list; The Improver (Opus, high effort) upgrades and logs to IMPROVEMENTS.md |
 
 **Master prompt:** `skills/easy-paper-core/references/master-prompt.md`. Pick the modes, ADHD QC on or off, Memory Links, an interactive application (Mord'Sith themes Agiel, Confessor, Seeker) and a study-buddy session in one paste.
 

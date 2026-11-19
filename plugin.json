@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "easy-paper",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "Turn applied linguistics and second-language acquisition papers into study guides, critiques, vocabulary cards, and offline presentations.",
   "author": { "name": "Sajjad Irani (Teacher SAM)" },
   "homepage": "https://github.com/teachersam7734-web/easy-paper",
