@@ -1,0 +1,12 @@
+{
+  "name": "easy-paper-marketplace",
+  "description": "Teacher SAM’s marketplace for the Easy Paper study plugin.",
+  "owner": { "name": "Sajjad Irani (Teacher SAM)" },
+  "plugins": [
+    {
+      "name": "easy-paper",
+      "source": "./",
+      "description": "ADHD-friendly study guides, flashcards, and offline presentations for applied linguistics papers."
+    }
+  ]
+}

@@ -4,7 +4,26 @@
 
 Turn any Applied Linguistics, SLA, TEFL or L2 acquisition paper (MA/PhD level) into study PDFs built for a reader with ADHD, or for anyone who wants notes that are friendlier, more structured and faster to use: gold nuggets first, Hunt-Question chunks, a visual in every chunk, Preview Questions at the start, and a Wrap-Up Quiz at the end.
 
-By Sajjad Irani (Teacher SAM). Version 1.5.1.
+By Sajjad Irani (Teacher SAM). Version 1.6.0.
+
+## Install the Easy Paper marketplace
+
+**ChatGPT workspaces.** A workspace admin can open **Admin Console → Plugins → Add → Import marketplace** and enter `https://github.com/teachersam7734-web/easy-paper` as the source. Leave **Path** empty. Choose `main` for updates or `v1.6.0` to pin this release. After import, set Easy Paper to **Available** or **Installed** for the intended members. [ChatGPT marketplace import guide](https://help.openai.com/en/articles/20001504-importing-and-syncing-plugin-marketplaces-from-github)
+
+**ChatGPT desktop and Codex.** Register the catalog, then select **Easy Paper** as the source in the desktop Plugins Directory and install the plugin.
+
+```sh
+codex plugin marketplace add teachersam7734-web/easy-paper
+```
+
+**Claude Code.** Add the public GitHub marketplace and install its Easy Paper entry.
+
+```sh
+claude plugin marketplace add teachersam7734-web/easy-paper
+claude plugin install easy-paper@easy-paper-marketplace
+```
+
+**Claude chat and Cowork.** Download the [Easy Paper plugin ZIP](https://github.com/teachersam7734-web/easy-paper/releases/latest/download/easy-paper.zip) and upload it under **Customize → Plugins**. Team or Enterprise owners can upload the same ZIP to a marketplace in **Organization settings → Plugins & skills**. Claude’s organization GitHub sync requires a private or internal marketplace repository. [Claude plugin guide](https://support.claude.com/en/articles/13837440-use-plugins-in-claude) · [Claude organization marketplace guide](https://support.claude.com/en/articles/13837433-manage-plugins-for-your-organization)
 
 ## Download and try
 
@@ -65,7 +84,7 @@ easy-paper/
   .claude-plugin/plugin.json
   commands/   easy-paper, deep-dive, critique, review-guide, vocab-treasure, mordsith, study, memory-link, adhd-qc, ep-qc, ep-improve
   agents/     14 persona agents
-  hooks/      hooks.json + lint_spec.py
+  hooks/      claude.json + lint_spec.py
   skills/
     easy-paper-core/  router SKILL.md; references (ADHD design, gold-nugget method, dossier, genres, personas, field map,
                       AL glossary, quiz design, writing rules, spec schema, QC rubric, page layout, master prompt,
@@ -79,7 +98,7 @@ easy-paper/
 
 ## Open the plugin and templates
 
-From the cloned repository root, start Claude Code with `claude --plugin-dir .`. The Mord’Sith command is `/easy-paper:mordsith`. The `.plugin` archive contains the Easy Paper source directory. The six standalone `.skill` archives include their own entry points and files.
+From the cloned repository root, start Claude Code with `claude --plugin-dir .`. The Mord’Sith command is `/easy-paper:mordsith`. The plugin ZIP contains the Easy Paper source directory and marketplace manifests. The six standalone `.skill` archives include their own entry points and files.
 
 Open any of [Agiel](skills/easy-paper-mordsith/templates/Agiel.html), [Confessor](skills/easy-paper-mordsith/templates/Confessor.html), and [Seeker](skills/easy-paper-mordsith/templates/Seeker.html) in a browser. The [Mord’Sith build guide](skills/easy-paper-mordsith/references/build-and-review.md) shows how to reuse each template for another paper.
 

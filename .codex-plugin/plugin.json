@@ -1,0 +1,22 @@
+{
+  "name": "easy-paper",
+  "version": "1.6.0",
+  "description": "ADHD-friendly study guides and offline presentations for applied linguistics papers.",
+  "author": { "name": "Sajjad Irani (Teacher SAM)" },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Easy Paper",
+    "shortDescription": "Study, critique, and present applied linguistics papers.",
+    "longDescription": "Turn a paper into a Deep Dive, Critique, Review Guide, or Vocab Treasure. Rehearse with ADHD Student or combine reviewed guides into an offline Mord’Sith presentation.",
+    "developerName": "Sajjad Irani (Teacher SAM)",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://github.com/teachersam7734-web/easy-paper",
+    "brandColor": "#8A384A",
+    "defaultPrompt": [
+      "Turn this applied linguistics paper into a Deep Dive.",
+      "Make a Review Guide and quiz me on the key findings.",
+      "Create a Mord'Sith presentation from these four reviewed guides."
+    ]
+  }
+}

@@ -1,10 +1,11 @@
 {
   "name": "easy-paper",
-  "version": "1.5.1",
+  "version": "1.6.0",
   "description": "Turn applied linguistics papers into four ADHD-friendly study guides: Deep Dive, Critique, Review Guide and Vocab Treasure. ADHD Student provides study coaching, Memory Links and quality checks. Mord’Sith combines reviewed guides into a self-contained interactive presentation.",
   "author": {
     "name": "Sajjad Irani (Teacher SAM)"
   },
+  "hooks": "./hooks/claude.json",
   "keywords": [
     "applied linguistics",
     "SLA",
